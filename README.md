@@ -43,20 +43,6 @@ than `supplement.pdf`) ships here.
   manuscript source leaked in.
 - `supplement.pdf`, the compiled supplementary material.
 
-## Public Hugging Face Mirrors
-
-The lightweight fixture and stored-result payloads are also mirrored publicly on
-Hugging Face:
-
-- Artifact fixtures/results:
-  <https://huggingface.co/datasets/lexuanbach/relationalrag-tables-artifact-data>
-- Model/source manifest:
-  <https://huggingface.co/lexuanbach/relationalrag-tables-model-sources>
-
-The artifact does not ship persistent verifier checkpoints. The small
-MLP/ensemble verifier is retrained by the reproduction scripts; the real-data
-layer uses public upstream models listed in `REPRODUCE.md`.
-
 ## What Is Not Included
 
 - No manuscript `.tex`, `.bbl`, or `.aux` files; the only shipped PDF is

@@ -39,13 +39,6 @@ env/bin/python -m relational_rag_tables.diagnostics  --fixtures fixtures/synthet
 
 ## Real-data models and datasets
 
-Public mirrors and source manifests:
-
-- Artifact fixtures/results:
-  <https://huggingface.co/datasets/lexuanbach/relationalrag-tables-artifact-data>
-- Model/source manifest:
-  <https://huggingface.co/lexuanbach/relationalrag-tables-model-sources>
-
 The artifact contains no persistent trained verifier checkpoint files. The
 small MLP/ensemble verifier is trained from the fixtures by the reproduction
 scripts. Heavy upstream benchmark corpora are not redistributed here; the
