@@ -1,0 +1,53 @@
+{
+  "n_records": 449,
+  "test": 180,
+  "dtype_counts": {
+    "hier": 37,
+    "xvocab": 102,
+    "corrupt": 41
+  },
+  "recall@1": {
+    "exact": 0.0222,
+    "fuzzy": 0.2833,
+    "prefix": 0.3111,
+    "embed": 0.6722,
+    "verifier": 0.7722
+  },
+  "recall@1_by_dtype": {
+    "hier": {
+      "exact": 0.0,
+      "fuzzy": 0.7568,
+      "prefix": 0.8649,
+      "embed": 0.4054,
+      "verifier": 0.7838
+    },
+    "xvocab": {
+      "exact": 0.0098,
+      "fuzzy": 0.0196,
+      "prefix": 0.0098,
+      "embed": 0.8235,
+      "verifier": 0.8431
+    },
+    "corrupt": {
+      "exact": 0.0732,
+      "fuzzy": 0.5122,
+      "prefix": 0.561,
+      "embed": 0.5366,
+      "verifier": 0.5854
+    }
+  },
+  "sig_verifier_vs": {
+    "embed": [
+      0.1,
+      0.0003
+    ],
+    "prefix": [
+      0.4611,
+      0.0
+    ],
+    "fuzzy": [
+      0.4889,
+      0.0
+    ]
+  }
+}

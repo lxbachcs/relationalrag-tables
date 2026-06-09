@@ -1,0 +1,79 @@
+{
+  "config": {
+    "instances": 1105,
+    "train_rows": 718,
+    "test_rows": 387,
+    "test_drift_instances": 38,
+    "k": 5,
+    "seed": 0,
+    "embed_model": "BAAI/bge-small-en-v1.5",
+    "runtime_s": 31.3
+  },
+  "recall@1_test": {
+    "exact": {
+      "all": 0.7881,
+      "drift": 0.0
+    },
+    "fuzzy": {
+      "all": 0.6744,
+      "drift": 0.2368
+    },
+    "embed": {
+      "all": 0.8811,
+      "drift": 0.8684
+    },
+    "verifier": {
+      "all": 0.9276,
+      "drift": 0.9211
+    },
+    "cascade_cheap": {
+      "all": 0.8579,
+      "drift": 0.7105
+    },
+    "cascade_ver": {
+      "all": 0.9354,
+      "drift": 0.8947
+    }
+  },
+  "auroc_test": {
+    "verifier": 0.9956,
+    "embed_cos": 0.8087,
+    "fuzzy": 0.9084,
+    "exact": 0.9537
+  },
+  "calibration_test": {
+    "ece": 0.0006,
+    "mce": 0.0532,
+    "brier": 0.0044
+  },
+  "selective_prediction": [
+    {
+      "coverage": 1.0,
+      "accuracy": 0.9941
+    },
+    {
+      "coverage": 0.9,
+      "accuracy": 0.9997
+    },
+    {
+      "coverage": 0.8,
+      "accuracy": 0.9999
+    },
+    {
+      "coverage": 0.7,
+      "accuracy": 0.9998
+    },
+    {
+      "coverage": 0.5,
+      "accuracy": 1.0
+    }
+  ],
+  "failure_test": {
+    "tp": 359,
+    "fp": 72,
+    "tn": 16619,
+    "fn": 28,
+    "fn_rate": 0.0724,
+    "fp_rate": 0.0043
+  }
+}

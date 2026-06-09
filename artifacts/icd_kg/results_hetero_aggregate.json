@@ -1,0 +1,25 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "mean": {
+    "exact": 0.0111,
+    "fuzzy": 0.2511,
+    "prefix": 0.2578,
+    "embed": 0.6889,
+    "verifier": 0.7522
+  },
+  "sd": {
+    "exact": 0.0093,
+    "fuzzy": 0.0231,
+    "prefix": 0.0299,
+    "embed": 0.0346,
+    "verifier": 0.0352
+  },
+  "sig_vs_embed": "3/5",
+  "sig_vs_prefix": "5/5"
+}

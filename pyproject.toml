@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "relational-rag-tables"
+version = "0.1.0"
+description = "RelationalRAG-Tables: a learned, calibrated, abstention-aware join verifier for QA over tables and knowledge graphs (ICDE 2026 artifact)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Anonymous Authors"}]
+# The synthetic core (relational_rag_tables/) is dependency-light: NumPy +
+# scikit-learn only, CPU-only, no network. It regenerates every controlled-study
+# and diagnostics result in well under a minute. The heavy real-data layer
+# (relational_rag_real/) is an OPTIONAL extra: it pulls a sentence encoder, a
+# vector index, a local quantized code model, and public benchmark downloads.
+dependencies = [
+  "numpy>=1.26,<3",
+  "scikit-learn>=1.4,<2",
+]
+
+[project.optional-dependencies]
+# Heavy real-benchmark stack (use Python 3.13; Apple-silicon GPU via MPS + MLX).
+real = [
+  "mlx-lm>=0.31",
+  "sentence-transformers>=5.0",
+  "faiss-cpu>=1.14",
+  "datasets>=5.0",
+]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+relational-rag-tables = "relational_rag_tables.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["relational_rag_tables*", "relational_rag_real*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

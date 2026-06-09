@@ -1,0 +1,26 @@
+{
+  "config": {
+    "corrupt_frac": 0.5,
+    "test": 236,
+    "test_drift": 69,
+    "runtime_s": 43.8
+  },
+  "r1_all": {
+    "cross_encoder": 0.7627,
+    "prefix": 0.7881,
+    "embed": 0.7627
+  },
+  "r1_drift": {
+    "cross_encoder": 0.4928,
+    "prefix": 0.5797,
+    "embed": 0.4783
+  },
+  "sig_ce_vs_prefix": [
+    -0.0254,
+    0.8889
+  ],
+  "sig_ce_vs_embed": [
+    0.0,
+    0.5722
+  ]
+}

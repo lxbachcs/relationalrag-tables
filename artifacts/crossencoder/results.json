@@ -1,0 +1,21 @@
+{
+  "config": {
+    "model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "device": "mps",
+    "epochs": 2,
+    "train_pairs": 28359,
+    "runtime_s": 181.0
+  },
+  "hybridqa": {
+    "n": 395,
+    "lexical_r1": 0.2354,
+    "crossenc_r1": 0.2051
+  },
+  "bird": {
+    "n": 387,
+    "drift": 38,
+    "crossenc_all": 0.9535,
+    "crossenc_drift": 0.9474
+  },
+  "wins_both": false
+}

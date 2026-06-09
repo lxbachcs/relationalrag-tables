@@ -1,0 +1,34 @@
+{
+  "exact": {
+    "all": 0.6441,
+    "drift": 0.0
+  },
+  "canon": {
+    "all": 0.6441,
+    "drift": 0.0
+  },
+  "fuzzy": {
+    "all": 0.8051,
+    "drift": 0.6441
+  },
+  "jaro_winkler": {
+    "all": 0.8263,
+    "drift": 0.7288
+  },
+  "tfidf": {
+    "all": 0.7288,
+    "drift": 0.4068
+  },
+  "prefix": {
+    "all": 0.8263,
+    "drift": 0.7288
+  },
+  "embed": {
+    "all": 0.7542,
+    "drift": 0.4576
+  },
+  "verifier": {
+    "all": 0.822,
+    "drift": 0.7458
+  }
+}

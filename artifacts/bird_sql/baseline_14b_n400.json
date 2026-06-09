@@ -1,0 +1,3216 @@
+{
+  "config": {
+    "mode": "baseline",
+    "repair": false,
+    "model": "mlx-community/Qwen2.5-Coder-14B-Instruct-4bit",
+    "n": 400,
+    "seed": 0,
+    "runtime_s": 830.1
+  },
+  "ex": 0.49,
+  "exec_error_rate": 0.09,
+  "ex_drift": 0.3333,
+  "drift_n": 45,
+  "per_question": [
+    {
+      "db": "superhero",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "challenging",
+      "ok": true,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "challenging",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": true,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "challenging",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "challenging",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "challenging",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "challenging",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": true,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "challenging",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": true,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "challenging",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "challenging",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": true,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "challenging",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "challenging",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "challenging",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "challenging",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": true,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "challenging",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "simple",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "thrombosis_prediction",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": true,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "toxicology",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "financial",
+      "difficulty": "challenging",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "moderate",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "debit_card_specializing",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "california_schools",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "student_club",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "superhero",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "challenging",
+      "ok": true,
+      "err": false,
+      "drift": true,
+      "n_hints": 0
+    },
+    {
+      "db": "european_football_2",
+      "difficulty": "moderate",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "codebase_community",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": true,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "formula_1",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    },
+    {
+      "db": "card_games",
+      "difficulty": "simple",
+      "ok": false,
+      "err": false,
+      "drift": false,
+      "n_hints": 0
+    }
+  ]
+}

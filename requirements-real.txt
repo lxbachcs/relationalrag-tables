@@ -1,0 +1,9 @@
+# Heavy stack for the REAL-benchmark experiments (Phase 1+). Use python3.13, NOT 3.14.
+#   python3.13 -m venv env
+#   env/bin/pip install -r requirements-real.txt
+# Apple Silicon: torch uses MPS; mlx-lm runs the local LLM planner on the GPU.
+mlx-lm>=0.31
+sentence-transformers>=5.0
+faiss-cpu>=1.14
+datasets>=5.0
+# (torch, transformers, numpy, scikit-learn arrive transitively)

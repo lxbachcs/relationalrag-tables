@@ -1,0 +1,346 @@
+{
+  "calibration": {
+    "learned": {
+      "ece": 0.0358,
+      "mce": 0.0705,
+      "brier": 0.1745,
+      "auroc": 0.8135,
+      "reliability": [
+        {
+          "conf": 0.5464,
+          "acc": 0.6169,
+          "n": 355
+        },
+        {
+          "conf": 0.643,
+          "acc": 0.6264,
+          "n": 364
+        },
+        {
+          "conf": 0.7374,
+          "acc": 0.7461,
+          "n": 193
+        },
+        {
+          "conf": 0.8413,
+          "acc": 0.7801,
+          "n": 191
+        },
+        {
+          "conf": 0.9677,
+          "acc": 0.9446,
+          "n": 397
+        }
+      ]
+    },
+    "ensemble": {
+      "ece": 0.0273,
+      "mce": 0.0461,
+      "brier": 0.1731,
+      "auroc": 0.8157,
+      "reliability": [
+        {
+          "conf": 0.5508,
+          "acc": 0.5046,
+          "n": 323
+        },
+        {
+          "conf": 0.6438,
+          "acc": 0.6632,
+          "n": 389
+        },
+        {
+          "conf": 0.7393,
+          "acc": 0.7067,
+          "n": 225
+        },
+        {
+          "conf": 0.8353,
+          "acc": 0.801,
+          "n": 201
+        },
+        {
+          "conf": 0.9704,
+          "acc": 0.9586,
+          "n": 362
+        }
+      ]
+    },
+    "exact_match": {
+      "ece": 0.3687,
+      "mce": 0.3687,
+      "brier": 0.3687,
+      "auroc": 0.672,
+      "reliability": [
+        {
+          "conf": 1.0,
+          "acc": 0.6313,
+          "n": 1500
+        }
+      ]
+    }
+  },
+  "end_to_end_selective": {
+    "n_answered": 1345,
+    "risk_coverage": [
+      {
+        "coverage": 1.0,
+        "accuracy": 0.8885
+      },
+      {
+        "coverage": 0.8996,
+        "accuracy": 0.8901
+      },
+      {
+        "coverage": 0.8,
+        "accuracy": 0.8764
+      },
+      {
+        "coverage": 0.6996,
+        "accuracy": 0.9129
+      },
+      {
+        "coverage": 0.4996,
+        "accuracy": 1.0
+      }
+    ]
+  },
+  "conformal_selective": {
+    "n_cal": 750,
+    "n_test": 750,
+    "by_method": {
+      "single_conformal": [
+        {
+          "alpha": 0.01,
+          "threshold": 0.9709,
+          "coverage": 0.212,
+          "test_risk": 0.0126,
+          "risk_held": false
+        },
+        {
+          "alpha": 0.02,
+          "threshold": 0.9709,
+          "coverage": 0.212,
+          "test_risk": 0.0126,
+          "risk_held": true
+        },
+        {
+          "alpha": 0.05,
+          "threshold": 0.9496,
+          "coverage": 0.244,
+          "test_risk": 0.0437,
+          "risk_held": true
+        },
+        {
+          "alpha": 0.1,
+          "threshold": 0.8054,
+          "coverage": 0.3987,
+          "test_risk": 0.1104,
+          "risk_held": false
+        }
+      ],
+      "ensemble_conformal": [
+        {
+          "alpha": 0.01,
+          "threshold": 0.9776,
+          "coverage": 0.1973,
+          "test_risk": 0.0068,
+          "risk_held": true
+        },
+        {
+          "alpha": 0.02,
+          "threshold": 0.9776,
+          "coverage": 0.1973,
+          "test_risk": 0.0068,
+          "risk_held": true
+        },
+        {
+          "alpha": 0.05,
+          "threshold": 0.8965,
+          "coverage": 0.236,
+          "test_risk": 0.0339,
+          "risk_held": true
+        },
+        {
+          "alpha": 0.1,
+          "threshold": 0.7564,
+          "coverage": 0.424,
+          "test_risk": 0.1132,
+          "risk_held": false
+        }
+      ]
+    }
+  },
+  "recalibration": {
+    "single_raw": 0.0387,
+    "single_temp_scaled": 0.0388,
+    "single_isotonic": 0.0434,
+    "ensemble": 0.024,
+    "temperature": 1.1,
+    "n_test": 750
+  },
+  "cost_aware_utility": {
+    "n_answered": 1345,
+    "by_lambda": {
+      "lambda_1": {
+        "best_coverage": 1.0,
+        "best_utility": 0.777,
+        "curve": [
+          [
+            1.0,
+            0.777
+          ],
+          [
+            0.9,
+            0.7019
+          ],
+          [
+            0.8,
+            0.6022
+          ],
+          [
+            0.7,
+            0.5777
+          ],
+          [
+            0.6,
+            0.6
+          ],
+          [
+            0.5,
+            0.4996
+          ]
+        ]
+      },
+      "lambda_2": {
+        "best_coverage": 1.0,
+        "best_utility": 0.6654,
+        "curve": [
+          [
+            1.0,
+            0.6654
+          ],
+          [
+            0.9,
+            0.603
+          ],
+          [
+            0.8,
+            0.5033
+          ],
+          [
+            0.7,
+            0.5167
+          ],
+          [
+            0.6,
+            0.6
+          ],
+          [
+            0.5,
+            0.4996
+          ]
+        ]
+      },
+      "lambda_5": {
+        "best_coverage": 0.6,
+        "best_utility": 0.6,
+        "curve": [
+          [
+            1.0,
+            0.3309
+          ],
+          [
+            0.9,
+            0.3063
+          ],
+          [
+            0.8,
+            0.2067
+          ],
+          [
+            0.7,
+            0.3338
+          ],
+          [
+            0.6,
+            0.6
+          ],
+          [
+            0.5,
+            0.4996
+          ]
+        ]
+      }
+    }
+  },
+  "faithfulness": {
+    "faithful_all": 0.9411,
+    "faithful_answered": 0.939
+  },
+  "retrieval_noise": {
+    "n_backtrack": 264,
+    "by_drop_prob": {
+      "0.00": {
+        "no_verifier": {
+          "em": 0.3977,
+          "wrong": 0.6023,
+          "abstain": 0.0
+        },
+        "ensemble": {
+          "em": 0.572,
+          "wrong": 0.4129,
+          "abstain": 0.0152
+        }
+      },
+      "0.25": {
+        "no_verifier": {
+          "em": 0.3977,
+          "wrong": 0.6023,
+          "abstain": 0.0
+        },
+        "ensemble": {
+          "em": 0.5114,
+          "wrong": 0.4242,
+          "abstain": 0.0644
+        }
+      },
+      "0.50": {
+        "no_verifier": {
+          "em": 0.3977,
+          "wrong": 0.6023,
+          "abstain": 0.0
+        },
+        "ensemble": {
+          "em": 0.4318,
+          "wrong": 0.4394,
+          "abstain": 0.1288
+        }
+      },
+      "0.75": {
+        "no_verifier": {
+          "em": 0.3977,
+          "wrong": 0.6023,
+          "abstain": 0.0
+        },
+        "ensemble": {
+          "em": 0.3409,
+          "wrong": 0.4545,
+          "abstain": 0.2045
+        }
+      },
+      "1.00": {
+        "no_verifier": {
+          "em": 0.3977,
+          "wrong": 0.6023,
+          "abstain": 0.0
+        },
+        "ensemble": {
+          "em": 0.2538,
+          "wrong": 0.4583,
+          "abstain": 0.2879
+        }
+      }
+    }
+  }
+}

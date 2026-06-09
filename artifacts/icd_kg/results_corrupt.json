@@ -1,0 +1,42 @@
+{
+  "r1": {
+    "exact": {
+      "all": 0.6271,
+      "drift": 0.0145
+    },
+    "fuzzy": {
+      "all": 0.7669,
+      "drift": 0.4928
+    },
+    "prefix": {
+      "all": 0.7966,
+      "drift": 0.5942
+    },
+    "embed": {
+      "all": 0.7669,
+      "drift": 0.4928
+    },
+    "verifier": {
+      "all": 0.7839,
+      "drift": 0.5797
+    }
+  },
+  "sig": {
+    "verifier_vs_exact": [
+      0.1568,
+      0.0
+    ],
+    "verifier_vs_prefix": [
+      -0.0127,
+      0.8584
+    ]
+  },
+  "meta": {
+    "kg_nodes": 590,
+    "records": 590,
+    "test": 236,
+    "test_drift": 69,
+    "auroc_verifier_test": null,
+    "corrupt_frac": 0.5
+  }
+}

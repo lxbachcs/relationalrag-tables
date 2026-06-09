@@ -1,0 +1,6 @@
+{
+  "tau_v": 0.6,
+  "tau_u": -1,
+  "top_k": 5,
+  "index_backend": "deterministic-local"
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "q_single_table",
+    "text": "What is the risk rating for account A-1001?",
+    "answer": "medium",
+    "task": "single_table_lookup",
+    "lookup_column": "account_id",
+    "lookup_value": "A-1001",
+    "return_column": "risk_rating"
+  },
+  {
+    "id": "q_table_kg_join",
+    "text": "Which instrument does account A-1001 hold in the knowledge graph?",
+    "answer": "equity_swap",
+    "task": "table_kg_join",
+    "lookup_column": "account_id",
+    "lookup_value": "A-1001",
+    "join_column": "account_code",
+    "traverse_relation": "holds_instrument",
+    "candidate_order": ["account:ACC1001"],
+    "gold_join": {
+      "lhs": "ACC-1001",
+      "rhs": "account:ACC1001"
+    }
+  },
+  {
+    "id": "q_bad_join_backtrack",
+    "text": "What compliance flag is attached to account A-1001 after rejecting the near-duplicate account?",
+    "answer": "cleared",
+    "task": "bad_join_backtrack",
+    "lookup_column": "account_id",
+    "lookup_value": "A-1001",
+    "join_column": "account_code",
+    "traverse_relation": "compliance_flag",
+    "candidate_order": ["account:ACC1002", "account:ACC1001"],
+    "gold_join": {
+      "lhs": "ACC-1001",
+      "rhs": "account:ACC1001"
+    }
+  }
+]

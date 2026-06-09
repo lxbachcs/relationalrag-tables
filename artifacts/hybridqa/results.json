@@ -1,0 +1,69 @@
+{
+  "config": {
+    "n_train": 800,
+    "n_dev": 400,
+    "k": 5,
+    "seed": 0,
+    "embed_model": "BAAI/bge-small-en-v1.5",
+    "runtime_s": 168.3
+  },
+  "retrieval": {
+    "n": 397,
+    "dense@1": 0.1285,
+    "dense@5": 0.3904,
+    "dense@10": 0.5113,
+    "dense@20": 0.6474,
+    "lex@1": 0.2443,
+    "lex@5": 0.5441,
+    "lex@10": 0.67,
+    "lex@20": 0.8262,
+    "hybrid@1": 0.2343,
+    "hybrid@5": 0.4736,
+    "hybrid@10": 0.6474,
+    "hybrid@20": 0.7783
+  },
+  "verifier": {
+    "n_pairs": 6276,
+    "positives": 1654,
+    "auroc_verifier": 0.6101,
+    "auroc_dense_cos": 0.5045,
+    "auroc_lexical": 0.4931,
+    "selective": [
+      {
+        "coverage": 1.0,
+        "accuracy": 0.7253
+      },
+      {
+        "coverage": 0.9,
+        "accuracy": 0.7447
+      },
+      {
+        "coverage": 0.8,
+        "accuracy": 0.7572
+      },
+      {
+        "coverage": 0.7,
+        "accuracy": 0.776
+      },
+      {
+        "coverage": 0.5,
+        "accuracy": 0.7983
+      }
+    ]
+  },
+  "reranking": {
+    "n": 397,
+    "recall@1": {
+      "lexical": 0.2494,
+      "dense": 0.1285,
+      "hybrid": 0.2317,
+      "verifier_rerank": 0.0907,
+      "cascade_cheap": 0.2494,
+      "cascade_ver": 0.1511
+    },
+    "mrr": {
+      "hybrid": 0.3628,
+      "verifier_rerank": 0.204
+    }
+  }
+}

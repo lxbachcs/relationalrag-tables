@@ -1,0 +1,11 @@
+{
+  "n_diseases": 322,
+  "test": 129,
+  "recall@1": {
+    "exact": 0.0078,
+    "fuzzy": 0.0078,
+    "prefix": 0.0078,
+    "embed": 0.907,
+    "verifier": 0.8992
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "base": {
+    "recall@1_all": 0.822,
+    "recall@1_drift": 0.7458,
+    "auroc": 0.8342,
+    "ece": 0.0638,
+    "sibling_confusions": 19,
+    "feat_us_per_pair": 6.22
+  },
+  "base_plus_struct": {
+    "recall@1_all": 0.8263,
+    "recall@1_drift": 0.7458,
+    "auroc": 0.8545,
+    "ece": 0.039,
+    "sibling_confusions": 18,
+    "feat_us_per_pair": 6.03
+  },
+  "delta_recall_all": 0.0043,
+  "delta_recall_drift": 0.0,
+  "delta_ece": -0.0248,
+  "delta_sibling": -1
+}

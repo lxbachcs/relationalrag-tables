@@ -1,0 +1,4 @@
+account_id,customer_id,customer_name,risk_rating,account_code,balance
+A-1001,CUS-001,Alice Nguyen,medium,ACC-1001,125000
+A-1002,CUS-002,Ben Carter,high,ACC-1002,98000
+A-1003,CUS-003,Carla Singh,low,ACC-1003,45000

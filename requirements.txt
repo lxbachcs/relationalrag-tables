@@ -1,0 +1,14 @@
+# Dependency-light SYNTHETIC core (relational_rag_tables/): no GPU, no network, no
+# benchmark downloads. This reproduces every controlled-study and diagnostics table on a
+# CPU in well under a minute. The heavier real-data layer (relational_rag_real/) uses a
+# separate, larger stack pinned in requirements-real.txt.
+#
+# Tested with Python 3.14 (numpy 2.4.6, scikit-learn 1.9.0). Python >= 3.10 is expected to work.
+# Clean-environment recipe:
+#   python3 -m venv env
+#   env/bin/pip install -r requirements.txt
+#   env/bin/python -m unittest discover -s tests
+#   env/bin/python -m relational_rag_tables.cli smoke --fixtures fixtures/smoke --out artifacts/smoke
+
+numpy>=1.26,<3
+scikit-learn>=1.4,<2

@@ -1,0 +1,42 @@
+[
+  {
+    "accounts": 600,
+    "questions": 1392,
+    "index_entries": 6509,
+    "build_s": 0.09,
+    "lat_p50_ms": 10.544,
+    "lat_p95_ms": 11.515
+  },
+  {
+    "accounts": 1200,
+    "questions": 2784,
+    "index_entries": 13001,
+    "build_s": 0.17,
+    "lat_p50_ms": 21.755,
+    "lat_p95_ms": 28.304
+  },
+  {
+    "accounts": 2400,
+    "questions": 5567,
+    "index_entries": 25985,
+    "build_s": 0.36,
+    "lat_p50_ms": 44.674,
+    "lat_p95_ms": 51.542
+  },
+  {
+    "accounts": 4800,
+    "questions": 11135,
+    "index_entries": 51953,
+    "build_s": 0.74,
+    "lat_p50_ms": 91.463,
+    "lat_p95_ms": 105.302
+  },
+  {
+    "accounts": 9600,
+    "questions": 22272,
+    "index_entries": 103889,
+    "build_s": 1.45,
+    "lat_p50_ms": 201.12,
+    "lat_p95_ms": 207.147
+  }
+]

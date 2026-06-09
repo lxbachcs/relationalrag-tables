@@ -1,0 +1,27 @@
+[
+  {
+    "subject": "account:ACC1002",
+    "relation": "holds_instrument",
+    "object": "municipal_bond"
+  },
+  {
+    "subject": "account:ACC1001",
+    "relation": "holds_instrument",
+    "object": "equity_swap"
+  },
+  {
+    "subject": "account:ACC1001",
+    "relation": "compliance_flag",
+    "object": "cleared"
+  },
+  {
+    "subject": "account:ACC1002",
+    "relation": "compliance_flag",
+    "object": "review_required"
+  },
+  {
+    "subject": "instrument:equity_swap",
+    "relation": "asset_class",
+    "object": "derivative"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "lhs": "ACC-1001",
+    "rhs": "account:ACC1001",
+    "label": true
+  },
+  {
+    "lhs": "ACC-1001",
+    "rhs": "account:ACC1002",
+    "label": false
+  },
+  {
+    "lhs": "ACC-1002",
+    "rhs": "account:ACC1002",
+    "label": true
+  }
+]

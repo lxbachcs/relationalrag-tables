@@ -1,0 +1,87 @@
+{
+  "threshold_sensitivity": {
+    "0.3": {
+      "prec": 0.732,
+      "rec": 0.881,
+      "f1": 0.8
+    },
+    "0.4": {
+      "prec": 0.745,
+      "rec": 0.856,
+      "f1": 0.797
+    },
+    "0.5": {
+      "prec": 0.759,
+      "rec": 0.839,
+      "f1": 0.797
+    },
+    "0.6": {
+      "prec": 0.829,
+      "rec": 0.758,
+      "f1": 0.792
+    },
+    "0.7": {
+      "prec": 0.835,
+      "rec": 0.708,
+      "f1": 0.766
+    }
+  },
+  "leakage": {
+    "n_test": 236,
+    "share_category_with_train": 0.411,
+    "share_gold_node_with_train": 0.195,
+    "share_exact_code_with_train": 0.013
+  },
+  "regime_detector": {
+    "n": 1180,
+    "detector_cv_accuracy": 0.9975,
+    "majority_baseline": 0.5
+  },
+  "retrieval_noise": {
+    "0.00": {
+      "nv_wrong": 0.178,
+      "ver_wrong": 0.178,
+      "ver_abstain": 0.004
+    },
+    "0.25": {
+      "nv_wrong": 0.394,
+      "ver_wrong": 0.182,
+      "ver_abstain": 0.212
+    },
+    "0.50": {
+      "nv_wrong": 0.593,
+      "ver_wrong": 0.212,
+      "ver_abstain": 0.386
+    },
+    "0.75": {
+      "nv_wrong": 0.792,
+      "ver_wrong": 0.237,
+      "ver_abstain": 0.555
+    },
+    "1.00": {
+      "nv_wrong": 1.0,
+      "ver_wrong": 0.254,
+      "ver_abstain": 0.746
+    }
+  },
+  "ann_scalability": {
+    "dim": 384,
+    "by_size": [
+      {
+        "N": 10000,
+        "exact_ms": 0.036,
+        "ann_ms": 0.016
+      },
+      {
+        "N": 100000,
+        "exact_ms": 0.344,
+        "ann_ms": 0.012
+      },
+      {
+        "N": 1000000,
+        "exact_ms": 28.041,
+        "ann_ms": 0.48
+      }
+    ]
+  }
+}
