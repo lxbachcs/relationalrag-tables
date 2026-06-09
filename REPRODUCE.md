@@ -39,12 +39,24 @@ env/bin/python -m relational_rag_tables.diagnostics  --fixtures fixtures/synthet
 
 ## Real-data models and datasets
 
+Public mirrors and source manifests:
+
+- Artifact fixtures/results:
+  <https://huggingface.co/datasets/lexuanbach/relationalrag-tables-artifact-data>
+- Model/source manifest:
+  <https://huggingface.co/lexuanbach/relationalrag-tables-model-sources>
+
+The artifact contains no persistent trained verifier checkpoint files. The
+small MLP/ensemble verifier is trained from the fixtures by the reproduction
+scripts. Heavy upstream benchmark corpora are not redistributed here; the
+real-data drivers download them from their original public sources.
+
 | Component | Identifier | Source |
 |---|---|---|
-| Sentence embedding | `BAAI/bge-small-en-v1.5` | sentence-transformers |
-| Local SQL coder (main) | `Qwen2.5-Coder-7B-Instruct` (4-bit, MLX) | MLX community |
-| Local SQL coder (scale check) | `Qwen2.5-Coder-14B-Instruct` (4-bit, MLX) | MLX community |
-| Cross-encoder | `cross-encoder/ms-marco-MiniLM-L-6-v2` | HuggingFace |
+| Sentence embedding | [`BAAI/bge-small-en-v1.5`](https://huggingface.co/BAAI/bge-small-en-v1.5) | sentence-transformers |
+| Local SQL coder (main) | [`Qwen2.5-Coder-7B-Instruct`](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct) (4-bit, MLX) | MLX community |
+| Local SQL coder (scale check) | [`Qwen2.5-Coder-14B-Instruct`](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct) (4-bit, MLX) | MLX community |
+| Cross-encoder | [`cross-encoder/ms-marco-MiniLM-L-6-v2`](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2) | HuggingFace |
 | BIRD | text-to-SQL dev (95 DBs) | BIRD benchmark download |
 | HybridQA | WikiTables-WithLinks dev | HybridQA repo |
 | ICD-10-CM codes | billable codes + descriptions | public ICD-10 mirror |
