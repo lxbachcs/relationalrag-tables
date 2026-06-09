@@ -22,3 +22,6 @@ artifacts/smoke/
 build/
 dist/
 *.egg-info/
+
+# Scratch regeneration dir from run_full.sh
+artifacts_regen/

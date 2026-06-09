@@ -27,7 +27,7 @@
         "fn": 600,
         "unknown": 4615
       },
-      "latency_ms_avg": 11.617,
+      "latency_ms_avg": 10.989,
       "by_task": {
         "abstain": {
           "total": 36,
@@ -66,7 +66,7 @@
         "fn": 66,
         "unknown": 467
       },
-      "latency_ms_avg": 12.018,
+      "latency_ms_avg": 11.232,
       "by_task": {
         "abstain": {
           "total": 36,
@@ -105,7 +105,7 @@
         "fn": 56,
         "unknown": 412
       },
-      "latency_ms_avg": 12.532,
+      "latency_ms_avg": 11.673,
       "by_task": {
         "abstain": {
           "total": 36,
@@ -144,7 +144,7 @@
         "fn": 0,
         "unknown": 285
       },
-      "latency_ms_avg": 12.811,
+      "latency_ms_avg": 11.119,
       "by_task": {
         "abstain": {
           "total": 36,
@@ -183,7 +183,7 @@
         "fn": 0,
         "unknown": 0
       },
-      "latency_ms_avg": 11.986,
+      "latency_ms_avg": 11.18,
       "by_task": {
         "abstain": {
           "total": 36,
