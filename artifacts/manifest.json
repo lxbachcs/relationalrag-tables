@@ -143,6 +143,22 @@
     "sha256": "9fc58f54bf92a12ca7353e9972f14578e84853d07d664cdea174e01e05eabdea",
     "bytes": 699711
   },
+  "artifacts/e4/results.json": {
+    "sha256": "e32ee7b6e61edfa0e4a527bed23c14c6de56a5b10130dc5b25a0242b36cefe67",
+    "bytes": 5063
+  },
+  "artifacts/e4/seed_0.json": {
+    "sha256": "68a77c41b0053bc05fd8860a03bf2c2f543124244e7d529433243f68799e27c9",
+    "bytes": 987
+  },
+  "artifacts/e4/seed_1.json": {
+    "sha256": "e7e308a029793c0edd935eeb04c6fe9079123318359887d98af66f1fce4ebb57",
+    "bytes": 986
+  },
+  "artifacts/e4/seed_2.json": {
+    "sha256": "082e3595bfb26cf3297aa6b52755be5d8089c7a49084f43ab1b83abd8ebeb251",
+    "bytes": 987
+  },
   "artifacts/e6/results.json": {
     "sha256": "544c9bf030383102b92c88a40da329eaa621398a842019e855ed6583a6fd5d77",
     "bytes": 4579

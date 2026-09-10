@@ -111,11 +111,11 @@ def band(fam):
     lo = " ".join(f"({p['coverage']},{100 * (1 - p['risk_ci95'][1]):.2f})" for p in curves[fam])
     hi = " ".join(f"({p['coverage']},{100 * (1 - p['risk_ci95'][0]):.2f})" for p in reversed(curves[fam]))
     return lo + " " + hi
-fig = r"""\begin{figure}[t]
+fig = r"""\begin{figure}[htbp]
 \centering
 \begin{tikzpicture}
 \begin{axis}[
-  width=0.78\columnwidth, height=4.3cm,
+  width=0.74\columnwidth, height=3.7cm,
   xlabel={Coverage answered}, ylabel={Accuracy on answered (\%)},
   xmin=0.05, xmax=1.0, ymin=55, ymax=101, x dir=reverse,
   xmajorgrids, ymajorgrids, grid style={dashed,gray!25},
@@ -165,9 +165,8 @@ w("macros_e3.tex", "\n".join([
 e1 = J("e1/analysis.json")
 order = [("Baseline (no pruning, no values)", "baseline"), ("none (pruning + values)", "pv_none"), ("exact", "pv_exact"),
          ("fuzzy", "pv_fuzzy"), ("embedding", "pv_embed"), ("learned verifier, $\\tau{=}0.5$", "pv_verifier"),
-         ("learned verifier, $\\tau{=}0.8$", "pv_verifier_t80"), ("learned verifier, $\\tau{=}0.9$", "pv_verifier_t90"),
-         ("oracle gold literals", "pv_oracle"), ("oracle, drifted literals only", "pv_oracle_driftonly"),
-         ("verifier $\\tau{=}0.8$, drifted only", "pv_verifier_t80_driftonly")]
+         ("learned verifier, $\\tau{=}0.8$", "pv_verifier_t80"),
+         ("oracle gold literals", "pv_oracle"), ("oracle, drifted literals only", "pv_oracle_driftonly")]
 def dd(row, ref, key):
     v = row["vs"].get(ref, {}).get(key)
     if not v:
@@ -252,3 +251,27 @@ for rho in ("0.00", "0.05", "0.10", "0.20"):
                 f"{pm(ii['recall@1']['mean'], ii['recall@1']['sd'])} & {100*ii['fp_rate']['mean']:.2f}\\% / {100*ii['fn_rate']['mean']:.1f}\\% \\\\")
 w("tab_e6_rows.tex", "\n".join(rows) + "\n")
 print("done")
+
+# ------------------------------------------------------------------ E4: joint regime-aware matcher
+e4 = J("e4/results.json")
+r4, c4 = e4["aggregate_recall@1"], e4["aggregate_ece"]
+w("macros_e4.tex", "\n".join([
+    f"\\newcommand{{\\eFourJointBird}}{{{pmm(r4['joint_rel']['bird_all']['mean'], r4['joint_rel']['bird_all']['sd'])}}}",
+    f"\\newcommand{{\\eFourJointHqa}}{{{pmm(r4['joint_rel']['hqa']['mean'], r4['joint_rel']['hqa']['sd'])}}}",
+    f"\\newcommand{{\\eFourBirdOnlyHqa}}{{{pmm(r4['bird_only_rel']['hqa']['mean'], r4['bird_only_rel']['hqa']['sd'])}}}",
+    f"\\newcommand{{\\eFourBirdOnlyBird}}{{{pmm(r4['bird_only_rel']['bird_all']['mean'], r4['bird_only_rel']['bird_all']['sd'])}}}",
+    f"\\newcommand{{\\eFourLexHqa}}{{{pmm(r4['lexical']['hqa']['mean'], r4['lexical']['hqa']['sd'])}}}",
+    f"\\newcommand{{\\eFourLexBird}}{{{pmm(r4['lexical']['bird_all']['mean'], r4['lexical']['bird_all']['sd'])}}}",
+    f"\\newcommand{{\\eFourEceJointHqa}}{{{c4['joint_rel']['hqa']:.3f}}}",
+    f"\\newcommand{{\\eFourEceJointBird}}{{{c4['joint_rel']['bird']:.3f}}}",
+    f"\\newcommand{{\\eFourEceBirdOnlyHqa}}{{{c4['bird_only_rel']['hqa']:.3f}}}",
+]) + "\n")
+rows = []
+for name, k in (("Lexical (edit ratio / coverage)", "lexical"), ("Dense cosine", "dense"), ("Containment", "containment"),
+                ("BIRD-only verifier (24 feats)", "bird_only_rel"), ("HybridQA-only verifier (24 feats)", "hqa_only_rel"),
+                ("Joint, base + regime feats", "joint_base"), ("\\textbf{Joint, + pool-relative feats}", "joint_rel")):
+    v = r4[k]
+    ece = f"{c4[k]['bird']:.3f} / {c4[k]['hqa']:.3f}" if k in c4 else "---"
+    rows.append(f"{name} & {pm(v['bird_all']['mean'], v['bird_all']['sd'])} & {pm(v['bird_drift']['mean'], v['bird_drift']['sd'])} & {pm(v['hqa']['mean'], v['hqa']['sd'])} & {ece} \\\\")
+w("tab_e4_rows.tex", "\n".join(rows) + "\n")
+print("e4 done")

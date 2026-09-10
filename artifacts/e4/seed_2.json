@@ -1,0 +1,64 @@
+{
+ "seed": 2,
+ "n": {
+  "bird_test": 387,
+  "bird_drift": 44,
+  "hqa_dev": 499
+ },
+ "recall@1": {
+  "joint_base": {
+   "bird_all": 0.9328,
+   "bird_drift": 0.9091,
+   "hqa": 0.2565
+  },
+  "joint_rel": {
+   "bird_all": 0.9328,
+   "bird_drift": 0.8864,
+   "hqa": 0.2705
+  },
+  "bird_only_rel": {
+   "bird_all": 0.9276,
+   "bird_drift": 0.8864,
+   "hqa": 0.1924
+  },
+  "hqa_only_rel": {
+   "bird_all": 0.2403,
+   "bird_drift": 0.5455,
+   "hqa": 0.2605
+  },
+  "lexical": {
+   "bird_all": 0.6873,
+   "bird_drift": 0.2727,
+   "hqa": 0.3106
+  },
+  "dense": {
+   "bird_all": 0.8243,
+   "bird_drift": 0.7045,
+   "hqa": 0.2004
+  },
+  "containment": {
+   "bird_all": 0.9225,
+   "bird_drift": 0.7955,
+   "hqa": 0.1784
+  }
+ },
+ "ece": {
+  "joint_base": {
+   "bird": 0.0038,
+   "hqa": 0.0244
+  },
+  "joint_rel": {
+   "bird": 0.0009,
+   "hqa": 0.034
+  },
+  "bird_only_rel": {
+   "bird": 0.0011,
+   "hqa": 0.0881
+  },
+  "hqa_only_rel": {
+   "bird": 0.1771,
+   "hqa": 0.0415
+  }
+ },
+ "runtime_s": 891.3
+}

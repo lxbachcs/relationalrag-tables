@@ -1,0 +1,315 @@
+{
+ "n_seeds": 3,
+ "aggregate_recall@1": {
+  "joint_base": {
+   "bird_all": {
+    "mean": 0.9337,
+    "sd": 0.0065
+   },
+   "bird_drift": {
+    "mean": 0.8705,
+    "sd": 0.0549
+   },
+   "hqa": {
+    "mean": 0.2223,
+    "sd": 0.0299
+   }
+  },
+  "joint_rel": {
+   "bird_all": {
+    "mean": 0.9242,
+    "sd": 0.0074
+   },
+   "bird_drift": {
+    "mean": 0.8629,
+    "sd": 0.048
+   },
+   "hqa": {
+    "mean": 0.2375,
+    "sd": 0.0298
+   }
+  },
+  "bird_only_rel": {
+   "bird_all": {
+    "mean": 0.9242,
+    "sd": 0.0059
+   },
+   "bird_drift": {
+    "mean": 0.8629,
+    "sd": 0.048
+   },
+   "hqa": {
+    "mean": 0.1461,
+    "sd": 0.0434
+   }
+  },
+  "hqa_only_rel": {
+   "bird_all": {
+    "mean": 0.3428,
+    "sd": 0.0904
+   },
+   "bird_drift": {
+    "mean": 0.4194,
+    "sd": 0.128
+   },
+   "hqa": {
+    "mean": 0.2289,
+    "sd": 0.0286
+   }
+  },
+  "lexical": {
+   "bird_all": {
+    "mean": 0.7097,
+    "sd": 0.0233
+   },
+   "bird_drift": {
+    "mean": 0.3811,
+    "sd": 0.0946
+   },
+   "hqa": {
+    "mean": 0.2805,
+    "sd": 0.0296
+   }
+  },
+  "dense": {
+   "bird_all": {
+    "mean": 0.8321,
+    "sd": 0.0255
+   },
+   "bird_drift": {
+    "mean": 0.7504,
+    "sd": 0.0582
+   },
+   "hqa": {
+    "mean": 0.1738,
+    "sd": 0.0232
+   }
+  },
+  "containment": {
+   "bird_all": {
+    "mean": 0.9251,
+    "sd": 0.0093
+   },
+   "bird_drift": {
+    "mean": 0.7159,
+    "sd": 0.0919
+   },
+   "hqa": {
+    "mean": 0.1685,
+    "sd": 0.0116
+   }
+  }
+ },
+ "aggregate_ece": {
+  "joint_base": {
+   "bird": 0.0021,
+   "hqa": 0.0259
+  },
+  "joint_rel": {
+   "bird": 0.0008,
+   "hqa": 0.0344
+  },
+  "bird_only_rel": {
+   "bird": 0.0013,
+   "hqa": 0.1165
+  },
+  "hqa_only_rel": {
+   "bird": 0.1083,
+   "hqa": 0.0392
+  }
+ },
+ "per_seed": [
+  {
+   "seed": 0,
+   "n": {
+    "bird_test": 387,
+    "bird_drift": 38,
+    "hqa_dev": 501
+   },
+   "recall@1": {
+    "joint_base": {
+     "bird_all": 0.9406,
+     "bird_drift": 0.8947,
+     "hqa": 0.2016
+    },
+    "joint_rel": {
+     "bird_all": 0.9199,
+     "bird_drift": 0.8947,
+     "hqa": 0.2295
+    },
+    "bird_only_rel": {
+     "bird_all": 0.9276,
+     "bird_drift": 0.8947,
+     "hqa": 0.1397
+    },
+    "hqa_only_rel": {
+     "bird_all": 0.4109,
+     "bird_drift": 0.2895,
+     "hqa": 0.2216
+    },
+    "lexical": {
+     "bird_all": 0.7339,
+     "bird_drift": 0.4474,
+     "hqa": 0.2515
+    },
+    "dense": {
+     "bird_all": 0.8605,
+     "bird_drift": 0.8158,
+     "hqa": 0.1577
+    },
+    "containment": {
+     "bird_all": 0.9354,
+     "bird_drift": 0.7368,
+     "hqa": 0.1557
+    }
+   },
+   "ece": {
+    "joint_base": {
+     "bird": 0.0015,
+     "hqa": 0.0236
+    },
+    "joint_rel": {
+     "bird": 0.0006,
+     "hqa": 0.0352
+    },
+    "bird_only_rel": {
+     "bird": 0.0013,
+     "hqa": 0.181
+    },
+    "hqa_only_rel": {
+     "bird": 0.0635,
+     "hqa": 0.0373
+    }
+   },
+   "runtime_s": 572.7
+  },
+  {
+   "seed": 1,
+   "n": {
+    "bird_test": 387,
+    "bird_drift": 26,
+    "hqa_dev": 508
+   },
+   "recall@1": {
+    "joint_base": {
+     "bird_all": 0.9276,
+     "bird_drift": 0.8077,
+     "hqa": 0.2087
+    },
+    "joint_rel": {
+     "bird_all": 0.9199,
+     "bird_drift": 0.8077,
+     "hqa": 0.2126
+    },
+    "bird_only_rel": {
+     "bird_all": 0.9173,
+     "bird_drift": 0.8077,
+     "hqa": 0.1063
+    },
+    "hqa_only_rel": {
+     "bird_all": 0.3773,
+     "bird_drift": 0.4231,
+     "hqa": 0.2047
+    },
+    "lexical": {
+     "bird_all": 0.708,
+     "bird_drift": 0.4231,
+     "hqa": 0.2795
+    },
+    "dense": {
+     "bird_all": 0.8114,
+     "bird_drift": 0.7308,
+     "hqa": 0.1634
+    },
+    "containment": {
+     "bird_all": 0.9173,
+     "bird_drift": 0.6154,
+     "hqa": 0.1713
+    }
+   },
+   "ece": {
+    "joint_base": {
+     "bird": 0.001,
+     "hqa": 0.0298
+    },
+    "joint_rel": {
+     "bird": 0.0008,
+     "hqa": 0.0339
+    },
+    "bird_only_rel": {
+     "bird": 0.0015,
+     "hqa": 0.0805
+    },
+    "hqa_only_rel": {
+     "bird": 0.0842,
+     "hqa": 0.0388
+    }
+   },
+   "runtime_s": 643.2
+  },
+  {
+   "seed": 2,
+   "n": {
+    "bird_test": 387,
+    "bird_drift": 44,
+    "hqa_dev": 499
+   },
+   "recall@1": {
+    "joint_base": {
+     "bird_all": 0.9328,
+     "bird_drift": 0.9091,
+     "hqa": 0.2565
+    },
+    "joint_rel": {
+     "bird_all": 0.9328,
+     "bird_drift": 0.8864,
+     "hqa": 0.2705
+    },
+    "bird_only_rel": {
+     "bird_all": 0.9276,
+     "bird_drift": 0.8864,
+     "hqa": 0.1924
+    },
+    "hqa_only_rel": {
+     "bird_all": 0.2403,
+     "bird_drift": 0.5455,
+     "hqa": 0.2605
+    },
+    "lexical": {
+     "bird_all": 0.6873,
+     "bird_drift": 0.2727,
+     "hqa": 0.3106
+    },
+    "dense": {
+     "bird_all": 0.8243,
+     "bird_drift": 0.7045,
+     "hqa": 0.2004
+    },
+    "containment": {
+     "bird_all": 0.9225,
+     "bird_drift": 0.7955,
+     "hqa": 0.1784
+    }
+   },
+   "ece": {
+    "joint_base": {
+     "bird": 0.0038,
+     "hqa": 0.0244
+    },
+    "joint_rel": {
+     "bird": 0.0009,
+     "hqa": 0.034
+    },
+    "bird_only_rel": {
+     "bird": 0.0011,
+     "hqa": 0.0881
+    },
+    "hqa_only_rel": {
+     "bird": 0.1771,
+     "hqa": 0.0415
+    }
+   },
+   "runtime_s": 891.3
+  }
+ ]
+}
