@@ -1,0 +1,305 @@
+{
+ "seed": 3,
+ "meta": {
+  "n_records": 431,
+  "n_ghost": 21,
+  "n_test_records": 155,
+  "n_questions": 510,
+  "n_triples": 2126,
+  "by_task": {
+   "abstain": 21,
+   "bad_join_backtrack": 72,
+   "multi_hop_traverse": 107,
+   "single_table_lookup": 155,
+   "table_kg_join": 155
+  }
+ },
+ "gates": {
+  "exact_match": {
+   "tau_v": 0.5,
+   "em": 0.3451,
+   "wrong_rate": 0.0,
+   "false_abstain_rate": 0.6549,
+   "by_task": {
+    "abstain": {
+     "n": 21,
+     "em": 1.0,
+     "wrong": 0,
+     "false_abstain": 0
+    },
+    "bad_join_backtrack": {
+     "n": 72,
+     "em": 0.0,
+     "wrong": 0,
+     "false_abstain": 72
+    },
+    "multi_hop_traverse": {
+     "n": 107,
+     "em": 0.0,
+     "wrong": 0,
+     "false_abstain": 107
+    },
+    "single_table_lookup": {
+     "n": 155,
+     "em": 1.0,
+     "wrong": 0,
+     "false_abstain": 0
+    },
+    "table_kg_join": {
+     "n": 155,
+     "em": 0.0,
+     "wrong": 0,
+     "false_abstain": 155
+    }
+   },
+   "system_risk_coverage": null
+  },
+  "prefix_rule": {
+   "tau_v": 0.5,
+   "em": 0.4765,
+   "wrong_rate": 0.002,
+   "false_abstain_rate": 0.5216,
+   "by_task": {
+    "abstain": {
+     "n": 21,
+     "em": 1.0,
+     "wrong": 0,
+     "false_abstain": 0
+    },
+    "bad_join_backtrack": {
+     "n": 72,
+     "em": 0.2222,
+     "wrong": 0,
+     "false_abstain": 56
+    },
+    "multi_hop_traverse": {
+     "n": 107,
+     "em": 0.2056,
+     "wrong": 0,
+     "false_abstain": 85
+    },
+    "single_table_lookup": {
+     "n": 155,
+     "em": 1.0,
+     "wrong": 0,
+     "false_abstain": 0
+    },
+    "table_kg_join": {
+     "n": 155,
+     "em": 0.1871,
+     "wrong": 1,
+     "false_abstain": 125
+    }
+   },
+   "system_risk_coverage": null
+  },
+  "embedding": {
+   "tau_v": 0.62,
+   "em": 0.8667,
+   "wrong_rate": 0.1216,
+   "false_abstain_rate": 0.0118,
+   "by_task": {
+    "abstain": {
+     "n": 21,
+     "em": 0.1429,
+     "wrong": 18,
+     "false_abstain": 0
+    },
+    "bad_join_backtrack": {
+     "n": 72,
+     "em": 0.8472,
+     "wrong": 10,
+     "false_abstain": 1
+    },
+    "multi_hop_traverse": {
+     "n": 107,
+     "em": 0.8037,
+     "wrong": 19,
+     "false_abstain": 2
+    },
+    "single_table_lookup": {
+     "n": 155,
+     "em": 1.0,
+     "wrong": 0,
+     "false_abstain": 0
+    },
+    "table_kg_join": {
+     "n": 155,
+     "em": 0.8839,
+     "wrong": 15,
+     "false_abstain": 3
+    }
+   },
+   "system_risk_coverage": null
+  },
+  "verifier_mlp": {
+   "tau_v": 0.5,
+   "em": 0.8157,
+   "wrong_rate": 0.0176,
+   "false_abstain_rate": 0.1667,
+   "by_task": {
+    "abstain": {
+     "n": 21,
+     "em": 1.0,
+     "wrong": 0,
+     "false_abstain": 0
+    },
+    "bad_join_backtrack": {
+     "n": 72,
+     "em": 0.6944,
+     "wrong": 3,
+     "false_abstain": 19
+    },
+    "multi_hop_traverse": {
+     "n": 107,
+     "em": 0.7196,
+     "wrong": 2,
+     "false_abstain": 28
+    },
+    "single_table_lookup": {
+     "n": 155,
+     "em": 1.0,
+     "wrong": 0,
+     "false_abstain": 0
+    },
+    "table_kg_join": {
+     "n": 155,
+     "em": 0.729,
+     "wrong": 4,
+     "false_abstain": 38
+    }
+   },
+   "system_risk_coverage": {
+    "aurc": 0.0107,
+    "accuracy_at": {
+     "1.0": 0.9777,
+     "0.9": 0.9753,
+     "0.8": 0.9721,
+     "0.7": 0.9859,
+     "0.5": 0.9901
+    }
+   }
+  },
+  "oracle": {
+   "tau_v": 0.5,
+   "em": 0.9118,
+   "wrong_rate": 0.0,
+   "false_abstain_rate": 0.0882,
+   "by_task": {
+    "abstain": {
+     "n": 21,
+     "em": 1.0,
+     "wrong": 0,
+     "false_abstain": 0
+    },
+    "bad_join_backtrack": {
+     "n": 72,
+     "em": 0.8472,
+     "wrong": 0,
+     "false_abstain": 11
+    },
+    "multi_hop_traverse": {
+     "n": 107,
+     "em": 0.8598,
+     "wrong": 0,
+     "false_abstain": 15
+    },
+    "single_table_lookup": {
+     "n": 155,
+     "em": 1.0,
+     "wrong": 0,
+     "false_abstain": 0
+    },
+    "table_kg_join": {
+     "n": 155,
+     "em": 0.8774,
+     "wrong": 0,
+     "false_abstain": 19
+    }
+   },
+   "system_risk_coverage": null
+  },
+  "no_verifier": {
+   "tau_v": 0.5,
+   "em": 0.849,
+   "wrong_rate": 0.151,
+   "false_abstain_rate": 0.0,
+   "by_task": {
+    "abstain": {
+     "n": 21,
+     "em": 0.0,
+     "wrong": 21,
+     "false_abstain": 0
+    },
+    "bad_join_backtrack": {
+     "n": 72,
+     "em": 0.7639,
+     "wrong": 17,
+     "false_abstain": 0
+    },
+    "multi_hop_traverse": {
+     "n": 107,
+     "em": 0.8037,
+     "wrong": 21,
+     "false_abstain": 0
+    },
+    "single_table_lookup": {
+     "n": 155,
+     "em": 1.0,
+     "wrong": 0,
+     "false_abstain": 0
+    },
+    "table_kg_join": {
+     "n": 155,
+     "em": 0.8839,
+     "wrong": 18,
+     "false_abstain": 0
+    }
+   },
+   "system_risk_coverage": null
+  }
+ },
+ "mlp_vs": {
+  "exact_match": {
+   "delta": 0.4706,
+   "ci95": [
+    0.4275,
+    0.5137
+   ],
+   "p_two_sided": 0.0
+  },
+  "prefix_rule": {
+   "delta": 0.3392,
+   "ci95": [
+    0.298,
+    0.3824
+   ],
+   "p_two_sided": 0.0
+  },
+  "embedding": {
+   "delta": -0.051,
+   "ci95": [
+    -0.0882,
+    -0.0137
+   ],
+   "p_two_sided": 0.007
+  },
+  "oracle": {
+   "delta": -0.0961,
+   "ci95": [
+    -0.1235,
+    -0.0706
+   ],
+   "p_two_sided": 0.0
+  },
+  "no_verifier": {
+   "delta": -0.0333,
+   "ci95": [
+    -0.0725,
+    0.0059
+   ],
+   "p_two_sided": 0.1104
+  }
+ },
+ "runtime_s": 244.3
+}

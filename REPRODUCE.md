@@ -104,3 +104,24 @@ Regenerate it with:
 ```bash
 python3 -c "import hashlib,json,pathlib;root=pathlib.Path('artifacts');print(json.dumps({str(f):{'sha256':hashlib.sha256(f.read_bytes()).hexdigest(),'bytes':len(f.read_bytes())} for f in sorted(root.rglob('*.json')) if f.name!='manifest.json' and 'smoke' not in f.parts}, indent=2))" > artifacts/manifest.json
 ```
+
+## Revision experiments (ACML journal-track round 1)
+
+All numbers added in the revision are produced by the drivers below and rendered into the
+manuscript by `scripts/render_revision.py` (which writes LaTeX rows/macros from the JSON
+outputs). The real-data drivers were run on a CUDA server with vLLM 0.7.3 and the official
+`Qwen/Qwen2.5-Coder-7B-Instruct-AWQ`; embeddings use `BAAI/bge-small-en-v1.5`.
+
+| Paper item | Command | Output |
+|---|---|---|
+| 20-seed synthetic study, risk–coverage curves, AURC, validation thresholds (E2) | `python -m relational_rag_tables.multiseed --seeds 20 --workers 20` | `artifacts/multiseed/{seed_*,aggregate}.json` |
+| Theorem 1–2 numerical check (E3) | `python -m relational_rag_tables.theory_check` | `artifacts/theory_check.json` |
+| Verifier-isolated end-to-end BIRD ablation (E1) | `python -m relational_rag_real.run_e1 --configs all --n 1534`; then `python scripts/analyze_e1.py artifacts/e1` | `artifacts/e1/*.json`, `artifacts/e1/analysis.json` |
+| Regime-aware joint matcher, BIRD + HybridQA (E4) | `python -m relational_rag_real.run_e4_joint --seeds 0,1,2` | `artifacts/e4/results.json` |
+| Tuned rule cascades vs verifier, heterogeneous ICD (E5) | `python -m relational_rag_real.run_e5_cascade --seeds 0,1,2,3,4` | `artifacts/icd_kg/results_e5_cascade.json` |
+| Label protocol, audit samples, label-noise sensitivity (E6) | `python -m relational_rag_real.run_e6_labelnoise` | `artifacts/e6/results.json`, `annotation_sample_*.csv` |
+| End-to-end QA on the real ICD-10 + Wikidata table+KG (E7) | `python -m relational_rag_real.run_e7_icd_qa --seeds 0,1,2,3,4` | `artifacts/e7/results.json`, `fixtures/icd_qa/seed_*` |
+
+The Wikidata relations used by E7 (`data/icd_kg/wikidata_icd_relations.json`,
+`wikidata_icd_parent_relations.json`) were fetched from the public SPARQL endpoint on
+2026-09-09 and are committed so the benchmark is reproducible offline.

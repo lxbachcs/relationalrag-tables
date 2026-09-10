@@ -1,0 +1,4154 @@
+{
+ "seed": 3,
+ "meta": {
+  "num_accounts": 600,
+  "qa_join_drift": 0.6,
+  "ensemble_k": 5,
+  "num_questions": 1392,
+  "n_verifier_train": 4000,
+  "n_verifier_eval": 1500,
+  "runtime_s": 962.0
+ },
+ "matrix": {
+  "qa_by_verifier": {
+   "exact_match": {
+    "em": 0.5776,
+    "abstentions": 624,
+    "verifier_confusion": {
+     "tp": 468,
+     "fp": 0,
+     "tn": 354,
+     "fn": 588,
+     "unknown": 4494
+    },
+    "latency_ms_avg": 48.197,
+    "by_task": {
+     "abstain": {
+      "total": 36,
+      "em": 1.0,
+      "abstained": 36
+     },
+     "bad_join_backtrack": {
+      "total": 264,
+      "em": 0.4432,
+      "abstained": 147
+     },
+     "multi_hop_traverse": {
+      "total": 528,
+      "em": 0.4432,
+      "abstained": 294
+     },
+     "single_table_lookup": {
+      "total": 300,
+      "em": 1.0,
+      "abstained": 0
+     },
+     "table_kg_join": {
+      "total": 264,
+      "em": 0.4432,
+      "abstained": 147
+     }
+    }
+   },
+   "learned": {
+    "em": 0.8549,
+    "abstentions": 26,
+    "verifier_confusion": {
+     "tp": 820,
+     "fp": 238,
+     "tn": 71,
+     "fn": 34,
+     "unknown": 229
+    },
+    "latency_ms_avg": 49.433,
+    "by_task": {
+     "abstain": {
+      "total": 36,
+      "em": 0.0,
+      "abstained": 0
+     },
+     "bad_join_backtrack": {
+      "total": 264,
+      "em": 0.4886,
+      "abstained": 0
+     },
+     "multi_hop_traverse": {
+      "total": 528,
+      "em": 0.9621,
+      "abstained": 17
+     },
+     "single_table_lookup": {
+      "total": 300,
+      "em": 1.0,
+      "abstained": 0
+     },
+     "table_kg_join": {
+      "total": 264,
+      "em": 0.9583,
+      "abstained": 9
+     }
+    }
+   },
+   "ensemble": {
+    "em": 0.842,
+    "abstentions": 28,
+    "verifier_confusion": {
+     "tp": 795,
+     "fp": 241,
+     "tn": 66,
+     "fn": 57,
+     "unknown": 329
+    },
+    "latency_ms_avg": 51.357,
+    "by_task": {
+     "abstain": {
+      "total": 36,
+      "em": 0.0,
+      "abstained": 0
+     },
+     "bad_join_backtrack": {
+      "total": 264,
+      "em": 0.4735,
+      "abstained": 2
+     },
+     "multi_hop_traverse": {
+      "total": 528,
+      "em": 0.9489,
+      "abstained": 19
+     },
+     "single_table_lookup": {
+      "total": 300,
+      "em": 1.0,
+      "abstained": 0
+     },
+     "table_kg_join": {
+      "total": 264,
+      "em": 0.9318,
+      "abstained": 7
+     }
+    }
+   },
+   "oracle": {
+    "em": 1.0,
+    "abstentions": 36,
+    "verifier_confusion": {
+     "tp": 1056,
+     "fp": 0,
+     "tn": 337,
+     "fn": 0,
+     "unknown": 286
+    },
+    "latency_ms_avg": 48.332,
+    "by_task": {
+     "abstain": {
+      "total": 36,
+      "em": 1.0,
+      "abstained": 36
+     },
+     "bad_join_backtrack": {
+      "total": 264,
+      "em": 1.0,
+      "abstained": 0
+     },
+     "multi_hop_traverse": {
+      "total": 528,
+      "em": 1.0,
+      "abstained": 0
+     },
+     "single_table_lookup": {
+      "total": 300,
+      "em": 1.0,
+      "abstained": 0
+     },
+     "table_kg_join": {
+      "total": 264,
+      "em": 1.0,
+      "abstained": 0
+     }
+    }
+   },
+   "no_verifier": {
+    "em": 0.8455,
+    "abstentions": 0,
+    "verifier_confusion": {
+     "tp": 792,
+     "fp": 300,
+     "tn": 0,
+     "fn": 0,
+     "unknown": 0
+    },
+    "latency_ms_avg": 48.897,
+    "by_task": {
+     "abstain": {
+      "total": 36,
+      "em": 0.0,
+      "abstained": 0
+     },
+     "bad_join_backtrack": {
+      "total": 264,
+      "em": 0.322,
+      "abstained": 0
+     },
+     "multi_hop_traverse": {
+      "total": 528,
+      "em": 1.0,
+      "abstained": 0
+     },
+     "single_table_lookup": {
+      "total": 300,
+      "em": 1.0,
+      "abstained": 0
+     },
+     "table_kg_join": {
+      "total": 264,
+      "em": 1.0,
+      "abstained": 0
+     }
+    }
+   }
+  },
+  "verifier_discrimination": {
+   "exact_match": {
+    "n": 1500,
+    "positives": 846,
+    "accuracy": 0.6373,
+    "precision": 0.9748,
+    "recall": 0.3664,
+    "f1": 0.5326,
+    "brier": 0.3627,
+    "auroc": 0.6771,
+    "confusion": {
+     "tp": 310,
+     "fp": 8,
+     "tn": 646,
+     "fn": 536
+    }
+   },
+   "learned": {
+    "n": 1500,
+    "positives": 846,
+    "accuracy": 0.7227,
+    "precision": 0.7378,
+    "recall": 0.7884,
+    "f1": 0.7623,
+    "brier": 0.177,
+    "auroc": 0.8086,
+    "confusion": {
+     "tp": 667,
+     "fp": 237,
+     "tn": 417,
+     "fn": 179
+    }
+   },
+   "ensemble": {
+    "n": 1500,
+    "positives": 846,
+    "accuracy": 0.7287,
+    "precision": 0.7555,
+    "recall": 0.7671,
+    "f1": 0.7613,
+    "brier": 0.1737,
+    "auroc": 0.8139,
+    "confusion": {
+     "tp": 649,
+     "fp": 210,
+     "tn": 444,
+     "fn": 197
+    }
+   }
+  },
+  "selective_prediction": {
+   "risk_coverage": [
+    {
+     "coverage": 1.0,
+     "accuracy": 0.7287
+    },
+    {
+     "coverage": 0.9,
+     "accuracy": 0.7674
+    },
+    {
+     "coverage": 0.8,
+     "accuracy": 0.7883
+    },
+    {
+     "coverage": 0.7,
+     "accuracy": 0.8086
+    },
+    {
+     "coverage": 0.5,
+     "accuracy": 0.8587
+    }
+   ],
+   "mean_uncertainty_correct": 0.455248,
+   "mean_uncertainty_wrong": 0.606124
+  },
+  "ensemble_size_sweep": [
+   {
+    "k": 1,
+    "auroc": 0.8086,
+    "qa_em": 0.8549,
+    "selective": {
+     "risk_coverage": [
+      {
+       "coverage": 1.0,
+       "accuracy": 0.7227
+      },
+      {
+       "coverage": 0.9,
+       "accuracy": 0.7659
+      },
+      {
+       "coverage": 0.8,
+       "accuracy": 0.7792
+      },
+      {
+       "coverage": 0.7,
+       "accuracy": 0.7952
+      },
+      {
+       "coverage": 0.5,
+       "accuracy": 0.8493
+      }
+     ],
+     "mean_uncertainty_correct": 0.439018,
+     "mean_uncertainty_wrong": 0.593146
+    }
+   },
+   {
+    "k": 3,
+    "auroc": 0.8149,
+    "qa_em": 0.8448,
+    "selective": {
+     "risk_coverage": [
+      {
+       "coverage": 1.0,
+       "accuracy": 0.7333
+      },
+      {
+       "coverage": 0.9,
+       "accuracy": 0.7681
+      },
+      {
+       "coverage": 0.8,
+       "accuracy": 0.7858
+      },
+      {
+       "coverage": 0.7,
+       "accuracy": 0.8076
+      },
+      {
+       "coverage": 0.5,
+       "accuracy": 0.856
+      }
+     ],
+     "mean_uncertainty_correct": 0.453087,
+     "mean_uncertainty_wrong": 0.601344
+    }
+   },
+   {
+    "k": 5,
+    "auroc": 0.8139,
+    "qa_em": 0.842,
+    "selective": {
+     "risk_coverage": [
+      {
+       "coverage": 1.0,
+       "accuracy": 0.7287
+      },
+      {
+       "coverage": 0.9,
+       "accuracy": 0.7674
+      },
+      {
+       "coverage": 0.8,
+       "accuracy": 0.7883
+      },
+      {
+       "coverage": 0.7,
+       "accuracy": 0.8086
+      },
+      {
+       "coverage": 0.5,
+       "accuracy": 0.8587
+      }
+     ],
+     "mean_uncertainty_correct": 0.455248,
+     "mean_uncertainty_wrong": 0.606124
+    }
+   }
+  ]
+ },
+ "ece": {
+  "exact_match": {
+   "ece": 0.3627,
+   "mce": 0.3627,
+   "brier": 0.3627
+  },
+  "learned": {
+   "ece": 0.039,
+   "mce": 0.0735,
+   "brier": 0.177
+  },
+  "ensemble": {
+   "ece": 0.0399,
+   "mce": 0.082,
+   "brier": 0.1737
+  }
+ },
+ "risk_coverage_pairs": {
+  "exact_match": {
+   "n": 1500,
+   "errors": 544,
+   "aurc": 0.2335,
+   "e_aurc": 0.1579,
+   "curve": [
+    {
+     "coverage": 0.01,
+     "risk": 0.0667
+    },
+    {
+     "coverage": 0.02,
+     "risk": 0.0667
+    },
+    {
+     "coverage": 0.03,
+     "risk": 0.0444
+    },
+    {
+     "coverage": 0.04,
+     "risk": 0.05
+    },
+    {
+     "coverage": 0.05,
+     "risk": 0.04
+    },
+    {
+     "coverage": 0.06,
+     "risk": 0.0556
+    },
+    {
+     "coverage": 0.07,
+     "risk": 0.0476
+    },
+    {
+     "coverage": 0.08,
+     "risk": 0.0417
+    },
+    {
+     "coverage": 0.09,
+     "risk": 0.037
+    },
+    {
+     "coverage": 0.1,
+     "risk": 0.0333
+    },
+    {
+     "coverage": 0.11,
+     "risk": 0.0303
+    },
+    {
+     "coverage": 0.12,
+     "risk": 0.0278
+    },
+    {
+     "coverage": 0.13,
+     "risk": 0.0256
+    },
+    {
+     "coverage": 0.14,
+     "risk": 0.0286
+    },
+    {
+     "coverage": 0.15,
+     "risk": 0.0267
+    },
+    {
+     "coverage": 0.16,
+     "risk": 0.0292
+    },
+    {
+     "coverage": 0.17,
+     "risk": 0.0275
+    },
+    {
+     "coverage": 0.18,
+     "risk": 0.0296
+    },
+    {
+     "coverage": 0.19,
+     "risk": 0.0281
+    },
+    {
+     "coverage": 0.2,
+     "risk": 0.0267
+    },
+    {
+     "coverage": 0.21,
+     "risk": 0.0254
+    },
+    {
+     "coverage": 0.22,
+     "risk": 0.0515
+    },
+    {
+     "coverage": 0.23,
+     "risk": 0.0696
+    },
+    {
+     "coverage": 0.24,
+     "risk": 0.0833
+    },
+    {
+     "coverage": 0.25,
+     "risk": 0.1067
+    },
+    {
+     "coverage": 0.26,
+     "risk": 0.1256
+    },
+    {
+     "coverage": 0.27,
+     "risk": 0.1481
+    },
+    {
+     "coverage": 0.28,
+     "risk": 0.1571
+    },
+    {
+     "coverage": 0.29,
+     "risk": 0.1655
+    },
+    {
+     "coverage": 0.3,
+     "risk": 0.1756
+    },
+    {
+     "coverage": 0.31,
+     "risk": 0.1806
+    },
+    {
+     "coverage": 0.32,
+     "risk": 0.1854
+    },
+    {
+     "coverage": 0.33,
+     "risk": 0.196
+    },
+    {
+     "coverage": 0.34,
+     "risk": 0.2039
+    },
+    {
+     "coverage": 0.35,
+     "risk": 0.219
+    },
+    {
+     "coverage": 0.36,
+     "risk": 0.2241
+    },
+    {
+     "coverage": 0.37,
+     "risk": 0.2288
+    },
+    {
+     "coverage": 0.38,
+     "risk": 0.2333
+    },
+    {
+     "coverage": 0.39,
+     "risk": 0.2427
+    },
+    {
+     "coverage": 0.4,
+     "risk": 0.2467
+    },
+    {
+     "coverage": 0.41,
+     "risk": 0.252
+    },
+    {
+     "coverage": 0.42,
+     "risk": 0.2587
+    },
+    {
+     "coverage": 0.43,
+     "risk": 0.2605
+    },
+    {
+     "coverage": 0.44,
+     "risk": 0.2682
+    },
+    {
+     "coverage": 0.45,
+     "risk": 0.2726
+    },
+    {
+     "coverage": 0.46,
+     "risk": 0.2754
+    },
+    {
+     "coverage": 0.47,
+     "risk": 0.2766
+    },
+    {
+     "coverage": 0.48,
+     "risk": 0.2792
+    },
+    {
+     "coverage": 0.49,
+     "risk": 0.2871
+    },
+    {
+     "coverage": 0.5,
+     "risk": 0.292
+    },
+    {
+     "coverage": 0.51,
+     "risk": 0.2915
+    },
+    {
+     "coverage": 0.52,
+     "risk": 0.2936
+    },
+    {
+     "coverage": 0.53,
+     "risk": 0.3006
+    },
+    {
+     "coverage": 0.54,
+     "risk": 0.3037
+    },
+    {
+     "coverage": 0.55,
+     "risk": 0.303
+    },
+    {
+     "coverage": 0.56,
+     "risk": 0.3024
+    },
+    {
+     "coverage": 0.57,
+     "risk": 0.3088
+    },
+    {
+     "coverage": 0.58,
+     "risk": 0.3138
+    },
+    {
+     "coverage": 0.59,
+     "risk": 0.3141
+    },
+    {
+     "coverage": 0.6,
+     "risk": 0.3156
+    },
+    {
+     "coverage": 0.61,
+     "risk": 0.3202
+    },
+    {
+     "coverage": 0.62,
+     "risk": 0.3204
+    },
+    {
+     "coverage": 0.63,
+     "risk": 0.3238
+    },
+    {
+     "coverage": 0.64,
+     "risk": 0.326
+    },
+    {
+     "coverage": 0.65,
+     "risk": 0.3262
+    },
+    {
+     "coverage": 0.66,
+     "risk": 0.3283
+    },
+    {
+     "coverage": 0.67,
+     "risk": 0.3294
+    },
+    {
+     "coverage": 0.68,
+     "risk": 0.3265
+    },
+    {
+     "coverage": 0.69,
+     "risk": 0.3295
+    },
+    {
+     "coverage": 0.7,
+     "risk": 0.3257
+    },
+    {
+     "coverage": 0.71,
+     "risk": 0.3296
+    },
+    {
+     "coverage": 0.72,
+     "risk": 0.3324
+    },
+    {
+     "coverage": 0.73,
+     "risk": 0.3361
+    },
+    {
+     "coverage": 0.74,
+     "risk": 0.3387
+    },
+    {
+     "coverage": 0.75,
+     "risk": 0.3396
+    },
+    {
+     "coverage": 0.76,
+     "risk": 0.3395
+    },
+    {
+     "coverage": 0.77,
+     "risk": 0.3403
+    },
+    {
+     "coverage": 0.78,
+     "risk": 0.341
+    },
+    {
+     "coverage": 0.79,
+     "risk": 0.3401
+    },
+    {
+     "coverage": 0.8,
+     "risk": 0.3392
+    },
+    {
+     "coverage": 0.81,
+     "risk": 0.3424
+    },
+    {
+     "coverage": 0.82,
+     "risk": 0.3423
+    },
+    {
+     "coverage": 0.83,
+     "risk": 0.3446
+    },
+    {
+     "coverage": 0.84,
+     "risk": 0.3476
+    },
+    {
+     "coverage": 0.85,
+     "risk": 0.3529
+    },
+    {
+     "coverage": 0.86,
+     "risk": 0.3535
+    },
+    {
+     "coverage": 0.87,
+     "risk": 0.3563
+    },
+    {
+     "coverage": 0.88,
+     "risk": 0.3583
+    },
+    {
+     "coverage": 0.89,
+     "risk": 0.361
+    },
+    {
+     "coverage": 0.9,
+     "risk": 0.3607
+    },
+    {
+     "coverage": 0.91,
+     "risk": 0.3604
+    },
+    {
+     "coverage": 0.92,
+     "risk": 0.3616
+    },
+    {
+     "coverage": 0.93,
+     "risk": 0.362
+    },
+    {
+     "coverage": 0.94,
+     "risk": 0.3617
+    },
+    {
+     "coverage": 0.95,
+     "risk": 0.3614
+    },
+    {
+     "coverage": 0.96,
+     "risk": 0.359
+    },
+    {
+     "coverage": 0.97,
+     "risk": 0.3581
+    },
+    {
+     "coverage": 0.98,
+     "risk": 0.3605
+    },
+    {
+     "coverage": 0.99,
+     "risk": 0.3609
+    },
+    {
+     "coverage": 1.0,
+     "risk": 0.3627
+    }
+   ],
+   "accuracy_at": {
+    "1.0": 0.6373,
+    "0.9": 0.6393,
+    "0.8": 0.6608,
+    "0.7": 0.6743,
+    "0.5": 0.708
+   },
+   "aurc_ci95": [
+    0.2008,
+    0.2451
+   ],
+   "band95": [
+    {
+     "coverage": 0.01,
+     "lo": 0.0,
+     "hi": 0.1333
+    },
+    {
+     "coverage": 0.02,
+     "lo": 0.0,
+     "hi": 0.1
+    },
+    {
+     "coverage": 0.03,
+     "lo": 0.0,
+     "hi": 0.0889
+    },
+    {
+     "coverage": 0.04,
+     "lo": 0.0,
+     "hi": 0.0667
+    },
+    {
+     "coverage": 0.05,
+     "lo": 0.0,
+     "hi": 0.0667
+    },
+    {
+     "coverage": 0.06,
+     "lo": 0.0,
+     "hi": 0.0556
+    },
+    {
+     "coverage": 0.07,
+     "lo": 0.0,
+     "hi": 0.0571
+    },
+    {
+     "coverage": 0.08,
+     "lo": 0.0,
+     "hi": 0.0583
+    },
+    {
+     "coverage": 0.09,
+     "lo": 0.0,
+     "hi": 0.0519
+    },
+    {
+     "coverage": 0.1,
+     "lo": 0.0067,
+     "hi": 0.0533
+    },
+    {
+     "coverage": 0.11,
+     "lo": 0.0061,
+     "hi": 0.0485
+    },
+    {
+     "coverage": 0.12,
+     "lo": 0.0056,
+     "hi": 0.05
+    },
+    {
+     "coverage": 0.13,
+     "lo": 0.0051,
+     "hi": 0.0513
+    },
+    {
+     "coverage": 0.14,
+     "lo": 0.0048,
+     "hi": 0.0476
+    },
+    {
+     "coverage": 0.15,
+     "lo": 0.0089,
+     "hi": 0.0489
+    },
+    {
+     "coverage": 0.16,
+     "lo": 0.0083,
+     "hi": 0.0458
+    },
+    {
+     "coverage": 0.17,
+     "lo": 0.0078,
+     "hi": 0.0471
+    },
+    {
+     "coverage": 0.18,
+     "lo": 0.0074,
+     "hi": 0.0481
+    },
+    {
+     "coverage": 0.19,
+     "lo": 0.0105,
+     "hi": 0.0456
+    },
+    {
+     "coverage": 0.2,
+     "lo": 0.01,
+     "hi": 0.0467
+    },
+    {
+     "coverage": 0.21,
+     "lo": 0.0127,
+     "hi": 0.0635
+    },
+    {
+     "coverage": 0.22,
+     "lo": 0.0152,
+     "hi": 0.0818
+    },
+    {
+     "coverage": 0.23,
+     "lo": 0.0203,
+     "hi": 0.1014
+    },
+    {
+     "coverage": 0.24,
+     "lo": 0.0333,
+     "hi": 0.1167
+    },
+    {
+     "coverage": 0.25,
+     "lo": 0.0507,
+     "hi": 0.1333
+    },
+    {
+     "coverage": 0.26,
+     "lo": 0.0641,
+     "hi": 0.1462
+    },
+    {
+     "coverage": 0.27,
+     "lo": 0.079,
+     "hi": 0.1605
+    },
+    {
+     "coverage": 0.28,
+     "lo": 0.0905,
+     "hi": 0.169
+    },
+    {
+     "coverage": 0.29,
+     "lo": 0.1011,
+     "hi": 0.1816
+    },
+    {
+     "coverage": 0.3,
+     "lo": 0.1133,
+     "hi": 0.1911
+    },
+    {
+     "coverage": 0.31,
+     "lo": 0.1204,
+     "hi": 0.2022
+    },
+    {
+     "coverage": 0.32,
+     "lo": 0.1271,
+     "hi": 0.2083
+    },
+    {
+     "coverage": 0.33,
+     "lo": 0.1374,
+     "hi": 0.2162
+    },
+    {
+     "coverage": 0.34,
+     "lo": 0.1471,
+     "hi": 0.2235
+    },
+    {
+     "coverage": 0.35,
+     "lo": 0.1543,
+     "hi": 0.2324
+    },
+    {
+     "coverage": 0.36,
+     "lo": 0.163,
+     "hi": 0.2407
+    },
+    {
+     "coverage": 0.37,
+     "lo": 0.1694,
+     "hi": 0.2468
+    },
+    {
+     "coverage": 0.38,
+     "lo": 0.1789,
+     "hi": 0.2544
+    },
+    {
+     "coverage": 0.39,
+     "lo": 0.1863,
+     "hi": 0.2615
+    },
+    {
+     "coverage": 0.4,
+     "lo": 0.1933,
+     "hi": 0.2667
+    },
+    {
+     "coverage": 0.41,
+     "lo": 0.1967,
+     "hi": 0.2683
+    },
+    {
+     "coverage": 0.42,
+     "lo": 0.2032,
+     "hi": 0.2714
+    },
+    {
+     "coverage": 0.43,
+     "lo": 0.2078,
+     "hi": 0.2775
+    },
+    {
+     "coverage": 0.44,
+     "lo": 0.2136,
+     "hi": 0.2818
+    },
+    {
+     "coverage": 0.45,
+     "lo": 0.2193,
+     "hi": 0.2859
+    },
+    {
+     "coverage": 0.46,
+     "lo": 0.2217,
+     "hi": 0.2899
+    },
+    {
+     "coverage": 0.47,
+     "lo": 0.227,
+     "hi": 0.2936
+    },
+    {
+     "coverage": 0.48,
+     "lo": 0.2319,
+     "hi": 0.2986
+    },
+    {
+     "coverage": 0.49,
+     "lo": 0.2354,
+     "hi": 0.302
+    },
+    {
+     "coverage": 0.5,
+     "lo": 0.24,
+     "hi": 0.3053
+    },
+    {
+     "coverage": 0.51,
+     "lo": 0.2444,
+     "hi": 0.3085
+    },
+    {
+     "coverage": 0.52,
+     "lo": 0.2474,
+     "hi": 0.3103
+    },
+    {
+     "coverage": 0.53,
+     "lo": 0.2503,
+     "hi": 0.3145
+    },
+    {
+     "coverage": 0.54,
+     "lo": 0.2543,
+     "hi": 0.316
+    },
+    {
+     "coverage": 0.55,
+     "lo": 0.257,
+     "hi": 0.32
+    },
+    {
+     "coverage": 0.56,
+     "lo": 0.2607,
+     "hi": 0.3226
+    },
+    {
+     "coverage": 0.57,
+     "lo": 0.2643,
+     "hi": 0.3251
+    },
+    {
+     "coverage": 0.58,
+     "lo": 0.2655,
+     "hi": 0.3264
+    },
+    {
+     "coverage": 0.59,
+     "lo": 0.2689,
+     "hi": 0.3288
+    },
+    {
+     "coverage": 0.6,
+     "lo": 0.2722,
+     "hi": 0.3322
+    },
+    {
+     "coverage": 0.61,
+     "lo": 0.2732,
+     "hi": 0.3344
+    },
+    {
+     "coverage": 0.62,
+     "lo": 0.2774,
+     "hi": 0.3366
+    },
+    {
+     "coverage": 0.63,
+     "lo": 0.2804,
+     "hi": 0.3376
+    },
+    {
+     "coverage": 0.64,
+     "lo": 0.2823,
+     "hi": 0.3406
+    },
+    {
+     "coverage": 0.65,
+     "lo": 0.2851,
+     "hi": 0.3426
+    },
+    {
+     "coverage": 0.66,
+     "lo": 0.2879,
+     "hi": 0.3444
+    },
+    {
+     "coverage": 0.67,
+     "lo": 0.2905,
+     "hi": 0.3483
+    },
+    {
+     "coverage": 0.68,
+     "lo": 0.2922,
+     "hi": 0.349
+    },
+    {
+     "coverage": 0.69,
+     "lo": 0.2937,
+     "hi": 0.3507
+    },
+    {
+     "coverage": 0.7,
+     "lo": 0.2971,
+     "hi": 0.3524
+    },
+    {
+     "coverage": 0.71,
+     "lo": 0.2995,
+     "hi": 0.354
+    },
+    {
+     "coverage": 0.72,
+     "lo": 0.3019,
+     "hi": 0.3565
+    },
+    {
+     "coverage": 0.73,
+     "lo": 0.305,
+     "hi": 0.3589
+    },
+    {
+     "coverage": 0.74,
+     "lo": 0.3063,
+     "hi": 0.3613
+    },
+    {
+     "coverage": 0.75,
+     "lo": 0.3076,
+     "hi": 0.3618
+    },
+    {
+     "coverage": 0.76,
+     "lo": 0.3088,
+     "hi": 0.3623
+    },
+    {
+     "coverage": 0.77,
+     "lo": 0.31,
+     "hi": 0.3628
+    },
+    {
+     "coverage": 0.78,
+     "lo": 0.312,
+     "hi": 0.3632
+    },
+    {
+     "coverage": 0.79,
+     "lo": 0.3148,
+     "hi": 0.3646
+    },
+    {
+     "coverage": 0.8,
+     "lo": 0.3158,
+     "hi": 0.3667
+    },
+    {
+     "coverage": 0.81,
+     "lo": 0.3169,
+     "hi": 0.3679
+    },
+    {
+     "coverage": 0.82,
+     "lo": 0.3179,
+     "hi": 0.3699
+    },
+    {
+     "coverage": 0.83,
+     "lo": 0.3197,
+     "hi": 0.3703
+    },
+    {
+     "coverage": 0.84,
+     "lo": 0.3214,
+     "hi": 0.3706
+    },
+    {
+     "coverage": 0.85,
+     "lo": 0.3231,
+     "hi": 0.3725
+    },
+    {
+     "coverage": 0.86,
+     "lo": 0.3233,
+     "hi": 0.3744
+    },
+    {
+     "coverage": 0.87,
+     "lo": 0.3257,
+     "hi": 0.377
+    },
+    {
+     "coverage": 0.88,
+     "lo": 0.3265,
+     "hi": 0.3765
+    },
+    {
+     "coverage": 0.89,
+     "lo": 0.3266,
+     "hi": 0.3775
+    },
+    {
+     "coverage": 0.9,
+     "lo": 0.3289,
+     "hi": 0.3793
+    },
+    {
+     "coverage": 0.91,
+     "lo": 0.3304,
+     "hi": 0.3802
+    },
+    {
+     "coverage": 0.92,
+     "lo": 0.3312,
+     "hi": 0.3797
+    },
+    {
+     "coverage": 0.93,
+     "lo": 0.3326,
+     "hi": 0.3821
+    },
+    {
+     "coverage": 0.94,
+     "lo": 0.334,
+     "hi": 0.3823
+    },
+    {
+     "coverage": 0.95,
+     "lo": 0.3354,
+     "hi": 0.3825
+    },
+    {
+     "coverage": 0.96,
+     "lo": 0.3354,
+     "hi": 0.3847
+    },
+    {
+     "coverage": 0.97,
+     "lo": 0.3368,
+     "hi": 0.3856
+    },
+    {
+     "coverage": 0.98,
+     "lo": 0.3388,
+     "hi": 0.3864
+    },
+    {
+     "coverage": 0.99,
+     "lo": 0.3387,
+     "hi": 0.3872
+    },
+    {
+     "coverage": 1.0,
+     "lo": 0.3407,
+     "hi": 0.388
+    }
+   ]
+  },
+  "learned": {
+   "n": 1500,
+   "errors": 416,
+   "aurc": 0.1376,
+   "e_aurc": 0.0949,
+   "curve": [
+    {
+     "coverage": 0.01,
+     "risk": 0.0
+    },
+    {
+     "coverage": 0.02,
+     "risk": 0.0
+    },
+    {
+     "coverage": 0.03,
+     "risk": 0.0222
+    },
+    {
+     "coverage": 0.04,
+     "risk": 0.0167
+    },
+    {
+     "coverage": 0.05,
+     "risk": 0.0133
+    },
+    {
+     "coverage": 0.06,
+     "risk": 0.0111
+    },
+    {
+     "coverage": 0.07,
+     "risk": 0.019
+    },
+    {
+     "coverage": 0.08,
+     "risk": 0.025
+    },
+    {
+     "coverage": 0.09,
+     "risk": 0.0222
+    },
+    {
+     "coverage": 0.1,
+     "risk": 0.02
+    },
+    {
+     "coverage": 0.11,
+     "risk": 0.0182
+    },
+    {
+     "coverage": 0.12,
+     "risk": 0.0167
+    },
+    {
+     "coverage": 0.13,
+     "risk": 0.0154
+    },
+    {
+     "coverage": 0.14,
+     "risk": 0.0143
+    },
+    {
+     "coverage": 0.15,
+     "risk": 0.0133
+    },
+    {
+     "coverage": 0.16,
+     "risk": 0.0167
+    },
+    {
+     "coverage": 0.17,
+     "risk": 0.0157
+    },
+    {
+     "coverage": 0.18,
+     "risk": 0.0185
+    },
+    {
+     "coverage": 0.19,
+     "risk": 0.0175
+    },
+    {
+     "coverage": 0.2,
+     "risk": 0.0167
+    },
+    {
+     "coverage": 0.21,
+     "risk": 0.0159
+    },
+    {
+     "coverage": 0.22,
+     "risk": 0.0273
+    },
+    {
+     "coverage": 0.23,
+     "risk": 0.0406
+    },
+    {
+     "coverage": 0.24,
+     "risk": 0.0444
+    },
+    {
+     "coverage": 0.25,
+     "risk": 0.0507
+    },
+    {
+     "coverage": 0.26,
+     "risk": 0.0641
+    },
+    {
+     "coverage": 0.27,
+     "risk": 0.0691
+    },
+    {
+     "coverage": 0.28,
+     "risk": 0.0786
+    },
+    {
+     "coverage": 0.29,
+     "risk": 0.0828
+    },
+    {
+     "coverage": 0.3,
+     "risk": 0.0889
+    },
+    {
+     "coverage": 0.31,
+     "risk": 0.086
+    },
+    {
+     "coverage": 0.32,
+     "risk": 0.0958
+    },
+    {
+     "coverage": 0.33,
+     "risk": 0.097
+    },
+    {
+     "coverage": 0.34,
+     "risk": 0.0961
+    },
+    {
+     "coverage": 0.35,
+     "risk": 0.101
+    },
+    {
+     "coverage": 0.36,
+     "risk": 0.1037
+    },
+    {
+     "coverage": 0.37,
+     "risk": 0.1063
+    },
+    {
+     "coverage": 0.38,
+     "risk": 0.1105
+    },
+    {
+     "coverage": 0.39,
+     "risk": 0.1128
+    },
+    {
+     "coverage": 0.4,
+     "risk": 0.1167
+    },
+    {
+     "coverage": 0.41,
+     "risk": 0.1203
+    },
+    {
+     "coverage": 0.42,
+     "risk": 0.1238
+    },
+    {
+     "coverage": 0.43,
+     "risk": 0.1225
+    },
+    {
+     "coverage": 0.44,
+     "risk": 0.1303
+    },
+    {
+     "coverage": 0.45,
+     "risk": 0.1407
+    },
+    {
+     "coverage": 0.46,
+     "risk": 0.1478
+    },
+    {
+     "coverage": 0.47,
+     "risk": 0.1475
+    },
+    {
+     "coverage": 0.48,
+     "risk": 0.15
+    },
+    {
+     "coverage": 0.49,
+     "risk": 0.1483
+    },
+    {
+     "coverage": 0.5,
+     "risk": 0.1507
+    },
+    {
+     "coverage": 0.51,
+     "risk": 0.1516
+    },
+    {
+     "coverage": 0.52,
+     "risk": 0.1526
+    },
+    {
+     "coverage": 0.53,
+     "risk": 0.1547
+    },
+    {
+     "coverage": 0.54,
+     "risk": 0.158
+    },
+    {
+     "coverage": 0.55,
+     "risk": 0.1624
+    },
+    {
+     "coverage": 0.56,
+     "risk": 0.1619
+    },
+    {
+     "coverage": 0.57,
+     "risk": 0.1637
+    },
+    {
+     "coverage": 0.58,
+     "risk": 0.1667
+    },
+    {
+     "coverage": 0.59,
+     "risk": 0.1718
+    },
+    {
+     "coverage": 0.6,
+     "risk": 0.1767
+    },
+    {
+     "coverage": 0.61,
+     "risk": 0.1847
+    },
+    {
+     "coverage": 0.62,
+     "risk": 0.1871
+    },
+    {
+     "coverage": 0.63,
+     "risk": 0.1873
+    },
+    {
+     "coverage": 0.64,
+     "risk": 0.1948
+    },
+    {
+     "coverage": 0.65,
+     "risk": 0.201
+    },
+    {
+     "coverage": 0.66,
+     "risk": 0.201
+    },
+    {
+     "coverage": 0.67,
+     "risk": 0.2
+    },
+    {
+     "coverage": 0.68,
+     "risk": 0.198
+    },
+    {
+     "coverage": 0.69,
+     "risk": 0.199
+    },
+    {
+     "coverage": 0.7,
+     "risk": 0.2048
+    },
+    {
+     "coverage": 0.71,
+     "risk": 0.2085
+    },
+    {
+     "coverage": 0.72,
+     "risk": 0.2102
+    },
+    {
+     "coverage": 0.73,
+     "risk": 0.21
+    },
+    {
+     "coverage": 0.74,
+     "risk": 0.2099
+    },
+    {
+     "coverage": 0.75,
+     "risk": 0.2107
+    },
+    {
+     "coverage": 0.76,
+     "risk": 0.2123
+    },
+    {
+     "coverage": 0.77,
+     "risk": 0.2121
+    },
+    {
+     "coverage": 0.78,
+     "risk": 0.2162
+    },
+    {
+     "coverage": 0.79,
+     "risk": 0.2203
+    },
+    {
+     "coverage": 0.8,
+     "risk": 0.2208
+    },
+    {
+     "coverage": 0.81,
+     "risk": 0.2222
+    },
+    {
+     "coverage": 0.82,
+     "risk": 0.2236
+    },
+    {
+     "coverage": 0.83,
+     "risk": 0.2289
+    },
+    {
+     "coverage": 0.84,
+     "risk": 0.231
+    },
+    {
+     "coverage": 0.85,
+     "risk": 0.2306
+    },
+    {
+     "coverage": 0.86,
+     "risk": 0.2341
+    },
+    {
+     "coverage": 0.87,
+     "risk": 0.2337
+    },
+    {
+     "coverage": 0.88,
+     "risk": 0.2333
+    },
+    {
+     "coverage": 0.89,
+     "risk": 0.2337
+    },
+    {
+     "coverage": 0.9,
+     "risk": 0.2341
+    },
+    {
+     "coverage": 0.91,
+     "risk": 0.2388
+    },
+    {
+     "coverage": 0.92,
+     "risk": 0.2435
+    },
+    {
+     "coverage": 0.93,
+     "risk": 0.2473
+    },
+    {
+     "coverage": 0.94,
+     "risk": 0.2525
+    },
+    {
+     "coverage": 0.95,
+     "risk": 0.2589
+    },
+    {
+     "coverage": 0.96,
+     "risk": 0.266
+    },
+    {
+     "coverage": 0.97,
+     "risk": 0.2701
+    },
+    {
+     "coverage": 0.98,
+     "risk": 0.2735
+    },
+    {
+     "coverage": 0.99,
+     "risk": 0.2754
+    },
+    {
+     "coverage": 1.0,
+     "risk": 0.2773
+    }
+   ],
+   "accuracy_at": {
+    "1.0": 0.7227,
+    "0.9": 0.7659,
+    "0.8": 0.7792,
+    "0.7": 0.7952,
+    "0.5": 0.8493
+   },
+   "aurc_ci95": [
+    0.1194,
+    0.1543
+   ],
+   "band95": [
+    {
+     "coverage": 0.01,
+     "lo": 0.0,
+     "hi": 0.0
+    },
+    {
+     "coverage": 0.02,
+     "lo": 0.0,
+     "hi": 0.0333
+    },
+    {
+     "coverage": 0.03,
+     "lo": 0.0,
+     "hi": 0.0444
+    },
+    {
+     "coverage": 0.04,
+     "lo": 0.0,
+     "hi": 0.0333
+    },
+    {
+     "coverage": 0.05,
+     "lo": 0.0,
+     "hi": 0.04
+    },
+    {
+     "coverage": 0.06,
+     "lo": 0.0,
+     "hi": 0.0333
+    },
+    {
+     "coverage": 0.07,
+     "lo": 0.0,
+     "hi": 0.0381
+    },
+    {
+     "coverage": 0.08,
+     "lo": 0.0,
+     "hi": 0.0417
+    },
+    {
+     "coverage": 0.09,
+     "lo": 0.0,
+     "hi": 0.037
+    },
+    {
+     "coverage": 0.1,
+     "lo": 0.0,
+     "hi": 0.0333
+    },
+    {
+     "coverage": 0.11,
+     "lo": 0.0,
+     "hi": 0.0364
+    },
+    {
+     "coverage": 0.12,
+     "lo": 0.0,
+     "hi": 0.0333
+    },
+    {
+     "coverage": 0.13,
+     "lo": 0.0,
+     "hi": 0.0308
+    },
+    {
+     "coverage": 0.14,
+     "lo": 0.0,
+     "hi": 0.0333
+    },
+    {
+     "coverage": 0.15,
+     "lo": 0.0,
+     "hi": 0.0311
+    },
+    {
+     "coverage": 0.16,
+     "lo": 0.0,
+     "hi": 0.0333
+    },
+    {
+     "coverage": 0.17,
+     "lo": 0.0039,
+     "hi": 0.0314
+    },
+    {
+     "coverage": 0.18,
+     "lo": 0.0037,
+     "hi": 0.0333
+    },
+    {
+     "coverage": 0.19,
+     "lo": 0.0035,
+     "hi": 0.0316
+    },
+    {
+     "coverage": 0.2,
+     "lo": 0.0033,
+     "hi": 0.0333
+    },
+    {
+     "coverage": 0.21,
+     "lo": 0.0032,
+     "hi": 0.0476
+    },
+    {
+     "coverage": 0.22,
+     "lo": 0.0061,
+     "hi": 0.0545
+    },
+    {
+     "coverage": 0.23,
+     "lo": 0.0116,
+     "hi": 0.0667
+    },
+    {
+     "coverage": 0.24,
+     "lo": 0.0194,
+     "hi": 0.0722
+    },
+    {
+     "coverage": 0.25,
+     "lo": 0.0267,
+     "hi": 0.0827
+    },
+    {
+     "coverage": 0.26,
+     "lo": 0.0308,
+     "hi": 0.0897
+    },
+    {
+     "coverage": 0.27,
+     "lo": 0.0395,
+     "hi": 0.1012
+    },
+    {
+     "coverage": 0.28,
+     "lo": 0.0476,
+     "hi": 0.1024
+    },
+    {
+     "coverage": 0.29,
+     "lo": 0.0552,
+     "hi": 0.108
+    },
+    {
+     "coverage": 0.3,
+     "lo": 0.0578,
+     "hi": 0.1111
+    },
+    {
+     "coverage": 0.31,
+     "lo": 0.0602,
+     "hi": 0.1183
+    },
+    {
+     "coverage": 0.32,
+     "lo": 0.0667,
+     "hi": 0.1187
+    },
+    {
+     "coverage": 0.33,
+     "lo": 0.0687,
+     "hi": 0.1232
+    },
+    {
+     "coverage": 0.34,
+     "lo": 0.0706,
+     "hi": 0.1235
+    },
+    {
+     "coverage": 0.35,
+     "lo": 0.0743,
+     "hi": 0.1257
+    },
+    {
+     "coverage": 0.36,
+     "lo": 0.0759,
+     "hi": 0.1296
+    },
+    {
+     "coverage": 0.37,
+     "lo": 0.0811,
+     "hi": 0.1333
+    },
+    {
+     "coverage": 0.38,
+     "lo": 0.0825,
+     "hi": 0.1386
+    },
+    {
+     "coverage": 0.39,
+     "lo": 0.0872,
+     "hi": 0.1402
+    },
+    {
+     "coverage": 0.4,
+     "lo": 0.09,
+     "hi": 0.1433
+    },
+    {
+     "coverage": 0.41,
+     "lo": 0.0927,
+     "hi": 0.1447
+    },
+    {
+     "coverage": 0.42,
+     "lo": 0.0952,
+     "hi": 0.1508
+    },
+    {
+     "coverage": 0.43,
+     "lo": 0.0992,
+     "hi": 0.1581
+    },
+    {
+     "coverage": 0.44,
+     "lo": 0.1015,
+     "hi": 0.1636
+    },
+    {
+     "coverage": 0.45,
+     "lo": 0.1081,
+     "hi": 0.1704
+    },
+    {
+     "coverage": 0.46,
+     "lo": 0.113,
+     "hi": 0.1739
+    },
+    {
+     "coverage": 0.47,
+     "lo": 0.1191,
+     "hi": 0.1759
+    },
+    {
+     "coverage": 0.48,
+     "lo": 0.1222,
+     "hi": 0.1764
+    },
+    {
+     "coverage": 0.49,
+     "lo": 0.1238,
+     "hi": 0.1769
+    },
+    {
+     "coverage": 0.5,
+     "lo": 0.124,
+     "hi": 0.1787
+    },
+    {
+     "coverage": 0.51,
+     "lo": 0.1255,
+     "hi": 0.1791
+    },
+    {
+     "coverage": 0.52,
+     "lo": 0.1282,
+     "hi": 0.1795
+    },
+    {
+     "coverage": 0.53,
+     "lo": 0.1296,
+     "hi": 0.1811
+    },
+    {
+     "coverage": 0.54,
+     "lo": 0.1346,
+     "hi": 0.1852
+    },
+    {
+     "coverage": 0.55,
+     "lo": 0.1358,
+     "hi": 0.1891
+    },
+    {
+     "coverage": 0.56,
+     "lo": 0.1357,
+     "hi": 0.1881
+    },
+    {
+     "coverage": 0.57,
+     "lo": 0.1368,
+     "hi": 0.1906
+    },
+    {
+     "coverage": 0.58,
+     "lo": 0.1402,
+     "hi": 0.1943
+    },
+    {
+     "coverage": 0.59,
+     "lo": 0.1435,
+     "hi": 0.2011
+    },
+    {
+     "coverage": 0.6,
+     "lo": 0.1478,
+     "hi": 0.2056
+    },
+    {
+     "coverage": 0.61,
+     "lo": 0.153,
+     "hi": 0.2109
+    },
+    {
+     "coverage": 0.62,
+     "lo": 0.157,
+     "hi": 0.2151
+    },
+    {
+     "coverage": 0.63,
+     "lo": 0.1619,
+     "hi": 0.219
+    },
+    {
+     "coverage": 0.64,
+     "lo": 0.1667,
+     "hi": 0.2219
+    },
+    {
+     "coverage": 0.65,
+     "lo": 0.1692,
+     "hi": 0.2236
+    },
+    {
+     "coverage": 0.66,
+     "lo": 0.1707,
+     "hi": 0.2242
+    },
+    {
+     "coverage": 0.67,
+     "lo": 0.1721,
+     "hi": 0.2249
+    },
+    {
+     "coverage": 0.68,
+     "lo": 0.1725,
+     "hi": 0.2245
+    },
+    {
+     "coverage": 0.69,
+     "lo": 0.1758,
+     "hi": 0.2271
+    },
+    {
+     "coverage": 0.7,
+     "lo": 0.1781,
+     "hi": 0.2286
+    },
+    {
+     "coverage": 0.71,
+     "lo": 0.1812,
+     "hi": 0.23
+    },
+    {
+     "coverage": 0.72,
+     "lo": 0.1824,
+     "hi": 0.2324
+    },
+    {
+     "coverage": 0.73,
+     "lo": 0.1836,
+     "hi": 0.2338
+    },
+    {
+     "coverage": 0.74,
+     "lo": 0.1847,
+     "hi": 0.2333
+    },
+    {
+     "coverage": 0.75,
+     "lo": 0.1858,
+     "hi": 0.2338
+    },
+    {
+     "coverage": 0.76,
+     "lo": 0.186,
+     "hi": 0.2333
+    },
+    {
+     "coverage": 0.77,
+     "lo": 0.187,
+     "hi": 0.2364
+    },
+    {
+     "coverage": 0.78,
+     "lo": 0.1897,
+     "hi": 0.2402
+    },
+    {
+     "coverage": 0.79,
+     "lo": 0.1932,
+     "hi": 0.2422
+    },
+    {
+     "coverage": 0.8,
+     "lo": 0.1958,
+     "hi": 0.2442
+    },
+    {
+     "coverage": 0.81,
+     "lo": 0.1967,
+     "hi": 0.2461
+    },
+    {
+     "coverage": 0.82,
+     "lo": 0.1992,
+     "hi": 0.248
+    },
+    {
+     "coverage": 0.83,
+     "lo": 0.2016,
+     "hi": 0.2506
+    },
+    {
+     "coverage": 0.84,
+     "lo": 0.2056,
+     "hi": 0.2524
+    },
+    {
+     "coverage": 0.85,
+     "lo": 0.2071,
+     "hi": 0.2549
+    },
+    {
+     "coverage": 0.86,
+     "lo": 0.2101,
+     "hi": 0.2566
+    },
+    {
+     "coverage": 0.87,
+     "lo": 0.2107,
+     "hi": 0.2559
+    },
+    {
+     "coverage": 0.88,
+     "lo": 0.2129,
+     "hi": 0.2568
+    },
+    {
+     "coverage": 0.89,
+     "lo": 0.2127,
+     "hi": 0.2569
+    },
+    {
+     "coverage": 0.9,
+     "lo": 0.2126,
+     "hi": 0.26
+    },
+    {
+     "coverage": 0.91,
+     "lo": 0.2154,
+     "hi": 0.2645
+    },
+    {
+     "coverage": 0.92,
+     "lo": 0.2188,
+     "hi": 0.2688
+    },
+    {
+     "coverage": 0.93,
+     "lo": 0.2244,
+     "hi": 0.2724
+    },
+    {
+     "coverage": 0.94,
+     "lo": 0.2291,
+     "hi": 0.2766
+    },
+    {
+     "coverage": 0.95,
+     "lo": 0.2351,
+     "hi": 0.2828
+    },
+    {
+     "coverage": 0.96,
+     "lo": 0.2424,
+     "hi": 0.2896
+    },
+    {
+     "coverage": 0.97,
+     "lo": 0.2481,
+     "hi": 0.2942
+    },
+    {
+     "coverage": 0.98,
+     "lo": 0.251,
+     "hi": 0.2966
+    },
+    {
+     "coverage": 0.99,
+     "lo": 0.2532,
+     "hi": 0.2983
+    },
+    {
+     "coverage": 1.0,
+     "lo": 0.2553,
+     "hi": 0.3
+    }
+   ]
+  },
+  "ensemble": {
+   "n": 1500,
+   "errors": 407,
+   "aurc": 0.1342,
+   "e_aurc": 0.0935,
+   "curve": [
+    {
+     "coverage": 0.01,
+     "risk": 0.0
+    },
+    {
+     "coverage": 0.02,
+     "risk": 0.0
+    },
+    {
+     "coverage": 0.03,
+     "risk": 0.0222
+    },
+    {
+     "coverage": 0.04,
+     "risk": 0.0167
+    },
+    {
+     "coverage": 0.05,
+     "risk": 0.0133
+    },
+    {
+     "coverage": 0.06,
+     "risk": 0.0111
+    },
+    {
+     "coverage": 0.07,
+     "risk": 0.0286
+    },
+    {
+     "coverage": 0.08,
+     "risk": 0.025
+    },
+    {
+     "coverage": 0.09,
+     "risk": 0.0222
+    },
+    {
+     "coverage": 0.1,
+     "risk": 0.02
+    },
+    {
+     "coverage": 0.11,
+     "risk": 0.0182
+    },
+    {
+     "coverage": 0.12,
+     "risk": 0.0167
+    },
+    {
+     "coverage": 0.13,
+     "risk": 0.0154
+    },
+    {
+     "coverage": 0.14,
+     "risk": 0.0143
+    },
+    {
+     "coverage": 0.15,
+     "risk": 0.0133
+    },
+    {
+     "coverage": 0.16,
+     "risk": 0.0167
+    },
+    {
+     "coverage": 0.17,
+     "risk": 0.0157
+    },
+    {
+     "coverage": 0.18,
+     "risk": 0.0185
+    },
+    {
+     "coverage": 0.19,
+     "risk": 0.0175
+    },
+    {
+     "coverage": 0.2,
+     "risk": 0.0167
+    },
+    {
+     "coverage": 0.21,
+     "risk": 0.0159
+    },
+    {
+     "coverage": 0.22,
+     "risk": 0.0273
+    },
+    {
+     "coverage": 0.23,
+     "risk": 0.0377
+    },
+    {
+     "coverage": 0.24,
+     "risk": 0.05
+    },
+    {
+     "coverage": 0.25,
+     "risk": 0.0533
+    },
+    {
+     "coverage": 0.26,
+     "risk": 0.059
+    },
+    {
+     "coverage": 0.27,
+     "risk": 0.0642
+    },
+    {
+     "coverage": 0.28,
+     "risk": 0.0667
+    },
+    {
+     "coverage": 0.29,
+     "risk": 0.0713
+    },
+    {
+     "coverage": 0.3,
+     "risk": 0.0867
+    },
+    {
+     "coverage": 0.31,
+     "risk": 0.0882
+    },
+    {
+     "coverage": 0.32,
+     "risk": 0.0896
+    },
+    {
+     "coverage": 0.33,
+     "risk": 0.099
+    },
+    {
+     "coverage": 0.34,
+     "risk": 0.1
+    },
+    {
+     "coverage": 0.35,
+     "risk": 0.1029
+    },
+    {
+     "coverage": 0.36,
+     "risk": 0.1074
+    },
+    {
+     "coverage": 0.37,
+     "risk": 0.1045
+    },
+    {
+     "coverage": 0.38,
+     "risk": 0.1053
+    },
+    {
+     "coverage": 0.39,
+     "risk": 0.1077
+    },
+    {
+     "coverage": 0.4,
+     "risk": 0.11
+    },
+    {
+     "coverage": 0.41,
+     "risk": 0.1106
+    },
+    {
+     "coverage": 0.42,
+     "risk": 0.1127
+    },
+    {
+     "coverage": 0.43,
+     "risk": 0.1163
+    },
+    {
+     "coverage": 0.44,
+     "risk": 0.1197
+    },
+    {
+     "coverage": 0.45,
+     "risk": 0.1244
+    },
+    {
+     "coverage": 0.46,
+     "risk": 0.1275
+    },
+    {
+     "coverage": 0.47,
+     "risk": 0.1291
+    },
+    {
+     "coverage": 0.48,
+     "risk": 0.1292
+    },
+    {
+     "coverage": 0.49,
+     "risk": 0.1374
+    },
+    {
+     "coverage": 0.5,
+     "risk": 0.1413
+    },
+    {
+     "coverage": 0.51,
+     "risk": 0.1438
+    },
+    {
+     "coverage": 0.52,
+     "risk": 0.1526
+    },
+    {
+     "coverage": 0.53,
+     "risk": 0.161
+    },
+    {
+     "coverage": 0.54,
+     "risk": 0.1642
+    },
+    {
+     "coverage": 0.55,
+     "risk": 0.1648
+    },
+    {
+     "coverage": 0.56,
+     "risk": 0.175
+    },
+    {
+     "coverage": 0.57,
+     "risk": 0.1789
+    },
+    {
+     "coverage": 0.58,
+     "risk": 0.1782
+    },
+    {
+     "coverage": 0.59,
+     "risk": 0.1797
+    },
+    {
+     "coverage": 0.6,
+     "risk": 0.1811
+    },
+    {
+     "coverage": 0.61,
+     "risk": 0.1836
+    },
+    {
+     "coverage": 0.62,
+     "risk": 0.1871
+    },
+    {
+     "coverage": 0.63,
+     "risk": 0.1894
+    },
+    {
+     "coverage": 0.64,
+     "risk": 0.1896
+    },
+    {
+     "coverage": 0.65,
+     "risk": 0.1908
+    },
+    {
+     "coverage": 0.66,
+     "risk": 0.1909
+    },
+    {
+     "coverage": 0.67,
+     "risk": 0.19
+    },
+    {
+     "coverage": 0.68,
+     "risk": 0.1892
+    },
+    {
+     "coverage": 0.69,
+     "risk": 0.1913
+    },
+    {
+     "coverage": 0.7,
+     "risk": 0.1914
+    },
+    {
+     "coverage": 0.71,
+     "risk": 0.1944
+    },
+    {
+     "coverage": 0.72,
+     "risk": 0.1944
+    },
+    {
+     "coverage": 0.73,
+     "risk": 0.2027
+    },
+    {
+     "coverage": 0.74,
+     "risk": 0.2054
+    },
+    {
+     "coverage": 0.75,
+     "risk": 0.2098
+    },
+    {
+     "coverage": 0.76,
+     "risk": 0.2114
+    },
+    {
+     "coverage": 0.77,
+     "risk": 0.2139
+    },
+    {
+     "coverage": 0.78,
+     "risk": 0.212
+    },
+    {
+     "coverage": 0.79,
+     "risk": 0.2135
+    },
+    {
+     "coverage": 0.8,
+     "risk": 0.2117
+    },
+    {
+     "coverage": 0.81,
+     "risk": 0.2148
+    },
+    {
+     "coverage": 0.82,
+     "risk": 0.2187
+    },
+    {
+     "coverage": 0.83,
+     "risk": 0.2209
+    },
+    {
+     "coverage": 0.84,
+     "risk": 0.2238
+    },
+    {
+     "coverage": 0.85,
+     "risk": 0.2251
+    },
+    {
+     "coverage": 0.86,
+     "risk": 0.2264
+    },
+    {
+     "coverage": 0.87,
+     "risk": 0.2299
+    },
+    {
+     "coverage": 0.88,
+     "risk": 0.2326
+    },
+    {
+     "coverage": 0.89,
+     "risk": 0.2322
+    },
+    {
+     "coverage": 0.9,
+     "risk": 0.2326
+    },
+    {
+     "coverage": 0.91,
+     "risk": 0.233
+    },
+    {
+     "coverage": 0.92,
+     "risk": 0.237
+    },
+    {
+     "coverage": 0.93,
+     "risk": 0.2444
+    },
+    {
+     "coverage": 0.94,
+     "risk": 0.2489
+    },
+    {
+     "coverage": 0.95,
+     "risk": 0.2526
+    },
+    {
+     "coverage": 0.96,
+     "risk": 0.2562
+    },
+    {
+     "coverage": 0.97,
+     "risk": 0.2612
+    },
+    {
+     "coverage": 0.98,
+     "risk": 0.266
+    },
+    {
+     "coverage": 0.99,
+     "risk": 0.2687
+    },
+    {
+     "coverage": 1.0,
+     "risk": 0.2713
+    }
+   ],
+   "accuracy_at": {
+    "1.0": 0.7287,
+    "0.9": 0.7674,
+    "0.8": 0.7883,
+    "0.7": 0.8086,
+    "0.5": 0.8587
+   },
+   "aurc_ci95": [
+    0.1162,
+    0.1498
+   ],
+   "band95": [
+    {
+     "coverage": 0.01,
+     "lo": 0.0,
+     "hi": 0.0
+    },
+    {
+     "coverage": 0.02,
+     "lo": 0.0,
+     "hi": 0.0333
+    },
+    {
+     "coverage": 0.03,
+     "lo": 0.0,
+     "hi": 0.0444
+    },
+    {
+     "coverage": 0.04,
+     "lo": 0.0,
+     "hi": 0.0333
+    },
+    {
+     "coverage": 0.05,
+     "lo": 0.0,
+     "hi": 0.04
+    },
+    {
+     "coverage": 0.06,
+     "lo": 0.0,
+     "hi": 0.0333
+    },
+    {
+     "coverage": 0.07,
+     "lo": 0.0,
+     "hi": 0.0381
+    },
+    {
+     "coverage": 0.08,
+     "lo": 0.0,
+     "hi": 0.0333
+    },
+    {
+     "coverage": 0.09,
+     "lo": 0.0,
+     "hi": 0.037
+    },
+    {
+     "coverage": 0.1,
+     "lo": 0.0,
+     "hi": 0.0333
+    },
+    {
+     "coverage": 0.11,
+     "lo": 0.0,
+     "hi": 0.0303
+    },
+    {
+     "coverage": 0.12,
+     "lo": 0.0,
+     "hi": 0.0333
+    },
+    {
+     "coverage": 0.13,
+     "lo": 0.0,
+     "hi": 0.0308
+    },
+    {
+     "coverage": 0.14,
+     "lo": 0.0,
+     "hi": 0.0286
+    },
+    {
+     "coverage": 0.15,
+     "lo": 0.0,
+     "hi": 0.0311
+    },
+    {
+     "coverage": 0.16,
+     "lo": 0.0,
+     "hi": 0.0333
+    },
+    {
+     "coverage": 0.17,
+     "lo": 0.0039,
+     "hi": 0.0314
+    },
+    {
+     "coverage": 0.18,
+     "lo": 0.0037,
+     "hi": 0.0333
+    },
+    {
+     "coverage": 0.19,
+     "lo": 0.0035,
+     "hi": 0.0316
+    },
+    {
+     "coverage": 0.2,
+     "lo": 0.0033,
+     "hi": 0.0367
+    },
+    {
+     "coverage": 0.21,
+     "lo": 0.0032,
+     "hi": 0.0444
+    },
+    {
+     "coverage": 0.22,
+     "lo": 0.0091,
+     "hi": 0.0576
+    },
+    {
+     "coverage": 0.23,
+     "lo": 0.0145,
+     "hi": 0.0696
+    },
+    {
+     "coverage": 0.24,
+     "lo": 0.0222,
+     "hi": 0.0722
+    },
+    {
+     "coverage": 0.25,
+     "lo": 0.0293,
+     "hi": 0.0773
+    },
+    {
+     "coverage": 0.26,
+     "lo": 0.0359,
+     "hi": 0.0846
+    },
+    {
+     "coverage": 0.27,
+     "lo": 0.0395,
+     "hi": 0.0889
+    },
+    {
+     "coverage": 0.28,
+     "lo": 0.0429,
+     "hi": 0.0952
+    },
+    {
+     "coverage": 0.29,
+     "lo": 0.0483,
+     "hi": 0.1057
+    },
+    {
+     "coverage": 0.3,
+     "lo": 0.0556,
+     "hi": 0.1111
+    },
+    {
+     "coverage": 0.31,
+     "lo": 0.0624,
+     "hi": 0.1161
+    },
+    {
+     "coverage": 0.32,
+     "lo": 0.0667,
+     "hi": 0.1187
+    },
+    {
+     "coverage": 0.33,
+     "lo": 0.0707,
+     "hi": 0.1232
+    },
+    {
+     "coverage": 0.34,
+     "lo": 0.0725,
+     "hi": 0.1275
+    },
+    {
+     "coverage": 0.35,
+     "lo": 0.0762,
+     "hi": 0.1276
+    },
+    {
+     "coverage": 0.36,
+     "lo": 0.0796,
+     "hi": 0.1296
+    },
+    {
+     "coverage": 0.37,
+     "lo": 0.0829,
+     "hi": 0.1315
+    },
+    {
+     "coverage": 0.38,
+     "lo": 0.0825,
+     "hi": 0.1316
+    },
+    {
+     "coverage": 0.39,
+     "lo": 0.0838,
+     "hi": 0.1316
+    },
+    {
+     "coverage": 0.4,
+     "lo": 0.085,
+     "hi": 0.135
+    },
+    {
+     "coverage": 0.41,
+     "lo": 0.0862,
+     "hi": 0.1366
+    },
+    {
+     "coverage": 0.42,
+     "lo": 0.0889,
+     "hi": 0.1381
+    },
+    {
+     "coverage": 0.43,
+     "lo": 0.093,
+     "hi": 0.1411
+    },
+    {
+     "coverage": 0.44,
+     "lo": 0.097,
+     "hi": 0.147
+    },
+    {
+     "coverage": 0.45,
+     "lo": 0.0993,
+     "hi": 0.1496
+    },
+    {
+     "coverage": 0.46,
+     "lo": 0.1029,
+     "hi": 0.1522
+    },
+    {
+     "coverage": 0.47,
+     "lo": 0.1064,
+     "hi": 0.156
+    },
+    {
+     "coverage": 0.48,
+     "lo": 0.1097,
+     "hi": 0.1583
+    },
+    {
+     "coverage": 0.49,
+     "lo": 0.1129,
+     "hi": 0.1619
+    },
+    {
+     "coverage": 0.5,
+     "lo": 0.116,
+     "hi": 0.168
+    },
+    {
+     "coverage": 0.51,
+     "lo": 0.1203,
+     "hi": 0.1739
+    },
+    {
+     "coverage": 0.52,
+     "lo": 0.1256,
+     "hi": 0.1808
+    },
+    {
+     "coverage": 0.53,
+     "lo": 0.1296,
+     "hi": 0.1874
+    },
+    {
+     "coverage": 0.54,
+     "lo": 0.1346,
+     "hi": 0.1901
+    },
+    {
+     "coverage": 0.55,
+     "lo": 0.1406,
+     "hi": 0.1952
+    },
+    {
+     "coverage": 0.56,
+     "lo": 0.1476,
+     "hi": 0.1988
+    },
+    {
+     "coverage": 0.57,
+     "lo": 0.1497,
+     "hi": 0.2
+    },
+    {
+     "coverage": 0.58,
+     "lo": 0.154,
+     "hi": 0.2023
+    },
+    {
+     "coverage": 0.59,
+     "lo": 0.1559,
+     "hi": 0.2045
+    },
+    {
+     "coverage": 0.6,
+     "lo": 0.1578,
+     "hi": 0.2078
+    },
+    {
+     "coverage": 0.61,
+     "lo": 0.1596,
+     "hi": 0.2098
+    },
+    {
+     "coverage": 0.62,
+     "lo": 0.1613,
+     "hi": 0.2097
+    },
+    {
+     "coverage": 0.63,
+     "lo": 0.164,
+     "hi": 0.2116
+    },
+    {
+     "coverage": 0.64,
+     "lo": 0.1656,
+     "hi": 0.2135
+    },
+    {
+     "coverage": 0.65,
+     "lo": 0.1672,
+     "hi": 0.2133
+    },
+    {
+     "coverage": 0.66,
+     "lo": 0.1667,
+     "hi": 0.2131
+    },
+    {
+     "coverage": 0.67,
+     "lo": 0.1682,
+     "hi": 0.2129
+    },
+    {
+     "coverage": 0.68,
+     "lo": 0.1686,
+     "hi": 0.2118
+    },
+    {
+     "coverage": 0.69,
+     "lo": 0.1691,
+     "hi": 0.2116
+    },
+    {
+     "coverage": 0.7,
+     "lo": 0.1695,
+     "hi": 0.2162
+    },
+    {
+     "coverage": 0.71,
+     "lo": 0.17,
+     "hi": 0.2178
+    },
+    {
+     "coverage": 0.72,
+     "lo": 0.1731,
+     "hi": 0.2222
+    },
+    {
+     "coverage": 0.73,
+     "lo": 0.1753,
+     "hi": 0.2256
+    },
+    {
+     "coverage": 0.74,
+     "lo": 0.1802,
+     "hi": 0.2306
+    },
+    {
+     "coverage": 0.75,
+     "lo": 0.1831,
+     "hi": 0.2311
+    },
+    {
+     "coverage": 0.76,
+     "lo": 0.186,
+     "hi": 0.2351
+    },
+    {
+     "coverage": 0.77,
+     "lo": 0.1879,
+     "hi": 0.2355
+    },
+    {
+     "coverage": 0.78,
+     "lo": 0.188,
+     "hi": 0.2368
+    },
+    {
+     "coverage": 0.79,
+     "lo": 0.1899,
+     "hi": 0.2363
+    },
+    {
+     "coverage": 0.8,
+     "lo": 0.19,
+     "hi": 0.2358
+    },
+    {
+     "coverage": 0.81,
+     "lo": 0.1901,
+     "hi": 0.2379
+    },
+    {
+     "coverage": 0.82,
+     "lo": 0.1935,
+     "hi": 0.2398
+    },
+    {
+     "coverage": 0.83,
+     "lo": 0.196,
+     "hi": 0.2426
+    },
+    {
+     "coverage": 0.84,
+     "lo": 0.1992,
+     "hi": 0.2452
+    },
+    {
+     "coverage": 0.85,
+     "lo": 0.2016,
+     "hi": 0.2463
+    },
+    {
+     "coverage": 0.86,
+     "lo": 0.2039,
+     "hi": 0.2496
+    },
+    {
+     "coverage": 0.87,
+     "lo": 0.2069,
+     "hi": 0.2506
+    },
+    {
+     "coverage": 0.88,
+     "lo": 0.2098,
+     "hi": 0.2538
+    },
+    {
+     "coverage": 0.89,
+     "lo": 0.2105,
+     "hi": 0.2554
+    },
+    {
+     "coverage": 0.9,
+     "lo": 0.2111,
+     "hi": 0.2556
+    },
+    {
+     "coverage": 0.91,
+     "lo": 0.2117,
+     "hi": 0.2557
+    },
+    {
+     "coverage": 0.92,
+     "lo": 0.213,
+     "hi": 0.2601
+    },
+    {
+     "coverage": 0.93,
+     "lo": 0.2194,
+     "hi": 0.2667
+    },
+    {
+     "coverage": 0.94,
+     "lo": 0.2248,
+     "hi": 0.2716
+    },
+    {
+     "coverage": 0.95,
+     "lo": 0.2302,
+     "hi": 0.2758
+    },
+    {
+     "coverage": 0.96,
+     "lo": 0.234,
+     "hi": 0.2806
+    },
+    {
+     "coverage": 0.97,
+     "lo": 0.2385,
+     "hi": 0.2845
+    },
+    {
+     "coverage": 0.98,
+     "lo": 0.2422,
+     "hi": 0.2884
+    },
+    {
+     "coverage": 0.99,
+     "lo": 0.2458,
+     "hi": 0.2909
+    },
+    {
+     "coverage": 1.0,
+     "lo": 0.2487,
+     "hi": 0.2933
+    }
+   ]
+  }
+ },
+ "risk_coverage_system": {
+  "n": 1364,
+  "errors": 192,
+  "aurc": 0.0275,
+  "e_aurc": 0.017,
+  "curve": [
+   {
+    "coverage": 0.01,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.02,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.03,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.04,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.05,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.06,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.07,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.08,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.09,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.1,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.11,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.12,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.13,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.14,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.15,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.16,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.17,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.18,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.19,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.2,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.21,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.22,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.23,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.24,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.25,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.26,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.27,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.28,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.29,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.3,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.31,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.32,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.33,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.34,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.35,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.36,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.37,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.38,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.39,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.4,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.41,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.42,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.43,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.44,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.45,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.46,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.47,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.48,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.49,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.5,
+    "risk": 0.0
+   },
+   {
+    "coverage": 0.51,
+    "risk": 0.0043
+   },
+   {
+    "coverage": 0.52,
+    "risk": 0.0042
+   },
+   {
+    "coverage": 0.53,
+    "risk": 0.0041
+   },
+   {
+    "coverage": 0.54,
+    "risk": 0.0041
+   },
+   {
+    "coverage": 0.55,
+    "risk": 0.004
+   },
+   {
+    "coverage": 0.56,
+    "risk": 0.0118
+   },
+   {
+    "coverage": 0.57,
+    "risk": 0.0206
+   },
+   {
+    "coverage": 0.58,
+    "risk": 0.0202
+   },
+   {
+    "coverage": 0.59,
+    "risk": 0.0199
+   },
+   {
+    "coverage": 0.6,
+    "risk": 0.0196
+   },
+   {
+    "coverage": 0.61,
+    "risk": 0.0192
+   },
+   {
+    "coverage": 0.62,
+    "risk": 0.0189
+   },
+   {
+    "coverage": 0.63,
+    "risk": 0.0186
+   },
+   {
+    "coverage": 0.64,
+    "risk": 0.0183
+   },
+   {
+    "coverage": 0.65,
+    "risk": 0.0192
+   },
+   {
+    "coverage": 0.66,
+    "risk": 0.0189
+   },
+   {
+    "coverage": 0.67,
+    "risk": 0.0186
+   },
+   {
+    "coverage": 0.68,
+    "risk": 0.0183
+   },
+   {
+    "coverage": 0.69,
+    "risk": 0.0181
+   },
+   {
+    "coverage": 0.7,
+    "risk": 0.0178
+   },
+   {
+    "coverage": 0.71,
+    "risk": 0.0176
+   },
+   {
+    "coverage": 0.72,
+    "risk": 0.0173
+   },
+   {
+    "coverage": 0.73,
+    "risk": 0.0171
+   },
+   {
+    "coverage": 0.74,
+    "risk": 0.0178
+   },
+   {
+    "coverage": 0.75,
+    "risk": 0.0254
+   },
+   {
+    "coverage": 0.76,
+    "risk": 0.0357
+   },
+   {
+    "coverage": 0.77,
+    "risk": 0.0419
+   },
+   {
+    "coverage": 0.78,
+    "risk": 0.0508
+   },
+   {
+    "coverage": 0.79,
+    "risk": 0.0612
+   },
+   {
+    "coverage": 0.8,
+    "risk": 0.0687
+   },
+   {
+    "coverage": 0.81,
+    "risk": 0.076
+   },
+   {
+    "coverage": 0.82,
+    "risk": 0.0841
+   },
+   {
+    "coverage": 0.83,
+    "risk": 0.0839
+   },
+   {
+    "coverage": 0.84,
+    "risk": 0.0829
+   },
+   {
+    "coverage": 0.85,
+    "risk": 0.0828
+   },
+   {
+    "coverage": 0.86,
+    "risk": 0.0887
+   },
+   {
+    "coverage": 0.87,
+    "risk": 0.0977
+   },
+   {
+    "coverage": 0.88,
+    "risk": 0.105
+   },
+   {
+    "coverage": 0.89,
+    "risk": 0.1112
+   },
+   {
+    "coverage": 0.9,
+    "risk": 0.1181
+   },
+   {
+    "coverage": 0.91,
+    "risk": 0.1185
+   },
+   {
+    "coverage": 0.92,
+    "risk": 0.1171
+   },
+   {
+    "coverage": 0.93,
+    "risk": 0.1158
+   },
+   {
+    "coverage": 0.94,
+    "risk": 0.1147
+   },
+   {
+    "coverage": 0.95,
+    "risk": 0.115
+   },
+   {
+    "coverage": 0.96,
+    "risk": 0.1207
+   },
+   {
+    "coverage": 0.97,
+    "risk": 0.124
+   },
+   {
+    "coverage": 0.98,
+    "risk": 0.1301
+   },
+   {
+    "coverage": 0.99,
+    "risk": 0.1378
+   },
+   {
+    "coverage": 1.0,
+    "risk": 0.1408
+   }
+  ],
+  "accuracy_at": {
+   "1.0": 0.8592,
+   "0.9": 0.8819,
+   "0.8": 0.9313,
+   "0.7": 0.9822,
+   "0.5": 1.0
+  },
+  "aurc_ci95": [
+   0.0221,
+   0.0331
+  ],
+  "band95": [
+   {
+    "coverage": 0.01,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.02,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.03,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.04,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.05,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.06,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.07,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.08,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.09,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.1,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.11,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.12,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.13,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.14,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.15,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.16,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.17,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.18,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.19,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.2,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.21,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.22,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.23,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.24,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.25,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.26,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.27,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.28,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.29,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.3,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.31,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.32,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.33,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.34,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.35,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.36,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.37,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.38,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.39,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.4,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.41,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.42,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.43,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.44,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.45,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.46,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.47,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   {
+    "coverage": 0.48,
+    "lo": 0.0,
+    "hi": 0.0031
+   },
+   {
+    "coverage": 0.49,
+    "lo": 0.0,
+    "hi": 0.0075
+   },
+   {
+    "coverage": 0.5,
+    "lo": 0.0,
+    "hi": 0.0073
+   },
+   {
+    "coverage": 0.51,
+    "lo": 0.0,
+    "hi": 0.0086
+   },
+   {
+    "coverage": 0.52,
+    "lo": 0.0,
+    "hi": 0.0099
+   },
+   {
+    "coverage": 0.53,
+    "lo": 0.0,
+    "hi": 0.0111
+   },
+   {
+    "coverage": 0.54,
+    "lo": 0.0,
+    "hi": 0.0176
+   },
+   {
+    "coverage": 0.55,
+    "lo": 0.0,
+    "hi": 0.024
+   },
+   {
+    "coverage": 0.56,
+    "lo": 0.0013,
+    "hi": 0.0262
+   },
+   {
+    "coverage": 0.57,
+    "lo": 0.0026,
+    "hi": 0.0309
+   },
+   {
+    "coverage": 0.58,
+    "lo": 0.0063,
+    "hi": 0.0316
+   },
+   {
+    "coverage": 0.59,
+    "lo": 0.0099,
+    "hi": 0.0311
+   },
+   {
+    "coverage": 0.6,
+    "lo": 0.011,
+    "hi": 0.0306
+   },
+   {
+    "coverage": 0.61,
+    "lo": 0.0108,
+    "hi": 0.03
+   },
+   {
+    "coverage": 0.62,
+    "lo": 0.0106,
+    "hi": 0.0296
+   },
+   {
+    "coverage": 0.63,
+    "lo": 0.0105,
+    "hi": 0.0291
+   },
+   {
+    "coverage": 0.64,
+    "lo": 0.0103,
+    "hi": 0.0286
+   },
+   {
+    "coverage": 0.65,
+    "lo": 0.0101,
+    "hi": 0.0282
+   },
+   {
+    "coverage": 0.66,
+    "lo": 0.01,
+    "hi": 0.0278
+   },
+   {
+    "coverage": 0.67,
+    "lo": 0.0098,
+    "hi": 0.0274
+   },
+   {
+    "coverage": 0.68,
+    "lo": 0.0108,
+    "hi": 0.0269
+   },
+   {
+    "coverage": 0.69,
+    "lo": 0.0106,
+    "hi": 0.0266
+   },
+   {
+    "coverage": 0.7,
+    "lo": 0.0105,
+    "hi": 0.0262
+   },
+   {
+    "coverage": 0.71,
+    "lo": 0.0103,
+    "hi": 0.0258
+   },
+   {
+    "coverage": 0.72,
+    "lo": 0.0102,
+    "hi": 0.0265
+   },
+   {
+    "coverage": 0.73,
+    "lo": 0.01,
+    "hi": 0.0301
+   },
+   {
+    "coverage": 0.74,
+    "lo": 0.0109,
+    "hi": 0.0406
+   },
+   {
+    "coverage": 0.75,
+    "lo": 0.0117,
+    "hi": 0.0489
+   },
+   {
+    "coverage": 0.76,
+    "lo": 0.0145,
+    "hi": 0.0588
+   },
+   {
+    "coverage": 0.77,
+    "lo": 0.019,
+    "hi": 0.0667
+   },
+   {
+    "coverage": 0.78,
+    "lo": 0.0282,
+    "hi": 0.0742
+   },
+   {
+    "coverage": 0.79,
+    "lo": 0.0362,
+    "hi": 0.0835
+   },
+   {
+    "coverage": 0.8,
+    "lo": 0.044,
+    "hi": 0.0907
+   },
+   {
+    "coverage": 0.81,
+    "lo": 0.0534,
+    "hi": 0.0959
+   },
+   {
+    "coverage": 0.82,
+    "lo": 0.0599,
+    "hi": 0.0984
+   },
+   {
+    "coverage": 0.83,
+    "lo": 0.0663,
+    "hi": 0.0998
+   },
+   {
+    "coverage": 0.84,
+    "lo": 0.0681,
+    "hi": 0.0995
+   },
+   {
+    "coverage": 0.85,
+    "lo": 0.0682,
+    "hi": 0.1035
+   },
+   {
+    "coverage": 0.86,
+    "lo": 0.0699,
+    "hi": 0.1108
+   },
+   {
+    "coverage": 0.87,
+    "lo": 0.075,
+    "hi": 0.1179
+   },
+   {
+    "coverage": 0.88,
+    "lo": 0.0825,
+    "hi": 0.1242
+   },
+   {
+    "coverage": 0.89,
+    "lo": 0.089,
+    "hi": 0.131
+   },
+   {
+    "coverage": 0.9,
+    "lo": 0.0969,
+    "hi": 0.1344
+   },
+   {
+    "coverage": 0.91,
+    "lo": 0.1007,
+    "hi": 0.137
+   },
+   {
+    "coverage": 0.92,
+    "lo": 0.0996,
+    "hi": 0.1355
+   },
+   {
+    "coverage": 0.93,
+    "lo": 0.0985,
+    "hi": 0.134
+   },
+   {
+    "coverage": 0.94,
+    "lo": 0.0975,
+    "hi": 0.1326
+   },
+   {
+    "coverage": 0.95,
+    "lo": 0.098,
+    "hi": 0.1343
+   },
+   {
+    "coverage": 0.96,
+    "lo": 0.1031,
+    "hi": 0.1375
+   },
+   {
+    "coverage": 0.97,
+    "lo": 0.1066,
+    "hi": 0.1421
+   },
+   {
+    "coverage": 0.98,
+    "lo": 0.1114,
+    "hi": 0.1496
+   },
+   {
+    "coverage": 0.99,
+    "lo": 0.1163,
+    "hi": 0.1556
+   },
+   {
+    "coverage": 1.0,
+    "lo": 0.1217,
+    "hi": 0.1598
+   }
+  ],
+  "n_abstained": 28
+ },
+ "cost_aware_utility": {
+  "lambda_1": {
+   "best_coverage": 1.0,
+   "best_utility": 0.7185,
+   "full_utility": 0.7185
+  },
+  "lambda_2": {
+   "best_coverage": 0.7,
+   "best_utility": 0.6628,
+   "full_utility": 0.5777
+  },
+  "lambda_5": {
+   "best_coverage": 0.7,
+   "best_utility": 0.6254,
+   "full_utility": 0.1554
+  }
+ },
+ "validation_thresholds": {
+  "n_cal": 750,
+  "n_test": 750,
+  "tau_v": {
+   "grid_cal_f1": {
+    "0.3": 0.7689,
+    "0.35": 0.7733,
+    "0.4": 0.7802,
+    "0.45": 0.7775,
+    "0.5": 0.7656,
+    "0.55": 0.7418,
+    "0.6": 0.7455,
+    "0.65": 0.7109,
+    "0.7": 0.6435
+   },
+   "tau_v_selected": 0.4,
+   "test_at_selected": {
+    "precision": 0.7275,
+    "recall": 0.8501,
+    "f1": 0.784
+   },
+   "test_at_0.5": {
+    "precision": 0.7552,
+    "recall": 0.7588,
+    "f1": 0.757
+   }
+  },
+  "risk_targets": [
+   {
+    "alpha": 0.02,
+    "confidence_threshold": 0.9241,
+    "test_coverage": 0.2267,
+    "test_risk": 0.0353,
+    "risk_held": false
+   },
+   {
+    "alpha": 0.05,
+    "confidence_threshold": 0.854,
+    "test_coverage": 0.3,
+    "test_risk": 0.0756,
+    "risk_held": false
+   },
+   {
+    "alpha": 0.1,
+    "confidence_threshold": 0.7734,
+    "test_coverage": 0.4467,
+    "test_risk": 0.1313,
+    "risk_held": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,233 @@
+{
+ "protocol": {
+  "bird_gold": "literal of a col = 'value' condition in the gold SQL, confirmed present in that column",
+  "bird_drift": "normalize(gold) not a substring of normalize(question)",
+  "icd_gold": "Wikidata node whose P494 ICD-10 code is the category of the record's billable code",
+  "icd_drift_type": "assigned by construction: hierarchy / OCR-corrupted / cross-vocabulary (ICD-9 record)",
+  "annotation_samples": [
+   "artifacts/e6/annotation_sample_bird.csv",
+   "artifacts/e6/annotation_sample_icd.csv"
+  ]
+ },
+ "bird": {
+  "n_train": 718,
+  "n_test": 387,
+  "n_test_drift": 38,
+  "by_rho": {
+   "rho_0.00": {
+    "train_instances_corrupted": 0,
+    "recall@1_all": 0.9225,
+    "recall@1_drift": 0.9211,
+    "auroc": 0.9955,
+    "gate_at_0.5": {
+     "tp": 359,
+     "fp": 72,
+     "tn": 16619,
+     "fn": 28,
+     "fn_rate": 0.0724,
+     "fp_rate": 0.0043
+    }
+   },
+   "rho_0.05": {
+    "train_instances_corrupted": 24,
+    "recall@1_all": 0.9173,
+    "recall@1_drift": 0.8421,
+    "auroc": 0.9931,
+    "gate_at_0.5": {
+     "tp": 364,
+     "fp": 74,
+     "tn": 16617,
+     "fn": 23,
+     "fn_rate": 0.0594,
+     "fp_rate": 0.0044
+    }
+   },
+   "rho_0.10": {
+    "train_instances_corrupted": 67,
+    "recall@1_all": 0.9225,
+    "recall@1_drift": 0.8421,
+    "auroc": 0.9916,
+    "gate_at_0.5": {
+     "tp": 347,
+     "fp": 65,
+     "tn": 16626,
+     "fn": 40,
+     "fn_rate": 0.1034,
+     "fp_rate": 0.0039
+    }
+   },
+   "rho_0.20": {
+    "train_instances_corrupted": 146,
+    "recall@1_all": 0.8863,
+    "recall@1_drift": 0.8158,
+    "auroc": 0.9907,
+    "gate_at_0.5": {
+     "tp": 327,
+     "fp": 67,
+     "tn": 16624,
+     "fn": 60,
+     "fn_rate": 0.155,
+     "fp_rate": 0.004
+    }
+   }
+  }
+ },
+ "icd": {
+  "per_seed": [
+   {
+    "seed": 0,
+    "n_test": 180,
+    "rho_0.00": {
+     "train_corrupted": 0,
+     "of_which_sibling": 0,
+     "recall@1": 0.7111,
+     "fp_rate": 0.0015,
+     "fn_rate": 0.1611
+    },
+    "rho_0.05": {
+     "train_corrupted": 16,
+     "of_which_sibling": 6,
+     "recall@1": 0.6889,
+     "fp_rate": 0.0017,
+     "fn_rate": 0.1611
+    },
+    "rho_0.10": {
+     "train_corrupted": 29,
+     "of_which_sibling": 8,
+     "recall@1": 0.6833,
+     "fp_rate": 0.0014,
+     "fn_rate": 0.1833
+    },
+    "rho_0.20": {
+     "train_corrupted": 62,
+     "of_which_sibling": 16,
+     "recall@1": 0.6944,
+     "fp_rate": 0.0007,
+     "fn_rate": 0.3
+    }
+   },
+   {
+    "seed": 1,
+    "n_test": 180,
+    "rho_0.00": {
+     "train_corrupted": 0,
+     "of_which_sibling": 0,
+     "recall@1": 0.7944,
+     "fp_rate": 0.0006,
+     "fn_rate": 0.1778
+    },
+    "rho_0.05": {
+     "train_corrupted": 17,
+     "of_which_sibling": 2,
+     "recall@1": 0.7778,
+     "fp_rate": 0.0004,
+     "fn_rate": 0.2667
+    },
+    "rho_0.10": {
+     "train_corrupted": 28,
+     "of_which_sibling": 7,
+     "recall@1": 0.75,
+     "fp_rate": 0.0007,
+     "fn_rate": 0.2389
+    },
+    "rho_0.20": {
+     "train_corrupted": 49,
+     "of_which_sibling": 9,
+     "recall@1": 0.7444,
+     "fp_rate": 0.0003,
+     "fn_rate": 0.4611
+    }
+   },
+   {
+    "seed": 2,
+    "n_test": 180,
+    "rho_0.00": {
+     "train_corrupted": 0,
+     "of_which_sibling": 0,
+     "recall@1": 0.75,
+     "fp_rate": 0.0006,
+     "fn_rate": 0.1611
+    },
+    "rho_0.05": {
+     "train_corrupted": 18,
+     "of_which_sibling": 3,
+     "recall@1": 0.75,
+     "fp_rate": 0.0005,
+     "fn_rate": 0.15
+    },
+    "rho_0.10": {
+     "train_corrupted": 20,
+     "of_which_sibling": 7,
+     "recall@1": 0.7444,
+     "fp_rate": 0.0005,
+     "fn_rate": 0.2444
+    },
+    "rho_0.20": {
+     "train_corrupted": 50,
+     "of_which_sibling": 8,
+     "recall@1": 0.7611,
+     "fp_rate": 0.0005,
+     "fn_rate": 0.2611
+    }
+   }
+  ],
+  "aggregate": {
+   "rho_0.00": {
+    "recall@1": {
+     "mean": 0.7518,
+     "sd": 0.0417
+    },
+    "fp_rate": {
+     "mean": 0.0009,
+     "sd": 0.0005
+    },
+    "fn_rate": {
+     "mean": 0.1667,
+     "sd": 0.0096
+    }
+   },
+   "rho_0.05": {
+    "recall@1": {
+     "mean": 0.7389,
+     "sd": 0.0455
+    },
+    "fp_rate": {
+     "mean": 0.0009,
+     "sd": 0.0007
+    },
+    "fn_rate": {
+     "mean": 0.1926,
+     "sd": 0.0644
+    }
+   },
+   "rho_0.10": {
+    "recall@1": {
+     "mean": 0.7259,
+     "sd": 0.037
+    },
+    "fp_rate": {
+     "mean": 0.0009,
+     "sd": 0.0005
+    },
+    "fn_rate": {
+     "mean": 0.2222,
+     "sd": 0.0338
+    }
+   },
+   "rho_0.20": {
+    "recall@1": {
+     "mean": 0.7333,
+     "sd": 0.0347
+    },
+    "fp_rate": {
+     "mean": 0.0005,
+     "sd": 0.0002
+    },
+    "fn_rate": {
+     "mean": 0.3407,
+     "sd": 0.106
+    }
+   }
+  }
+ }
+}

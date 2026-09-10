@@ -1,0 +1,1573 @@
+{
+ "n_seeds": 20,
+ "aggregate": {
+  "theorem1": {
+   "pi_plus": {
+    "mean": 0.5641,
+    "sd": 0.0107,
+    "n": 20
+   },
+   "alpha_fpr": {
+    "mean": 0.3267,
+    "sd": 0.0449,
+    "n": 20
+   },
+   "beta_fnr": {
+    "mean": 0.2065,
+    "sd": 0.0382,
+    "n": 20
+   },
+   "lambda_star": {
+    "mean": 0.3945,
+    "sd": 0.0499,
+    "n": 20
+   }
+  },
+  "theorem1_qa_sign_agreement": {
+   "lambda_1": 1.0,
+   "lambda_2": 1.0,
+   "lambda_5": 1.0
+  },
+  "theorem1_qa_gating_helps_observed": {
+   "lambda_1": 1.0,
+   "lambda_2": 1.0,
+   "lambda_5": 1.0
+  },
+  "wrong_rate_ratio": {
+   "observed": {
+    "mean": 0.7728,
+    "sd": 0.0664,
+    "n": 20
+   },
+   "predicted_alpha": {
+    "mean": 0.3267,
+    "sd": 0.0449,
+    "n": 20
+   }
+  },
+  "theorem2": {
+   "delta": {
+    "mean": 0.5526,
+    "sd": 0.021,
+    "n": 20
+   },
+   "r_drifted": {
+    "mean": 0.9262,
+    "sd": 0.0472,
+    "n": 20
+   },
+   "r0_clean": {
+    "mean": 0.9996,
+    "sd": 0.0018,
+    "n": 20
+   },
+   "predicted_gain": {
+    "mean": 0.5116,
+    "sd": 0.0316,
+    "n": 20
+   },
+   "observed_join_em_gain": {
+    "mean": 0.5148,
+    "sd": 0.0251,
+    "n": 20
+   },
+   "abs_error": {
+    "mean": 0.0134,
+    "sd": 0.012,
+    "n": 20
+   }
+  },
+  "theorem2_condition_holds_frac": 1.0
+ },
+ "bird": {
+  "dataset": "BIRD value linking (held-out pairs)",
+  "n_pairs": 17078,
+  "pi_plus": 0.0227,
+  "alpha_fpr": 0.0043,
+  "beta_fnr": 0.0724,
+  "lambda_star": 0.0017,
+  "note": "candidate pools are large, so pi+ is small and lambda* is tiny: gating helps for any lambda >= 1"
+ },
+ "per_seed": [
+  {
+   "seed": 0,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.5613,
+    "alpha_fpr": 0.3769,
+    "beta_fnr": 0.2007,
+    "lambda_star": 0.4122,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.1227,
+      "u_gated": 0.2833,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.316,
+      "u_gated": 0.118,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.632,
+      "u_gated": -0.378,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.8463,
+      "abstain": 0.0,
+      "wrong": 0.1537
+     },
+     "gated": {
+      "em": 0.8355,
+      "abstain": 0.0309,
+      "wrong": 0.1336
+     },
+     "wrong_rate_ratio_observed": 0.8693,
+     "wrong_rate_ratio_predicted_alpha": 0.3769,
+     "lambda_1": {
+      "u_ungated": 0.6926,
+      "u_gated": 0.7019,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.5389,
+      "u_gated": 0.5683,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.0778,
+      "u_gated": 0.1675,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5443,
+    "r_drifted": 0.9055,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4557,
+    "exact_join_em_observed": 0.447,
+    "predicted_gain": 0.4929,
+    "observed_join_em_gain": 0.4886,
+    "abs_error": 0.0043,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 1,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.566,
+    "alpha_fpr": 0.2151,
+    "beta_fnr": 0.2886,
+    "lambda_star": 0.4795,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.132,
+      "u_gated": 0.3093,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.302,
+      "u_gated": 0.216,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.604,
+      "u_gated": -0.064,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.8497,
+      "abstain": 0.0,
+      "wrong": 0.1503
+     },
+     "gated": {
+      "em": 0.8605,
+      "abstain": 0.0288,
+      "wrong": 0.1107
+     },
+     "wrong_rate_ratio_observed": 0.7368,
+     "wrong_rate_ratio_predicted_alpha": 0.2151,
+     "lambda_1": {
+      "u_ungated": 0.6994,
+      "u_gated": 0.7498,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.5491,
+      "u_gated": 0.639,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.0982,
+      "u_gated": 0.3068,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5319,
+    "r_drifted": 0.91,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4681,
+    "exact_join_em_observed": 0.4697,
+    "predicted_gain": 0.484,
+    "observed_join_em_gain": 0.4773,
+    "abs_error": 0.0067,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 2,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.574,
+    "alpha_fpr": 0.3474,
+    "beta_fnr": 0.1707,
+    "lambda_star": 0.3525,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.148,
+      "u_gated": 0.328,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.278,
+      "u_gated": 0.18,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.556,
+      "u_gated": -0.264,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.847,
+      "abstain": 0.0,
+      "wrong": 0.153
+     },
+     "gated": {
+      "em": 0.8628,
+      "abstain": 0.018,
+      "wrong": 0.1192
+     },
+     "wrong_rate_ratio_observed": 0.7793,
+     "wrong_rate_ratio_predicted_alpha": 0.3474,
+     "lambda_1": {
+      "u_ungated": 0.694,
+      "u_gated": 0.7436,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.541,
+      "u_gated": 0.6243,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.082,
+      "u_gated": 0.2666,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5355,
+    "r_drifted": 0.9205,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4645,
+    "exact_join_em_observed": 0.4545,
+    "predicted_gain": 0.4929,
+    "observed_join_em_gain": 0.5076,
+    "abs_error": 0.0147,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 3,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.564,
+    "alpha_fpr": 0.3211,
+    "beta_fnr": 0.2329,
+    "lambda_star": 0.4437,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.128,
+      "u_gated": 0.2927,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.308,
+      "u_gated": 0.1527,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.616,
+      "u_gated": -0.2673,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.8455,
+      "abstain": 0.0,
+      "wrong": 0.1545
+     },
+     "gated": {
+      "em": 0.842,
+      "abstain": 0.0201,
+      "wrong": 0.1379
+     },
+     "wrong_rate_ratio_observed": 0.8925,
+     "wrong_rate_ratio_predicted_alpha": 0.3211,
+     "lambda_1": {
+      "u_ungated": 0.691,
+      "u_gated": 0.7041,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.5365,
+      "u_gated": 0.5662,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.073,
+      "u_gated": 0.1526,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5957,
+    "r_drifted": 0.8452,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4043,
+    "exact_join_em_observed": 0.4432,
+    "predicted_gain": 0.5035,
+    "observed_join_em_gain": 0.4886,
+    "abs_error": 0.0149,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 4,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.5607,
+    "alpha_fpr": 0.3156,
+    "beta_fnr": 0.2093,
+    "lambda_star": 0.3902,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.1213,
+      "u_gated": 0.3047,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.318,
+      "u_gated": 0.166,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.636,
+      "u_gated": -0.25,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.8412,
+      "abstain": 0.0,
+      "wrong": 0.1588
+     },
+     "gated": {
+      "em": 0.8585,
+      "abstain": 0.0287,
+      "wrong": 0.1128
+     },
+     "wrong_rate_ratio_observed": 0.7101,
+     "wrong_rate_ratio_predicted_alpha": 0.3156,
+     "lambda_1": {
+      "u_ungated": 0.6824,
+      "u_gated": 0.7457,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.5236,
+      "u_gated": 0.633,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.0472,
+      "u_gated": 0.2947,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5284,
+    "r_drifted": 0.896,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4716,
+    "exact_join_em_observed": 0.4545,
+    "predicted_gain": 0.4734,
+    "observed_join_em_gain": 0.4963,
+    "abs_error": 0.0229,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 5,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.5627,
+    "alpha_fpr": 0.2424,
+    "beta_fnr": 0.2678,
+    "lambda_star": 0.4547,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.1253,
+      "u_gated": 0.306,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.312,
+      "u_gated": 0.2,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.624,
+      "u_gated": -0.118,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.8542,
+      "abstain": 0.0,
+      "wrong": 0.1458
+     },
+     "gated": {
+      "em": 0.8685,
+      "abstain": 0.0266,
+      "wrong": 0.1049
+     },
+     "wrong_rate_ratio_observed": 0.7196,
+     "wrong_rate_ratio_predicted_alpha": 0.2424,
+     "lambda_1": {
+      "u_ungated": 0.7084,
+      "u_gated": 0.7636,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.5626,
+      "u_gated": 0.6587,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.1252,
+      "u_gated": 0.3439,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5372,
+    "r_drifted": 0.9208,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4628,
+    "exact_join_em_observed": 0.4697,
+    "predicted_gain": 0.4947,
+    "observed_join_em_gain": 0.4886,
+    "abs_error": 0.0061,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 6,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.5593,
+    "alpha_fpr": 0.3464,
+    "beta_fnr": 0.1657,
+    "lambda_star": 0.3218,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.1187,
+      "u_gated": 0.314,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.322,
+      "u_gated": 0.1613,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.644,
+      "u_gated": -0.2967,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.8341,
+      "abstain": 0.0,
+      "wrong": 0.1659
+     },
+     "gated": {
+      "em": 0.8649,
+      "abstain": 0.0007,
+      "wrong": 0.1344
+     },
+     "wrong_rate_ratio_observed": 0.81,
+     "wrong_rate_ratio_predicted_alpha": 0.3464,
+     "lambda_1": {
+      "u_ungated": 0.6682,
+      "u_gated": 0.7305,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.5023,
+      "u_gated": 0.5961,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.0046,
+      "u_gated": 0.193,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5603,
+    "r_drifted": 0.9937,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4397,
+    "exact_join_em_observed": 0.4318,
+    "predicted_gain": 0.5567,
+    "observed_join_em_gain": 0.5606,
+    "abs_error": 0.0039,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 7,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.5653,
+    "alpha_fpr": 0.2745,
+    "beta_fnr": 0.2618,
+    "lambda_star": 0.4693,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.1307,
+      "u_gated": 0.298,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.304,
+      "u_gated": 0.1787,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.608,
+      "u_gated": -0.1793,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.8599,
+      "abstain": 0.0,
+      "wrong": 0.1401
+     },
+     "gated": {
+      "em": 0.8628,
+      "abstain": 0.0237,
+      "wrong": 0.1135
+     },
+     "wrong_rate_ratio_observed": 0.8101,
+     "wrong_rate_ratio_predicted_alpha": 0.2745,
+     "lambda_1": {
+      "u_ungated": 0.7198,
+      "u_gated": 0.7493,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.5797,
+      "u_gated": 0.6358,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.1594,
+      "u_gated": 0.2953,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.555,
+    "r_drifted": 0.901,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.445,
+    "exact_join_em_observed": 0.4318,
+    "predicted_gain": 0.5,
+    "observed_join_em_gain": 0.5114,
+    "abs_error": 0.0114,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 8,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.574,
+    "alpha_fpr": 0.3678,
+    "beta_fnr": 0.1905,
+    "lambda_star": 0.4059,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.148,
+      "u_gated": 0.308,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.278,
+      "u_gated": 0.1513,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.556,
+      "u_gated": -0.3187,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.8484,
+      "abstain": 0.0,
+      "wrong": 0.1516
+     },
+     "gated": {
+      "em": 0.8477,
+      "abstain": 0.0251,
+      "wrong": 0.1272
+     },
+     "wrong_rate_ratio_observed": 0.8388,
+     "wrong_rate_ratio_predicted_alpha": 0.3678,
+     "lambda_1": {
+      "u_ungated": 0.6968,
+      "u_gated": 0.7205,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.5452,
+      "u_gated": 0.5934,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.0904,
+      "u_gated": 0.2119,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5585,
+    "r_drifted": 0.9206,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4415,
+    "exact_join_em_observed": 0.4242,
+    "predicted_gain": 0.5142,
+    "observed_join_em_gain": 0.519,
+    "abs_error": 0.0048,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 9,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.5673,
+    "alpha_fpr": 0.3482,
+    "beta_fnr": 0.1727,
+    "lambda_star": 0.3475,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.1347,
+      "u_gated": 0.3187,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.298,
+      "u_gated": 0.168,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.596,
+      "u_gated": -0.284,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.8455,
+      "abstain": 0.0,
+      "wrong": 0.1545
+     },
+     "gated": {
+      "em": 0.8671,
+      "abstain": 0.0201,
+      "wrong": 0.1128
+     },
+     "wrong_rate_ratio_observed": 0.73,
+     "wrong_rate_ratio_predicted_alpha": 0.3482,
+     "lambda_1": {
+      "u_ungated": 0.691,
+      "u_gated": 0.7543,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.5365,
+      "u_gated": 0.6415,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.073,
+      "u_gated": 0.3032,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5337,
+    "r_drifted": 0.9236,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4663,
+    "exact_join_em_observed": 0.447,
+    "predicted_gain": 0.4929,
+    "observed_join_em_gain": 0.5189,
+    "abs_error": 0.026,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 10,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.552,
+    "alpha_fpr": 0.3155,
+    "beta_fnr": 0.2295,
+    "lambda_star": 0.413,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.104,
+      "u_gated": 0.284,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.344,
+      "u_gated": 0.1427,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.688,
+      "u_gated": -0.2813,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.847,
+      "abstain": 0.0,
+      "wrong": 0.153
+     },
+     "gated": {
+      "em": 0.8937,
+      "abstain": 0.0,
+      "wrong": 0.1063
+     },
+     "wrong_rate_ratio_observed": 0.6948,
+     "wrong_rate_ratio_predicted_alpha": 0.3155,
+     "lambda_1": {
+      "u_ungated": 0.694,
+      "u_gated": 0.7874,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.541,
+      "u_gated": 0.6811,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.082,
+      "u_gated": 0.3622,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5496,
+    "r_drifted": 0.9871,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4504,
+    "exact_join_em_observed": 0.4545,
+    "predicted_gain": 0.5426,
+    "observed_join_em_gain": 0.5455,
+    "abs_error": 0.0029,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 11,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.566,
+    "alpha_fpr": 0.3026,
+    "beta_fnr": 0.2061,
+    "lambda_star": 0.3855,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.132,
+      "u_gated": 0.318,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.302,
+      "u_gated": 0.1867,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.604,
+      "u_gated": -0.2073,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.852,
+      "abstain": 0.0,
+      "wrong": 0.148
+     },
+     "gated": {
+      "em": 0.8685,
+      "abstain": 0.0208,
+      "wrong": 0.1107
+     },
+     "wrong_rate_ratio_observed": 0.7477,
+     "wrong_rate_ratio_predicted_alpha": 0.3026,
+     "lambda_1": {
+      "u_ungated": 0.704,
+      "u_gated": 0.7578,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.556,
+      "u_gated": 0.6472,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.112,
+      "u_gated": 0.3152,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5709,
+    "r_drifted": 0.9317,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4291,
+    "exact_join_em_observed": 0.4356,
+    "predicted_gain": 0.5319,
+    "observed_join_em_gain": 0.5265,
+    "abs_error": 0.0054,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 12,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.5693,
+    "alpha_fpr": 0.3297,
+    "beta_fnr": 0.2026,
+    "lambda_star": 0.3995,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.1387,
+      "u_gated": 0.312,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.292,
+      "u_gated": 0.17,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.584,
+      "u_gated": -0.256,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.8613,
+      "abstain": 0.0,
+      "wrong": 0.1387
+     },
+     "gated": {
+      "em": 0.8965,
+      "abstain": 0.0036,
+      "wrong": 0.0999
+     },
+     "wrong_rate_ratio_observed": 0.7203,
+     "wrong_rate_ratio_predicted_alpha": 0.3297,
+     "lambda_1": {
+      "u_ungated": 0.7226,
+      "u_gated": 0.7966,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.5839,
+      "u_gated": 0.6967,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.1678,
+      "u_gated": 0.397,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5124,
+    "r_drifted": 0.9931,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4876,
+    "exact_join_em_observed": 0.4659,
+    "predicted_gain": 0.5089,
+    "observed_join_em_gain": 0.5265,
+    "abs_error": 0.0176,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 13,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.5673,
+    "alpha_fpr": 0.2773,
+    "beta_fnr": 0.2538,
+    "lambda_star": 0.4606,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.1347,
+      "u_gated": 0.3033,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.298,
+      "u_gated": 0.1833,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.596,
+      "u_gated": -0.1767,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.8412,
+      "abstain": 0.0,
+      "wrong": 0.1588
+     },
+     "gated": {
+      "em": 0.857,
+      "abstain": 0.0338,
+      "wrong": 0.1092
+     },
+     "wrong_rate_ratio_observed": 0.6879,
+     "wrong_rate_ratio_predicted_alpha": 0.2773,
+     "lambda_1": {
+      "u_ungated": 0.6824,
+      "u_gated": 0.7478,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.5236,
+      "u_gated": 0.6385,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.0472,
+      "u_gated": 0.3108,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5567,
+    "r_drifted": 0.8344,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4433,
+    "exact_join_em_observed": 0.428,
+    "predicted_gain": 0.4645,
+    "observed_join_em_gain": 0.5152,
+    "abs_error": 0.0507,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 14,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.584,
+    "alpha_fpr": 0.3654,
+    "beta_fnr": 0.1724,
+    "lambda_star": 0.3813,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.168,
+      "u_gated": 0.3313,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.248,
+      "u_gated": 0.1793,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.496,
+      "u_gated": -0.2767,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.8463,
+      "abstain": 0.0,
+      "wrong": 0.1537
+     },
+     "gated": {
+      "em": 0.8391,
+      "abstain": 0.0323,
+      "wrong": 0.1286
+     },
+     "wrong_rate_ratio_observed": 0.8365,
+     "wrong_rate_ratio_predicted_alpha": 0.3654,
+     "lambda_1": {
+      "u_ungated": 0.6926,
+      "u_gated": 0.7105,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.5389,
+      "u_gated": 0.582,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.0778,
+      "u_gated": 0.1962,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5691,
+    "r_drifted": 0.9377,
+    "r0_clean": 0.9918,
+    "exact_recall_predicted": 0.4309,
+    "exact_join_em_observed": 0.4242,
+    "predicted_gain": 0.5301,
+    "observed_join_em_gain": 0.5228,
+    "abs_error": 0.0073,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 15,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.5413,
+    "alpha_fpr": 0.3459,
+    "beta_fnr": 0.2007,
+    "lambda_star": 0.3622,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.0827,
+      "u_gated": 0.274,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.376,
+      "u_gated": 0.1153,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.752,
+      "u_gated": -0.3607,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.8477,
+      "abstain": 0.0,
+      "wrong": 0.1523
+     },
+     "gated": {
+      "em": 0.8779,
+      "abstain": 0.0022,
+      "wrong": 0.1199
+     },
+     "wrong_rate_ratio_observed": 0.7876,
+     "wrong_rate_ratio_predicted_alpha": 0.3459,
+     "lambda_1": {
+      "u_ungated": 0.6954,
+      "u_gated": 0.758,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.5431,
+      "u_gated": 0.638,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.0862,
+      "u_gated": 0.2782,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5833,
+    "r_drifted": 0.997,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4167,
+    "exact_join_em_observed": 0.4508,
+    "predicted_gain": 0.5816,
+    "observed_join_em_gain": 0.5492,
+    "abs_error": 0.0324,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 16,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.57,
+    "alpha_fpr": 0.3488,
+    "beta_fnr": 0.2047,
+    "lambda_star": 0.4167,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.14,
+      "u_gated": 0.3033,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.29,
+      "u_gated": 0.1533,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.58,
+      "u_gated": -0.2967,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.8506,
+      "abstain": 0.0,
+      "wrong": 0.1494
+     },
+     "gated": {
+      "em": 0.8685,
+      "abstain": 0.033,
+      "wrong": 0.0985
+     },
+     "wrong_rate_ratio_observed": 0.659,
+     "wrong_rate_ratio_predicted_alpha": 0.3488,
+     "lambda_1": {
+      "u_ungated": 0.7012,
+      "u_gated": 0.77,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.5518,
+      "u_gated": 0.6716,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.1036,
+      "u_gated": 0.3762,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5727,
+    "r_drifted": 0.8824,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4273,
+    "exact_join_em_observed": 0.428,
+    "predicted_gain": 0.5053,
+    "observed_join_em_gain": 0.5152,
+    "abs_error": 0.0099,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 17,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.542,
+    "alpha_fpr": 0.3726,
+    "beta_fnr": 0.1796,
+    "lambda_star": 0.3387,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.084,
+      "u_gated": 0.274,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.374,
+      "u_gated": 0.1033,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.748,
+      "u_gated": -0.4087,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.847,
+      "abstain": 0.0,
+      "wrong": 0.153
+     },
+     "gated": {
+      "em": 0.8534,
+      "abstain": 0.028,
+      "wrong": 0.1186
+     },
+     "wrong_rate_ratio_observed": 0.7751,
+     "wrong_rate_ratio_predicted_alpha": 0.3726,
+     "lambda_1": {
+      "u_ungated": 0.694,
+      "u_gated": 0.7348,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.541,
+      "u_gated": 0.6162,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.082,
+      "u_gated": 0.2605,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5443,
+    "r_drifted": 0.9023,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4557,
+    "exact_join_em_observed": 0.4621,
+    "predicted_gain": 0.4911,
+    "observed_join_em_gain": 0.4924,
+    "abs_error": 0.0013,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 18,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.5793,
+    "alpha_fpr": 0.3756,
+    "beta_fnr": 0.153,
+    "lambda_star": 0.3376,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.1587,
+      "u_gated": 0.3327,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.262,
+      "u_gated": 0.1747,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.524,
+      "u_gated": -0.2993,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.8441,
+      "abstain": 0.0,
+      "wrong": 0.1559
+     },
+     "gated": {
+      "em": 0.875,
+      "abstain": 0.0029,
+      "wrong": 0.1221
+     },
+     "wrong_rate_ratio_observed": 0.7834,
+     "wrong_rate_ratio_predicted_alpha": 0.3756,
+     "lambda_1": {
+      "u_ungated": 0.6882,
+      "u_gated": 0.7529,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.5323,
+      "u_gated": 0.6307,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.0646,
+      "u_gated": 0.2644,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5762,
+    "r_drifted": 0.9938,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4238,
+    "exact_join_em_observed": 0.4356,
+    "predicted_gain": 0.5727,
+    "observed_join_em_gain": 0.5606,
+    "abs_error": 0.0121,
+    "condition_r_gt_bound": true
+   }
+  },
+  {
+   "seed": 19,
+   "theorem1": {
+    "n_pairs": 1500,
+    "pi_plus": 0.5553,
+    "alpha_fpr": 0.3448,
+    "beta_fnr": 0.1669,
+    "lambda_star": 0.3181,
+    "pair_level": {
+     "lambda_1": {
+      "u_ungated": 0.1107,
+      "u_gated": 0.3093,
+      "gating_helps_predicted": true
+     },
+     "lambda_2": {
+      "u_ungated": -0.334,
+      "u_gated": 0.156,
+      "gating_helps_predicted": true
+     },
+     "lambda_5": {
+      "u_ungated": -1.668,
+      "u_gated": -0.304,
+      "gating_helps_predicted": true
+     }
+    },
+    "qa_level": {
+     "ungated": {
+      "em": 0.8434,
+      "abstain": 0.0,
+      "wrong": 0.1566
+     },
+     "gated": {
+      "em": 0.8455,
+      "abstain": 0.0187,
+      "wrong": 0.1358
+     },
+     "wrong_rate_ratio_observed": 0.8673,
+     "wrong_rate_ratio_predicted_alpha": 0.3448,
+     "lambda_1": {
+      "u_ungated": 0.6868,
+      "u_gated": 0.7097,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_2": {
+      "u_ungated": 0.5302,
+      "u_gated": 0.5739,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     },
+     "lambda_5": {
+      "u_ungated": 0.0604,
+      "u_gated": 0.1664,
+      "gating_helps_observed": true,
+      "gating_helps_predicted": true,
+      "sign_agrees": true
+     }
+    }
+   },
+   "theorem2": {
+    "n_gold_pairs": 564,
+    "delta": 0.5372,
+    "r_drifted": 0.9274,
+    "r0_clean": 1.0,
+    "exact_recall_predicted": 0.4628,
+    "exact_join_em_observed": 0.4735,
+    "predicted_gain": 0.4982,
+    "observed_join_em_gain": 0.4848,
+    "abs_error": 0.0134,
+    "condition_r_gt_bound": true
+   }
+  }
+ ]
+}

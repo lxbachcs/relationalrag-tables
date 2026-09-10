@@ -1,0 +1,432 @@
+record_id,icd_code,description
+R-0001,3890,conductive hearing loss
+R-0002,59373,Reflux nephropathy
+R-0003,N46122,Oligospermia due to infection
+R-0004,E550,"Rickets, active"
+R-0005,75564,genu varum
+R-0006,S27321A,"Contusion of lung, unilateral, initial encounter"
+R-0007,H59013,"Keratopathy (bullous aphakic) following cataract surgery, bi"
+R-0008,73730,kyphoscoliosis
+R-0009,61182,micromastia
+R-0010,G40909,"Epilepsy, unsp, not intractable, without status epilepticus"
+R-0011,F5O1,Binge eating disorder
+R-0012,4142,chronic total occlusion  of coronary artery
+R-0013,G43501,"Perst migraine aura w/o cereb infrc, not ntrct, w stat migr"
+R-0014,2392,skin neoplasm
+R-0015,6Q433,Congenital stricture of urinary meatus
+R-0016,2451,De Quervain's thyroiditis
+R-0017,00804,enterohaemorrhagic Escherichia coli infection
+R-0018,G44019,"Episodic cluster headache, not intractable"
+R-0019,56723,spontaneous bacterial peritonitis
+R-0020,6231,leukoplakia
+R-0021,7235,torticollis
+R-0022,6191,rectovaginal fistula
+R-0023,0031,salmonella sepsis
+R-0024,2827,Hereditary persistence of fetal hemoglobin
+R-0025,7287,fibromatosis
+R-0026,27652,hypovolemia
+R-0027,8521,subarachnoid hemorrhage
+R-0028,62210,cervical intraepithelial neoplasia
+R-0029,N643,Retraction of nipple
+R-0030,25950,mild androgen insensitivity syndrome
+R-0031,0461,variant Creutzfeldt–Jakob disease
+R-0032,6953,rhinophyma
+R-0033,5360,achlorhydria
+R-0034,7649,intrauterine growth restriction
+R-0035,Q72899,Other reduction defects of unspecified lower limb
+R-0036,27781,Fatty-acid metabolism disorder
+R-0037,N301,Acute cystitis with hematuria
+R-0038,H6040,"Cholesteatoma of external ear, unspecified ear"
+R-0039,2554,adrenal insufficiency
+R-0040,O60145,"Preterm labor third tri w preterm del third tri, fetus 5"
+R-0041,4568,Caput medusae
+R-0042,317,Lujan–Fryns syndrome
+R-0043,9915,chilblains
+R-0044,7E439,Other disorders of intestinal carbohydrate absorption
+R-0045,H8110,"Benign paroxysmal vertigo, unspecified ear"
+R-0046,M5013,"Cervical disc disorder w radiculopathy, cervicothor region"
+R-0047,5771,chronic pancreatitis
+R-0048,67640,Agalactia
+R-0049,1251,Brugia malayi filariasis
+R-0050,3108,psychoorganic syndrome
+R-0051,9995,serum sickness
+R-0052,919,vesicle
+R-0053,0092,traveler's diarrhea
+R-0054,72973,abdominal compartment syndrome
+R-0055,E00O,"Congenital iodine-deficiency syndrome, neurological type"
+R-0056,Q5302,"Ectopic testes, bilateral"
+R-0057,1048,spirochetal diseases
+R-0058,M2140,"Flat foot [pes planus] (acquired), unspecified foot"
+R-0059,30743074,sleepwalking
+R-0060,2391,respiratory tract neoplasm
+R-0061,6959,erythroderma
+R-0062,78009,delirium
+R-0063,7244,femoral neuralgia
+R-0064,0880,Air embolism in childbirth
+R-0065,M5115,"Intvrt disc disorders w radiculopathy, thoracolumbar region"
+R-0066,H2700,"Aphakia, unspecified eye"
+R-0067,7222,spinal disc herniation
+R-0068,8E35,Unspecified disorder of calcium metabolism
+R-0069,K7200,Acute and subacute hepatic failure without coma
+R-0070,6266,metrorrhagia
+R-0071,G5762,"Lesion of plantar nerve, left lower limb"
+R-0072,P381,Omphalitis with mild hemorrhage
+R-0073,D521,Drug-induced folate deficiency anemia
+R-0074,H140,"Pupillary membranes, unspecified eye"
+R-0075,T2692XS,"Corrosion of left eye and adnexa, part unspecified, sequela"
+R-0076,H0Z36,"Blepharochalasis left eye, unspecified eyelid"
+R-0077,H5363,Congenital night blindness
+R-0078,37883,convergence insufficiency
+R-0079,96971,health effects of caffeine
+R-0080,2761,hyponatremia
+R-0081,78093,Lacunar amnesia
+R-0082,2999,pervasive developmental disorder not otherwise specified
+R-0083,29550,latent schizophrenia
+R-0084,7843,receptive aphasia
+R-0085,C779,"Secondary and unsp malignant neoplasm of lymph node, unsp"
+R-0086,78052,insomnia
+R-0087,54215SP,"Nondisp fx of nk of scapula, l shldr, subs for fx w malunion"
+R-0088,M9271,"Juvenile osteochondrosis of metatarsus, right foot"
+R-0089,5718,hepatosplenomegaly
+R-0090,H9109,"Ototoxic hearing loss, unspecified ear"
+R-0091,5646,proctalgia fugax
+R-0092,7731,ABO hemolytic disease of the newborn
+R-0093,M80019A,"Age-rel osteopor w current path fx, unsp shoulder, init"
+R-0094,2749,Other adrenocortical insufficiency
+R-0095,431,cerebral hemorrhage
+R-0096,D169,"Benign neoplasm of bone and articular cartilage, unspecified"
+R-0097,C75I,Malignant neoplasm of pituitary gland
+R-0098,T700XXD,"Otitic barotrauma, subsequent encounter"
+R-0099,29560,residual schizophrenia
+R-0100,E1022,Type 1 diabetes mellitus w diabetic chronic kidney disease
+R-0101,N8353,"Torsion of ovary, ovarian pedicle and fallopian tube"
+R-0102,9913,frostbite
+R-0103,7352,hallux rigidus
+R-0104,7845,dysarthria
+R-0105,G9511,Acute infarction of spinal cord (embolic) (nonembolic)
+R-0106,Q2730,"Arteriovenous malformation, site unspecified"
+R-0107,74362,ablepharon
+R-0108,173B1,Erythromelalgia
+R-0109,E518,Other manifestations of thiamine deficiency
+R-0110,6819,onychomycosis
+R-0111,F5S0,Abuse of antacids
+R-0112,2702,albinism
+R-0113,29012,Binswanger's disease
+R-0114,010,tuberculosis
+R-0115,20960,carcinoid tumor
+R-0116,I7301,Raynaud's syndrome with gangrene
+R-0117,0011,El Tor cholera
+R-0118,M21O69,"Valgus deformity, not elsewhere classified, unspecified knee"
+R-0119,C9202,"Acute myeloblastic leukemia, in relapse"
+R-0120,J3503,Chronic tonsillitis and adenoiditis
+R-0121,1254,acanthocheilonemiasis
+R-0122,2594,dwarfism
+R-0123,7803,seizure
+R-0124,B6989,Cysticercosis of other sites
+R-0125,T790XXS,"Air embolism (traumatic), sequela"
+R-0126,Q6651,"Congenital pes planus, right foot"
+R-0127,O0388,Urinary tract infection fol complete or unsp spon abortion
+R-0128,3336,torsion dystonia
+R-0129,2533,growth hormone deficiency
+R-0130,4321,Subdural hygroma
+R-0131,K4141,"Unilateral femoral hernia, with gangrene, recurrent"
+R-0132,05472,Mollaret's meningitis
+R-0133,H5351,Achromatopsia
+R-0134,27701,meconium ileus
+R-0135,0171,Erythema induratum
+R-0136,T80810D,"Extravasation of vesicant antineoplastic chemotherapy, subs"
+R-0137,H40190,"Low-tension glaucoma, unspecified eye, stage unspecified"
+R-0138,78261,livedo reticularis
+R-0139,193,squamous cell thyroid carcinoma
+R-0140,123,tapeworm infection
+R-0141,F51259,"Oth stimulant depend w stim-induce psychotic disorder, unsp"
+R-0142,7050,Idiopathic pure sudomotor failure
+R-0143,4659,upper respiratory tract infection
+R-0144,0543,herpesviral encephalitis
+R-0145,7T53XXD,"Motion sickness, subsequent encounter"
+R-0146,4473,fibromuscular dysplasia
+R-0147,C4330,Malignant melanoma of unspecified part of face
+R-0148,O481,Prolonged pregnancy
+R-0149,OZ609,"Pregnancy related conditions, unsp, unspecified trimester"
+R-0150,503,stannosis
+R-0151,G4719,Other hypersomnia
+R-0152,F5111,Primary hypersomnia
+R-0153,F1524,Oth stimulant dependence w stimulant-induced mood disorder
+R-0154,H47012,"Ischemic optic neuropathy, left eye"
+R-0155,PB81,Respiratory arrest of newborn
+R-0156,099013,"Anemia complicating pregnancy, third trimester"
+R-0157,0781,wart
+R-0158,78552,septic shock
+R-0159,6781,conjoined twins
+R-0160,F4Z90,Androphobia
+R-0161,77989,perinatal disease
+R-0162,6216,retroverted uterus
+R-0163,07811,giant condyloma acuminatum
+R-0164,6930,chemotherapy-induced acral erythema
+R-0165,O208,Other hemorrhage in early pregnancy
+R-0166,8552S0,"Displacement of bile duct prosthesis, sequela"
+R-0167,771,perinatal infectious disease
+R-0168,78836,nocturnal enuresis
+R-0169,37487,dermatochalasis
+R-0170,A010,"Creutzfeldt-Jakob disease, unspecified"
+R-0171,7060,Acne miliaris necrotica
+R-0172,K088,Primary occlusal trauma
+R-0173,T52OX4A,"Toxic effect of petroleum products, undetermined, init"
+R-0174,5738,liver failure
+R-0175,295,pseudoneurotic schizophrenia
+R-0176,A4528,Gonococcal brain abscess
+R-0177,2910,delirium tremens
+R-0178,7823,anasarka
+R-0179,G4721,"Circadian rhythm sleep disorder, delayed sleep phase type"
+R-0180,7806,fever of unknown origin
+R-0181,M179,"Osteoarthritis of knee, unspecified"
+R-0182,C880,Waldenstrom macroglobulinemia
+R-0183,0510,Thyrotxcosis w toxic sing thyroid nodule w/o thyrotxc crisis
+R-0184,2721,hypertriglyceridemia
+R-0185,2410,thyroid nodule
+R-0186,P768,Other specified intestinal obstruction of newborn
+R-0187,T795XXD,"Traumatic anuria, subsequent encounter"
+R-0188,9950,Jarisch-Herxheimer reaction
+R-0189,E0521,Thyrotxcosis w toxic multinodular goiter w thyrotoxic crisis
+R-0190,3005,neurasthenia
+R-0191,7906,azotemia
+R-0192,B719,"Cestode infection, unspecified"
+R-0193,M6284,Sarcopenia
+R-0194,D7389,Other diseases of spleen
+R-0195,5302,ulcer of esophagus
+R-0196,4271,ventricular tachycardia
+R-0197,M25052,"Hemarthrosis, left hip"
+R-0198,S031XA,"Ocular lac w/o prolaps/loss of intraoc tissue, r eye, init"
+R-0199,G411,"Episodic tension-type headache, intractable"
+R-0200,M47814,"Spondylosis w/o myelopathy or radiculopathy, thoracic region"
+R-0201,6253,dysmenorrhea
+R-0202,75732,hamartoma
+R-0203,7286,Dupuytren's contracture
+R-0204,2722,xanthoma
+R-0205,74423,microtia
+R-0206,C688,Malignant neoplasm of overlapping sites of urinary organs
+R-0207,R261,Paralytic gait
+R-0208,34489,Babinski–Nageotte syndrome
+R-0209,J0181,Other acute recurrent sinusitis
+R-0210,I8O22Z,Phlebitis and thrombophlebitis of left popliteal vein
+R-0211,E1151,Type 2 diabetes w diabetic peripheral angiopath w/o gangrene
+R-0212,74322,Keratoglobus
+R-0213,1280,visceral larva migrans
+R-0214,7596,phakomatosis
+R-0215,9O2119,"Cracked nipple associated with pregnancy, unsp trimester"
+R-0216,C4491,"Oth malignant neoplasm skin/ unsp lower limb, including hip"
+R-0217,37924,floater
+R-0218,M5001,"Cervical disc disorder w myelopathy, high cervical region"
+R-0219,31531,expressive aphasia
+R-0220,M93949,"Osteochondropathy, unspecified, unspecified hand"
+R-0221,2701,hyperphenylalaninemia
+R-0222,1177,zygomycosis
+R-0223,47875,laryngospasm
+R-0224,7528,congenital aplasia of the vas deferens
+R-0225,810,clavicle fracture
+R-0226,I4901,Ventricular fibrillation
+R-0227,F433,Adjustment disorder with mixed anxiety and depressed mood
+R-0228,EIO59,Type 1 diabetes mellitus with oth circulatory complications
+R-0229,6958,erythema marginatum
+R-0230,M85652,"Other cyst of bone, left thigh"
+R-0231,7202,sacroiliitis
+R-0232,3484,brain herniation
+R-0233,74741,total anomalous pulmonary venous connection
+R-0234,N1372,"Vesicoureter-reflux w reflux neuropath w hydrourt, bilateral"
+R-0235,7543,hip dysplasia
+R-0236,5711,alcoholic liver disease
+R-0237,2776,hereditary angioedema
+R-0238,P0821,Post-term newborn
+R-0239,7560,trigonocephaly
+R-0240,7048,Milium
+R-0241,M26603,"Bilateral temporomandibular joint disorder, unspecified"
+R-0242,69589,intertrigo
+R-0243,7515,persistent cloaca
+R-0244,R5600,Simple febrile convulsions
+R-0245,M19041,"Primary osteoarthritis, right hand"
+R-0246,5198,reactive airway disease
+R-0247,7892,splenomegaly
+R-0248,42732,atrial flutter
+R-0249,6978,lichen striatus
+R-0250,887B2,Intestinal myiasis
+R-0251,7890,acute abdomen
+R-0252,P8388,Other specified conditions of integument specific to newborn
+R-0253,6261,oligomenorrhea
+R-0254,E8881,Metabolic syndrome
+R-0255,69282,radiation burn
+R-0256,7817,tetany
+R-0257,E672,Megavitamin-B6 syndrome
+R-0258,L0881,Pyoderma vegetans
+R-0259,D069,"Carcinoma in situ of cervix, unspecified"
+R-0260,2958,hypochondriacal schizophrenia
+R-0261,B250,Cytomegaloviral pneumonitis
+R-0262,G9389,Other specified disorders of brain
+R-0263,2662,folate deficiency
+R-0264,29591,schizophrenia-like disorder
+R-0265,51181,malignant pleural effusion
+R-0266,2921,stimulant psychosis
+R-0267,3102,post-concussion syndrome
+R-0268,M5442,"Lumbago with sciatica, left side"
+R-0269,2766,hypervolemia
+R-0270,F920,"Attention-deficit hyperactivity disorder, combined type"
+R-0271,6412,Couvelaire uterus
+R-0272,D179,"Benign lipomatous neoplasm, unspecified"
+R-0273,M85329,"Osteitis condensans, unspecified upper arm"
+R-0274,29525,catatonic schizophrenia
+R-0275,7771,Meconium plug syndrome
+R-0276,E661,Drug-induced obesity
+R-0277,T703XXS,"Caisson disease [decompression sickness], sequela"
+R-0278,889X3,"Other specified disorders of bone, forearm"
+R-0279,33942,New daily persistent headache
+R-0280,187,urogenital neoplasm
+R-0281,M228X2,"Other disorders of patella, left knee"
+R-0282,L1Z2,Chronic bullous disease of childhood
+R-0283,7883,urinary incontinence
+R-0284,C50111,Malignant neoplasm of central portion of right female breast
+R-0285,30013,dissociative fugue
+R-0286,2773,familial amyloid neuropathy
+R-0287,H04612,Lacrimal fistula left lacrimal passage
+R-0288,7540,plagiocephaly
+R-0289,S066X2S,"Traum subrac hem w LOC of 31-59 min, sequela"
+R-0290,4431XS,"Injury of axillary nerve, right arm, sequela"
+R-0291,7876,fecal incontinence
+R-0292,7361,mallet finger
+R-0293,G8381,Brown-Sequard syndrome
+R-0294,1G223,Primary lateral sclerosis
+R-0295,T622X3S,"Toxic effect of ingest (parts of) plant(s), assault, sequela"
+R-0296,T620X1S,"Toxic effect of ingested mushrooms, accidental, sequela"
+R-0297,G4726,"Circadian rhythm sleep disorder, shift work type"
+R-0298,72704,stenosing tenosynovitis
+R-0299,6299,recurrent miscarriage
+R-0300,H4310,"Vitreous hemorrhage, unspecified eye"
+R-0301,6948,Transient acantholytic dermatosis
+R-0302,685,pilonidal cyst
+R-0303,4293,cardiomegaly
+R-0304,6720,puerperal infection
+R-0305,M40202,"Unspecified kyphosis, cervical region"
+R-0306,9946,seasickness
+R-0307,6181,uterine prolapse
+R-0308,75659,Conradi–Hünermann syndrome
+R-0309,K8681,Exocrine pancreatic insufficiency
+R-0310,F30I2,"Manic episode without psychotic symptoms, moderate"
+R-0311,7243,sciatica
+R-0312,8404,rotator cuff tear
+R-0313,F4541,Pain disorder exclusively related to psychological factors
+R-0314,I83212,Varicos vn of r low extrem w ulc of calf and inflammation
+R-0315,36847,binasal hemianopsia
+R-0316,A5489,Other gonococcal infections
+R-0317,I83O04,Varicos vn unsp lower extremity w ulcer of heel and midfoot
+R-0318,9916,hypothermia
+R-0319,M85449,"Solitary bone cyst, unspecified hand"
+R-0320,27503,iron overload
+R-0321,G4709,Other insomnia
+R-0322,0052,clostridial necrotizing enteritis
+R-0323,F6810,"Factitious disorder, unspecified"
+R-0324,411,"Social phobia, generalized"
+R-0325,G444O,"Drug-induced headache, NEC, not intractable"
+R-0326,Q37B,Congenital pharyngeal pouch
+R-0327,29500,simple-type schizophrenia
+R-0328,5859,chronic allograft nephropathy
+R-0329,31323,selective mutism
+R-0330,1275,intestinal capillariasis
+R-0331,2914,pathological intoxication
+R-0332,829,bone fracture
+R-0333,K9081,Whipple's disease
+R-0334,6Q582,Congenital coxa vara
+R-0335,6983,prurigo
+R-0336,TS22X1,"Toxic effect of homologues of benzene, accidental, subs"
+R-0337,37931,aphakia
+R-0338,43491,lacunar stroke
+R-0339,E8029,Other porphyria
+R-0340,N7093,"Salpingitis and oophoritis, unspecified"
+R-0341,B447,Disseminated aspergillosis
+R-0342,56881,hemoperitoneum
+R-0343,F861,Narcissistic personality disorder
+R-0344,2127,myxoma
+R-0345,O723,Postpartum coagulation defects
+R-0346,M5121,"Complete rotatr-cuff tear/ruptr of r shoulder, not trauma"
+R-0347,H5053,Vertical heterophoria
+R-0348,9194,pulicosis
+R-0349,72632,tennis elbow
+R-0350,70589,chromhidrosis
+R-0351,K16,Intrasphincteric abscess
+R-0352,T66XXXD,"Radiation sickness, unspecified, subsequent encounter"
+R-0353,T796XXD,"Traumatic ischemia of muscle, subsequent encounter"
+R-0354,M1I9,"Crystal arthropathy, unspecified"
+R-0355,29606,manic episode
+R-0356,N4910,Unspecified dyspareunia
+R-0357,M2121,Bunionette of right foot
+R-0358,M21122,"Varus deformity, not elsewhere classified, left elbow"
+R-0359,L9725,Non-prs chr ulc of l heel/midft w msl invl w/o evd of necr
+R-0360,3868,superior canal dehiscence
+R-0361,L298,"Oth granulomatous disorders of the skin, subcu"
+R-0362,M25732,"Osteophyte, left wrist"
+R-0363,2991,regressive autism
+R-0364,5720,pyogenic liver abscess
+R-0365,J9B1,Atelectasis
+R-0366,75901,asplenia
+R-0367,42761,premature atrial contraction
+R-0368,477477,seasonal allergic rhinitis
+R-0369,M02372,"Reiter's disease, left ankle and foot"
+R-0370,N39492,Postural (urinary) incontinence
+R-0371,75453,pigeon toe
+R-0372,52410,retrognathism
+R-0373,495,alveolitis
+R-0374,N84,Pyelitis cystica
+R-0375,4139,stable angina
+R-0376,4721,chronic pharyngitis
+R-0377,T7841XD,"Arthus phenomenon, subsequent encounter"
+R-0378,7041,hirsutism
+R-0379,586,contrast-induced nephropathy
+R-0380,M1020,"Drug-induced gout, unspecified site"
+R-0381,2978,Fregoli delusion
+R-0382,D2312,"Oth benign neoplasm skin/ left eyelid, including canthus"
+R-0383,0913,Condyloma
+R-0384,T59X25,"Tox eff of fluorine gas and hydrogen fluoride, slf-hrm, sqla"
+R-0385,O49Z,"Antepartum hemorrhage, unspecified, second trimester"
+R-0386,S62631S,"Disp fx of proximal phalanx of left middle finger, sequela"
+R-0387,7702,pneumoperitoneum
+R-0388,04186,Helicobacter pylori infectious disease
+R-0389,F0781,Postconcussional syndrome
+R-0390,SO591XS,"Unspecified injury of right eye and orbit, sequela"
+R-0391,2727,"Niemann–Pick disease, SMPD1-associated"
+R-0392,02341,"Unsp infct of urinary tract in pregnancy, first trimester"
+R-0393,1760,endemic African Kaposi's sarcoma
+R-0394,34839,posterior reversible encephalopathy syndrome
+R-0395,4419,"Episodic cluster headache, not intractable"
+R-0396,70909,Schamberg disease
+R-0397,5579,mesenteric ischemia
+R-0398,9895,Latrodectism
+R-0399,5714,chronic hepatitis
+R-0400,410414,arteriosclerotic heart disease
+R-0401,E06,Other disorders of bilirubin metabolism
+R-0402,5307,Mallory–Weiss syndrome
+R-0403,2726,lipoatrophy
+R-0404,2509,complications of diabetes mellitus
+R-0405,6268,abnormal uterine bleeding
+R-0406,3203,staphylococcal meningitis
+R-0407,7811,dysosmia
+R-0408,Q8789,"Oth congenital malformation syndromes, NEC"
+R-0409,7440,ear canal atresia
+R-0410,I722,Aneurysm of renal artery
+R-0411,S32426B,"Nondisp fx of posterior wall of unsp acetab, init for opn fx"
+R-0412,S52245D,"Nondisp spiral fx shaft of ulna, l arm, 7thD"
+R-0413,N262,Page kidney
+R-0414,V9104XS,"Burn due to sailboat on fire, sequela"
+R-0415,S12531D,"Unsp traum nondisp spondylolysis of sixth cervcal vert, 7thD"
+R-0416,M86172,"Other acute osteomyelitis, left ankle and foot"
+R-0417,M63842,"Disorders of muscle in diseases classd elswhr, left hand"
+R-0418,S72365D,"Nondisp seg fx shaft of l femr, 7thD"
+R-0419,S58929A,"Partial traumatic amp of unsp forearm, level unsp, init"
+R-0420,S93335A,"Other dislocation of left foot, initial encounter"
+R-0421,M1A3121,"Chronic gout due to renal impairment, left shoulder, w toph"
+R-0422,S52371C,"Galeazzi's fracture of r radius, init for opn fx type 3A/B/C"
+R-0423,O357XX5,"Matern care for damage to fetus by oth medical proc, fetus 5"
+R-0424,S89029P,"Sltr-haris Type II physl fx upr end unsp tibia, 7thP"
+R-0425,K9419,Other complications of enterostomy
+R-0426,S85009A,"Unsp injury of popliteal artery, unsp leg, init encntr"
+R-0427,H4489,Other disorders of globe
+R-0428,M05052,"Felty's syndrome, left hip"
+R-0429,J8410,"Pulmonary fibrosis, unspecified"
+R-0430,S92012P,"Disp fx of body of left calcaneus, subs for fx w malunion"
+R-0431,S78011S,"Complete traumatic amputation at right hip joint, sequela"
