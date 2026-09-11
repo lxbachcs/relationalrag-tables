@@ -1,0 +1,1530 @@
+id,protocol_gold_qid,protocol_gold_code,node_code,icd10cm_code,icd10cm_desc,desc_equals_record_desc
+0,Q1129338,L92,L92,L920,Granuloma annulare,1
+0,Q1129338,L92,L92,L921,"Necrobiosis lipoidica, not elsewhere classified",0
+0,Q1129338,L92,L92,L922,Granuloma faciale [eosinophilic granuloma of skin],0
+0,Q1129338,L92,L92,L923,Foreign body granuloma of the skin and subcutaneous tissue,0
+0,Q1129338,L92,L92,L928,"Oth granulomatous disorders of the skin, subcu",0
+0,Q1129338,L92,L92,L929,"Granulomatous disorder of the skin, subcu, unsp",0
+1,Q3408668,L282,L281,L281,Prurigo nodularis,0
+1,Q3408668,L282,L282,L282,Other prurigo,0
+2,Q18966903,F302,F301,F3010,"Manic episode without psychotic symptoms, unspecified",0
+2,Q18966903,F302,F301,F3011,"Manic episode without psychotic symptoms, mild",0
+2,Q18966903,F302,F301,F3012,"Manic episode without psychotic symptoms, moderate",0
+2,Q18966903,F302,F301,F3013,"Manic episode, severe, without psychotic symptoms",1
+2,Q18966903,F302,F302,F302,"Manic episode, severe with psychotic symptoms",0
+3,Q2076966,B25,B25,B250,Cytomegaloviral pneumonitis,0
+3,Q2076966,B25,B25,B251,Cytomegaloviral hepatitis,0
+3,Q2076966,B25,B25,B252,Cytomegaloviral pancreatitis,0
+3,Q2076966,B25,B25,B258,Other cytomegaloviral diseases,0
+3,Q2076966,B25,B25,B259,"Cytomegaloviral disease, unspecified",0
+5,Q1620594,L680,L680,L680,Hirsutism,1
+7,Q1036696,T68,T68,T68XXXA,"Hypothermia, initial encounter",1
+7,Q1036696,T68,T68,T68XXXD,"Hypothermia, subsequent encounter",0
+7,Q1036696,T68,T68,T68XXXS,"Hypothermia, sequela",0
+8,Q2923350,M216,Q728,Q72811,Congenital shortening of right lower limb,0
+8,Q2923350,M216,Q728,Q72812,Congenital shortening of left lower limb,0
+8,Q2923350,M216,Q728,Q72813,"Congenital shortening of lower limb, bilateral",0
+8,Q2923350,M216,Q728,Q72819,Congenital shortening of unspecified lower limb,0
+8,Q2923350,M216,Q728,Q72891,Other reduction defects of right lower limb,0
+8,Q2923350,M216,Q728,Q72892,Other reduction defects of left lower limb,0
+8,Q2923350,M216,Q728,Q72893,"Other reduction defects of lower limb, bilateral",0
+8,Q2923350,M216,Q728,Q72899,Other reduction defects of unspecified lower limb,0
+8,Q2923350,M216,M216,M21611,Bunion of right foot,0
+8,Q2923350,M216,M216,M21612,Bunion of left foot,1
+8,Q2923350,M216,M216,M21619,Bunion of unspecified foot,0
+8,Q2923350,M216,M216,M21621,Bunionette of right foot,0
+8,Q2923350,M216,M216,M21622,Bunionette of left foot,0
+8,Q2923350,M216,M216,M21629,Bunionette of unspecified foot,0
+8,Q2923350,M216,M216,M216X1,Other acquired deformities of right foot,0
+8,Q2923350,M216,M216,M216X2,Other acquired deformities of left foot,0
+8,Q2923350,M216,M216,M216X9,Other acquired deformities of unspecified foot,0
+9,Q12775774,A021,A021,A021,Salmonella sepsis,1
+10,Q2507454,E271,E274,E2740,Unspecified adrenocortical insufficiency,1
+10,Q2507454,E271,E274,E2749,Other adrenocortical insufficiency,0
+10,Q2507454,E271,E271,E271,Primary adrenocortical insufficiency,0
+11,Q2632078,K594,K594,K594,Anal spasm,0
+12,Q4830470,S443,S443,S4430XA,"Injury of axillary nerve, unspecified arm, initial encounter",0
+12,Q4830470,S443,S443,S4430XD,"Injury of axillary nerve, unspecified arm, subs encntr",0
+12,Q4830470,S443,S443,S4430XS,"Injury of axillary nerve, unspecified arm, sequela",0
+12,Q4830470,S443,S443,S4431XA,"Injury of axillary nerve, right arm, initial encounter",0
+12,Q4830470,S443,S443,S4431XD,"Injury of axillary nerve, right arm, subsequent encounter",0
+12,Q4830470,S443,S443,S4431XS,"Injury of axillary nerve, right arm, sequela",0
+12,Q4830470,S443,S443,S4432XA,"Injury of axillary nerve, left arm, initial encounter",0
+12,Q4830470,S443,S443,S4432XD,"Injury of axillary nerve, left arm, subsequent encounter",1
+12,Q4830470,S443,S443,S4432XS,"Injury of axillary nerve, left arm, sequela",0
+13,Q697117,M512,M512,M5124,"Other intervertebral disc displacement, thoracic region",0
+13,Q697117,M512,M512,M5125,"Other intervertebral disc displacement, thoracolumbar region",0
+13,Q697117,M512,M512,M5126,"Other intervertebral disc displacement, lumbar region",0
+13,Q697117,M512,M512,M5127,"Other intervertebral disc displacement, lumbosacral region",1
+14,Q1985123,M898,M898,M898X0,"Other specified disorders of bone, multiple sites",0
+14,Q1985123,M898,M898,M898X1,"Other specified disorders of bone, shoulder",0
+14,Q1985123,M898,M898,M898X2,"Other specified disorders of bone, upper arm",1
+14,Q1985123,M898,M898,M898X3,"Other specified disorders of bone, forearm",0
+14,Q1985123,M898,M898,M898X4,"Other specified disorders of bone, hand",0
+14,Q1985123,M898,M898,M898X5,"Other specified disorders of bone, thigh",0
+14,Q1985123,M898,M898,M898X6,"Other specified disorders of bone, lower leg",0
+14,Q1985123,M898,M898,M898X7,"Other specified disorders of bone, ankle and foot",0
+14,Q1985123,M898,M898,M898X8,"Other specified disorders of bone, other site",0
+14,Q1985123,M898,M898,M898X9,"Other specified disorders of bone, unspecified site",0
+15,Q56002,I472,I472,I472,Ventricular tachycardia,1
+16,Q1762339,I802,I802,I80201,Phlbts and thombophlb of unsp deep vessels of r low extrem,0
+16,Q1762339,I802,I802,I80202,Phlbts and thombophlb of unsp deep vessels of l low extrem,0
+16,Q1762339,I802,I802,I80203,"Phlbts and thombophlb of unsp deep vessels of low extrm, bi",0
+16,Q1762339,I802,I802,I80209,Phlbts and thombophlb of unsp deep vessels of unsp low extrm,0
+16,Q1762339,I802,I802,I80211,Phlebitis and thrombophlebitis of right iliac vein,0
+16,Q1762339,I802,I802,I80212,Phlebitis and thrombophlebitis of left iliac vein,0
+16,Q1762339,I802,I802,I80213,"Phlebitis and thrombophlebitis of iliac vein, bilateral",0
+16,Q1762339,I802,I802,I80219,Phlebitis and thrombophlebitis of unspecified iliac vein,0
+16,Q1762339,I802,I802,I80221,Phlebitis and thrombophlebitis of right popliteal vein,0
+16,Q1762339,I802,I802,I80222,Phlebitis and thrombophlebitis of left popliteal vein,0
+16,Q1762339,I802,I802,I80223,"Phlebitis and thrombophlebitis of popliteal vein, bilateral",0
+16,Q1762339,I802,I802,I80229,Phlebitis and thrombophlebitis of unspecified popliteal vein,0
+16,Q1762339,I802,I802,I80231,Phlebitis and thrombophlebitis of right tibial vein,0
+16,Q1762339,I802,I802,I80232,Phlebitis and thrombophlebitis of left tibial vein,0
+16,Q1762339,I802,I802,I80233,"Phlebitis and thrombophlebitis of tibial vein, bilateral",0
+16,Q1762339,I802,I802,I80239,Phlebitis and thrombophlebitis of unspecified tibial vein,1
+16,Q1762339,I802,I802,I80291,Phlebitis and thombophlb of deep vessels of r low extrem,0
+16,Q1762339,I802,I802,I80292,Phlebitis and thombophlb of deep vessels of l low extrem,0
+16,Q1762339,I802,I802,I80293,"Phlebitis and thombophlb of deep vessels of low extrm, bi",0
+16,Q1762339,I802,I802,I80299,Phlebitis and thombophlb of deep vessels of unsp low extrm,0
+17,Q2915477,E538,D52,D520,Dietary folate deficiency anemia,0
+17,Q2915477,E538,D52,D521,Drug-induced folate deficiency anemia,0
+17,Q2915477,E538,D52,D528,Other folate deficiency anemias,0
+17,Q2915477,E538,D52,D529,"Folate deficiency anemia, unspecified",1
+17,Q2915477,E538,E538,E538,Deficiency of other specified B group vitamins,0
+18,Q1510899,K661,K661,K661,Hemoperitoneum,1
+19,Q59484501,O990,O990,O99011,"Anemia complicating pregnancy, first trimester",0
+19,Q59484501,O990,O990,O99012,"Anemia complicating pregnancy, second trimester",0
+19,Q59484501,O990,O990,O99013,"Anemia complicating pregnancy, third trimester",0
+19,Q59484501,O990,O990,O99019,"Anemia complicating pregnancy, unspecified trimester",0
+19,Q59484501,O990,O990,O9902,Anemia complicating childbirth,0
+19,Q59484501,O990,O990,O9903,Anemia complicating the puerperium,0
+20,Q738101,A513,A513,A5131,Condyloma latum,0
+20,Q738101,A513,A513,A5132,Syphilitic alopecia,0
+20,Q738101,A513,A513,A5139,Other secondary syphilis of skin,0
+21,Q890167,A630,A630,A630,Anogenital (venereal) warts,0
+22,Q3961649,P760,P760,P760,Meconium plug syndrome,1
+23,Q13257137,C44,C44,C4400,Unspecified malignant neoplasm of skin of lip,0
+23,Q13257137,C44,C44,C4401,Basal cell carcinoma of skin of lip,0
+23,Q13257137,C44,C44,C4402,Squamous cell carcinoma of skin of lip,0
+23,Q13257137,C44,C44,C4409,Other specified malignant neoplasm of skin of lip,0
+23,Q13257137,C44,C44,C44101,"Unsp malignant neoplasm skin/ unsp eyelid, including canthus",0
+23,Q13257137,C44,C44,C44102,"Unsp malignant neoplasm skin/ right eyelid, inc canthus",0
+23,Q13257137,C44,C44,C44109,"Unsp malignant neoplasm skin/ left eyelid, including canthus",0
+23,Q13257137,C44,C44,C44111,"Basal cell carcinoma skin/ unsp eyelid, including canthus",0
+23,Q13257137,C44,C44,C44112,"Basal cell carcinoma skin/ right eyelid, including canthus",0
+23,Q13257137,C44,C44,C44119,"Basal cell carcinoma skin/ left eyelid, including canthus",0
+23,Q13257137,C44,C44,C44121,"Squamous cell carcinoma skin/ unsp eyelid, including canthus",0
+23,Q13257137,C44,C44,C44122,"Squamous cell carcinoma skin/ right eyelid, inc canthus",0
+23,Q13257137,C44,C44,C44129,"Squamous cell carcinoma skin/ left eyelid, including canthus",0
+23,Q13257137,C44,C44,C44191,"Oth malignant neoplasm skin/ unsp eyelid, including canthus",0
+23,Q13257137,C44,C44,C44192,"Oth malignant neoplasm skin/ right eyelid, including canthus",0
+23,Q13257137,C44,C44,C44199,"Oth malignant neoplasm skin/ left eyelid, including canthus",0
+23,Q13257137,C44,C44,C44201,Unsp malig neoplasm skin/ unsp ear and external auric canal,0
+23,Q13257137,C44,C44,C44202,Unsp malig neoplasm skin/ right ear and external auric canal,0
+23,Q13257137,C44,C44,C44209,Unsp malig neoplasm skin/ left ear and external auric canal,0
+23,Q13257137,C44,C44,C44211,Basal cell carcinoma skin/ unsp ear and external auric canal,0
+23,Q13257137,C44,C44,C44212,Basal cell carcinoma skin/ r ear and external auric canal,0
+23,Q13257137,C44,C44,C44219,Basal cell carcinoma skin/ left ear and external auric canal,0
+23,Q13257137,C44,C44,C44221,Squamous cell carcinoma skin/ unsp ear and extrn auric canal,0
+23,Q13257137,C44,C44,C44222,Squamous cell carcinoma skin/ r ear and external auric canal,0
+23,Q13257137,C44,C44,C44229,Squamous cell carcinoma skin/ left ear and extrn auric canal,0
+23,Q13257137,C44,C44,C44291,Oth malig neoplasm skin/ unsp ear and external auric canal,0
+23,Q13257137,C44,C44,C44292,Oth malig neoplasm skin/ right ear and external auric canal,0
+23,Q13257137,C44,C44,C44299,Oth malig neoplasm skin/ left ear and external auric canal,0
+23,Q13257137,C44,C44,C44300,Unsp malignant neoplasm of skin of unspecified part of face,0
+23,Q13257137,C44,C44,C44301,Unspecified malignant neoplasm of skin of nose,0
+23,Q13257137,C44,C44,C44309,Unsp malignant neoplasm of skin of other parts of face,0
+23,Q13257137,C44,C44,C44310,Basal cell carcinoma of skin of unspecified parts of face,0
+23,Q13257137,C44,C44,C44311,Basal cell carcinoma of skin of nose,0
+23,Q13257137,C44,C44,C44319,Basal cell carcinoma of skin of other parts of face,0
+23,Q13257137,C44,C44,C44320,Squamous cell carcinoma of skin of unspecified parts of face,0
+23,Q13257137,C44,C44,C44321,Squamous cell carcinoma of skin of nose,0
+23,Q13257137,C44,C44,C44329,Squamous cell carcinoma of skin of other parts of face,0
+23,Q13257137,C44,C44,C44390,Oth malignant neoplasm of skin of unspecified parts of face,0
+23,Q13257137,C44,C44,C44391,Other specified malignant neoplasm of skin of nose,0
+23,Q13257137,C44,C44,C44399,Oth malignant neoplasm of skin of other parts of face,0
+23,Q13257137,C44,C44,C4440,Unspecified malignant neoplasm of skin of scalp and neck,0
+23,Q13257137,C44,C44,C4441,Basal cell carcinoma of skin of scalp and neck,0
+23,Q13257137,C44,C44,C4442,Squamous cell carcinoma of skin of scalp and neck,0
+23,Q13257137,C44,C44,C4449,Other specified malignant neoplasm of skin of scalp and neck,0
+23,Q13257137,C44,C44,C44500,Unspecified malignant neoplasm of anal skin,0
+23,Q13257137,C44,C44,C44501,Unspecified malignant neoplasm of skin of breast,0
+23,Q13257137,C44,C44,C44509,Unsp malignant neoplasm of skin of other part of trunk,0
+23,Q13257137,C44,C44,C44510,Basal cell carcinoma of anal skin,0
+23,Q13257137,C44,C44,C44511,Basal cell carcinoma of skin of breast,0
+23,Q13257137,C44,C44,C44519,Basal cell carcinoma of skin of other part of trunk,0
+23,Q13257137,C44,C44,C44520,Squamous cell carcinoma of anal skin,0
+23,Q13257137,C44,C44,C44521,Squamous cell carcinoma of skin of breast,0
+23,Q13257137,C44,C44,C44529,Squamous cell carcinoma of skin of other part of trunk,0
+23,Q13257137,C44,C44,C44590,Other specified malignant neoplasm of anal skin,0
+23,Q13257137,C44,C44,C44591,Other specified malignant neoplasm of skin of breast,0
+23,Q13257137,C44,C44,C44599,Oth malignant neoplasm of skin of other part of trunk,0
+23,Q13257137,C44,C44,C44601,"Unsp malignant neoplasm skin/ unsp upper limb, inc shoulder",1
+23,Q13257137,C44,C44,C44602,"Unsp malignant neoplasm skin/ right upper limb, inc shoulder",0
+23,Q13257137,C44,C44,C44609,"Unsp malignant neoplasm skin/ left upper limb, inc shoulder",0
+23,Q13257137,C44,C44,C44611,"Basal cell carcinoma skin/ unsp upper limb, inc shoulder",0
+23,Q13257137,C44,C44,C44612,"Basal cell carcinoma skin/ right upper limb, inc shoulder",0
+23,Q13257137,C44,C44,C44619,"Basal cell carcinoma skin/ left upper limb, inc shoulder",0
+23,Q13257137,C44,C44,C44621,"Squamous cell carcinoma skin/ unsp upper limb, inc shoulder",0
+23,Q13257137,C44,C44,C44622,"Squamous cell carcinoma skin/ right upper limb, inc shoulder",0
+23,Q13257137,C44,C44,C44629,"Squamous cell carcinoma skin/ left upper limb, inc shoulder",0
+23,Q13257137,C44,C44,C44691,"Oth malignant neoplasm skin/ unsp upper limb, inc shoulder",0
+23,Q13257137,C44,C44,C44692,"Oth malignant neoplasm skin/ right upper limb, inc shoulder",0
+23,Q13257137,C44,C44,C44699,"Oth malignant neoplasm skin/ left upper limb, inc shoulder",0
+23,Q13257137,C44,C44,C44701,"Unsp malignant neoplasm skin/ unsp lower limb, including hip",0
+23,Q13257137,C44,C44,C44702,"Unsp malignant neoplasm skin/ right lower limb, inc hip",0
+23,Q13257137,C44,C44,C44709,"Unsp malignant neoplasm skin/ left lower limb, including hip",0
+23,Q13257137,C44,C44,C44711,"Basal cell carcinoma skin/ unsp lower limb, including hip",0
+23,Q13257137,C44,C44,C44712,"Basal cell carcinoma skin/ right lower limb, including hip",0
+23,Q13257137,C44,C44,C44719,"Basal cell carcinoma skin/ left lower limb, including hip",0
+23,Q13257137,C44,C44,C44721,"Squamous cell carcinoma skin/ unsp lower limb, including hip",0
+23,Q13257137,C44,C44,C44722,"Squamous cell carcinoma skin/ right lower limb, inc hip",0
+23,Q13257137,C44,C44,C44729,"Squamous cell carcinoma skin/ left lower limb, including hip",0
+23,Q13257137,C44,C44,C44791,"Oth malignant neoplasm skin/ unsp lower limb, including hip",0
+23,Q13257137,C44,C44,C44792,"Oth malignant neoplasm skin/ right lower limb, including hip",0
+23,Q13257137,C44,C44,C44799,"Oth malignant neoplasm skin/ left lower limb, including hip",0
+23,Q13257137,C44,C44,C4480,Unspecified malignant neoplasm of overlapping sites of skin,0
+23,Q13257137,C44,C44,C4481,Basal cell carcinoma of overlapping sites of skin,0
+23,Q13257137,C44,C44,C4482,Squamous cell carcinoma of overlapping sites of skin,0
+23,Q13257137,C44,C44,C4489,Oth malignant neoplasm of overlapping sites of skin,0
+23,Q13257137,C44,C44,C4490,"Unspecified malignant neoplasm of skin, unspecified",0
+23,Q13257137,C44,C44,C4491,"Basal cell carcinoma of skin, unspecified",0
+23,Q13257137,C44,C44,C4492,"Squamous cell carcinoma of skin, unspecified",0
+23,Q13257137,C44,C44,C4499,"Other specified malignant neoplasm of skin, unspecified",0
+24,Q17002910,P551,P551,P551,ABO isoimmunization of newborn,0
+25,Q1405631,R50,R50,R502,Drug induced fever,1
+25,Q1405631,R50,R50,R5081,Fever presenting with conditions classified elsewhere,0
+25,Q1405631,R50,R50,R5082,Postprocedural fever,0
+25,Q1405631,R50,R50,R5083,Postvaccination fever,0
+25,Q1405631,R50,R50,R5084,Febrile nonhemolytic transfusion reaction,0
+25,Q1405631,R50,R50,R509,"Fever, unspecified",0
+26,Q6279182,R56,P90,P90,Convulsions of newborn,0
+26,Q6279182,R56,G40,G40001,"Local-rel idio epi w seiz of loc onst, not ntrct, w stat epi",0
+26,Q6279182,R56,G40,G40009,"Local-rel idio epi w seiz of loc onst,not ntrct,w/o stat epi",0
+26,Q6279182,R56,G40,G40011,"Local-rel idio epi w seiz of loc onset, ntrct, w stat epi",0
+26,Q6279182,R56,G40,G40019,"Local-rel idio epi w seiz of loc onset, ntrct, w/o stat epi",0
+26,Q6279182,R56,G40,G40101,"Local-rel symptc epi w simp part seiz, not ntrct, w stat epi",0
+26,Q6279182,R56,G40,G40109,"Local-rel symptc epi w simp prt seiz,not ntrct, w/o stat epi",0
+26,Q6279182,R56,G40,G40111,"Local-rel symptc epi w simple part seiz, ntrct, w stat epi",0
+26,Q6279182,R56,G40,G40119,"Local-rel symptc epi w simple part seiz, ntrct, w/o stat epi",0
+26,Q6279182,R56,G40,G40201,"Local-rel symptc epi w cmplx prt seiz, not ntrct, w stat epi",0
+26,Q6279182,R56,G40,G40209,"Local-rel symptc epi w cmplx prt seiz,not ntrct,w/o stat epi",0
+26,Q6279182,R56,G40,G40211,"Local-rel symptc epi w cmplx partial seiz, ntrct, w stat epi",0
+26,Q6279182,R56,G40,G40219,"Local-rel symptc epi w cmplx part seiz, ntrct, w/o stat epi",0
+26,Q6279182,R56,G40,G40301,"Gen idiopathic epilepsy, not intractable, w stat epi",0
+26,Q6279182,R56,G40,G40309,"Gen idiopathic epilepsy, not intractable, w/o stat epi",0
+26,Q6279182,R56,G40,G40311,"Generalized idiopathic epilepsy, intractable, w stat epi",0
+26,Q6279182,R56,G40,G40319,"Generalized idiopathic epilepsy, intractable, w/o stat epi",0
+26,Q6279182,R56,G40,G40A01,"Absence epileptic syndrome, not intractable, w stat epi",0
+26,Q6279182,R56,G40,G40A09,"Absence epileptic syndrome, not intractable, w/o stat epi",0
+26,Q6279182,R56,G40,G40A11,"Absence epileptic syndrome, intractable, w stat epi",0
+26,Q6279182,R56,G40,G40A19,"Absence epileptic syndrome, intractable, w/o stat epi",0
+26,Q6279182,R56,G40,G40B01,"Juvenile myoclonic epilepsy, not intractable, w stat epi",0
+26,Q6279182,R56,G40,G40B09,"Juvenile myoclonic epilepsy, not intractable, w/o stat epi",0
+26,Q6279182,R56,G40,G40B11,"Juvenile myoclonic epilepsy, intractable, w stat epi",0
+26,Q6279182,R56,G40,G40B19,"Juvenile myoclonic epilepsy, intractable, w/o stat epi",0
+26,Q6279182,R56,G40,G40401,"Oth generalized epilepsy, not intractable, w stat epi",0
+26,Q6279182,R56,G40,G40409,"Oth generalized epilepsy, not intractable, w/o stat epi",0
+26,Q6279182,R56,G40,G40411,"Oth generalized epilepsy, intractable, w status epilepticus",0
+26,Q6279182,R56,G40,G40419,"Oth generalized epilepsy, intractable, w/o stat epi",0
+26,Q6279182,R56,G40,G40501,"Epileptic seiz rel to extrn causes, not ntrct, w stat epi",0
+26,Q6279182,R56,G40,G40509,"Epileptic seiz rel to extrn causes, not ntrct, w/o stat epi",0
+26,Q6279182,R56,G40,G40801,"Other epilepsy, not intractable, with status epilepticus",0
+26,Q6279182,R56,G40,G40802,"Other epilepsy, not intractable, without status epilepticus",0
+26,Q6279182,R56,G40,G40803,"Other epilepsy, intractable, with status epilepticus",0
+26,Q6279182,R56,G40,G40804,"Other epilepsy, intractable, without status epilepticus",0
+26,Q6279182,R56,G40,G40811,"Lennox-Gastaut syndrome, not intractable, w stat epi",0
+26,Q6279182,R56,G40,G40812,"Lennox-Gastaut syndrome, not intractable, w/o stat epi",0
+26,Q6279182,R56,G40,G40813,"Lennox-Gastaut syndrome, intractable, w status epilepticus",0
+26,Q6279182,R56,G40,G40814,"Lennox-Gastaut syndrome, intractable, w/o status epilepticus",0
+26,Q6279182,R56,G40,G40821,"Epileptic spasms, not intractable, with status epilepticus",0
+26,Q6279182,R56,G40,G40822,"Epileptic spasms, not intractable, w/o status epilepticus",0
+26,Q6279182,R56,G40,G40823,"Epileptic spasms, intractable, with status epilepticus",0
+26,Q6279182,R56,G40,G40824,"Epileptic spasms, intractable, without status epilepticus",0
+26,Q6279182,R56,G40,G4089,Other seizures,0
+26,Q6279182,R56,G40,G40901,"Epilepsy, unsp, not intractable, with status epilepticus",0
+26,Q6279182,R56,G40,G40909,"Epilepsy, unsp, not intractable, without status epilepticus",0
+26,Q6279182,R56,G40,G40911,"Epilepsy, unspecified, intractable, with status epilepticus",0
+26,Q6279182,R56,G40,G40919,"Epilepsy, unsp, intractable, without status epilepticus",0
+26,Q6279182,R56,R56,R5600,Simple febrile convulsions,1
+26,Q6279182,R56,R56,R5601,Complex febrile convulsions,0
+26,Q6279182,R56,R56,R561,Post traumatic seizures,0
+26,Q6279182,R56,R56,R569,Unspecified convulsions,0
+27,Q936382,E835,E835,E8350,Unspecified disorder of calcium metabolism,0
+27,Q936382,E835,E835,E8351,Hypocalcemia,0
+27,Q936382,E835,E835,E8352,Hypercalcemia,0
+27,Q936382,E835,E835,E8359,Other disorders of calcium metabolism,0
+28,Q281490,N393,R32,R32,Unspecified urinary incontinence,0
+28,Q281490,N393,N394,N3941,Urge incontinence,0
+28,Q281490,N393,N394,N3942,Incontinence without sensory awareness,0
+28,Q281490,N393,N394,N3943,Post-void dribbling,0
+28,Q281490,N393,N394,N3944,Nocturnal enuresis,0
+28,Q281490,N393,N394,N3945,Continuous leakage,0
+28,Q281490,N393,N394,N3946,Mixed incontinence,0
+28,Q281490,N393,N394,N39490,Overflow incontinence,0
+28,Q281490,N393,N394,N39491,Coital incontinence,0
+28,Q281490,N393,N394,N39492,Postural (urinary) incontinence,0
+28,Q281490,N393,N394,N39498,Other specified urinary incontinence,0
+28,Q281490,N393,N393,N393,Stress incontinence (female) (male),0
+30,Q53948161,C920,C920,C9200,"Acute myeloblastic leukemia, not having achieved remission",1
+30,Q53948161,C920,C920,C9201,"Acute myeloblastic leukemia, in remission",0
+30,Q53948161,C920,C920,C9202,"Acute myeloblastic leukemia, in relapse",0
+31,Q160796,F05,F05,F05,Delirium due to known physiological condition,0
+32,Q3617336,I208,I208,I208,Other forms of angina pectoris,0
+33,Q951639,F441,F441,F441,Dissociative fugue,1
+35,Q1524166,Q662,Q662,Q6621,Congenital metatarsus primus varus,1
+35,Q1524166,Q662,Q662,Q6622,Congenital metatarsus adductus,0
+36,Q1467339,E783,E781,E781,Pure hyperglyceridemia,0
+36,Q1467339,E783,E782,E782,Mixed hyperlipidemia,0
+36,Q1467339,E783,E783,E783,Hyperchylomicronemia,0
+37,Q1506572,I48,I48,I480,Paroxysmal atrial fibrillation,0
+37,Q1506572,I48,I48,I481,Persistent atrial fibrillation,0
+37,Q1506572,I48,I48,I482,Chronic atrial fibrillation,0
+37,Q1506572,I48,I48,I483,Typical atrial flutter,0
+37,Q1506572,I48,I48,I484,Atypical atrial flutter,0
+37,Q1506572,I48,I48,I4891,Unspecified atrial fibrillation,0
+37,Q1506572,I48,I48,I4892,Unspecified atrial flutter,0
+38,Q4699003,T753,T753,T753XXA,"Motion sickness, initial encounter",1
+38,Q4699003,T753,T753,T753XXD,"Motion sickness, subsequent encounter",0
+38,Q4699003,T753,T753,T753XXS,"Motion sickness, sequela",0
+39,Q3153686,T522,T522,T522X1A,"Toxic effect of homologues of benzene, accidental, init",0
+39,Q3153686,T522,T522,T522X1D,"Toxic effect of homologues of benzene, accidental, subs",0
+39,Q3153686,T522,T522,T522X1S,"Toxic effect of homologues of benzene, accidental, sequela",0
+39,Q3153686,T522,T522,T522X2A,"Toxic effect of homologues of benzene, self-harm, init",0
+39,Q3153686,T522,T522,T522X2D,"Toxic effect of homologues of benzene, self-harm, subs",0
+39,Q3153686,T522,T522,T522X2S,"Toxic effect of homologues of benzene, self-harm, sequela",0
+39,Q3153686,T522,T522,T522X3A,"Toxic effect of homologues of benzene, assault, init encntr",1
+39,Q3153686,T522,T522,T522X3D,"Toxic effect of homologues of benzene, assault, subs encntr",0
+39,Q3153686,T522,T522,T522X3S,"Toxic effect of homologues of benzene, assault, sequela",0
+39,Q3153686,T522,T522,T522X4A,"Toxic effect of homologues of benzene, undetermined, init",0
+39,Q3153686,T522,T522,T522X4D,"Toxic effect of homologues of benzene, undetermined, subs",0
+39,Q3153686,T522,T522,T522X4S,"Toxic effect of homologues of benzene, undetermined, sequela",0
+40,Q1425208,M202,M202,M2020,"Hallux rigidus, unspecified foot",0
+40,Q1425208,M202,M202,M2021,"Hallux rigidus, right foot",0
+40,Q1425208,M202,M202,M2022,"Hallux rigidus, left foot",0
+41,Q733616,A184,A184,A184,Tuberculosis of skin and subcutaneous tissue,0
+42,Q5988903,L748,L748,L748,Other eccrine sweat disorders,0
+43,Q101971,B07,B07,B070,Plantar wart,0
+43,Q101971,B07,B07,B078,Other viral warts,0
+43,Q101971,B07,B07,B079,"Viral wart, unspecified",0
+44,Q838145,N894,K132,K1321,"Leukoplakia of oral mucosa, including tongue",0
+44,Q838145,N894,K132,K1322,Minimal keratinized residual ridge mucosa,0
+44,Q838145,N894,K132,K1323,Excessive keratinized residual ridge mucosa,0
+44,Q838145,N894,K132,K1324,Leukokeratosis nicotina palati,0
+44,Q838145,N894,K132,K1329,"Other disturbances of oral epithelium, including tongue",0
+44,Q838145,N894,N480,N480,Leukoplakia of penis,0
+44,Q838145,N894,N880,N880,Leukoplakia of cervix uteri,0
+44,Q838145,N894,N894,N894,Leukoplakia of vagina,0
+45,Q7259546,S273,S273,S27301A,"Unspecified injury of lung, unilateral, initial encounter",0
+45,Q7259546,S273,S273,S27301D,"Unspecified injury of lung, unilateral, subsequent encounter",0
+45,Q7259546,S273,S273,S27301S,"Unspecified injury of lung, unilateral, sequela",0
+45,Q7259546,S273,S273,S27302A,"Unspecified injury of lung, bilateral, initial encounter",0
+45,Q7259546,S273,S273,S27302D,"Unspecified injury of lung, bilateral, subsequent encounter",0
+45,Q7259546,S273,S273,S27302S,"Unspecified injury of lung, bilateral, sequela",0
+45,Q7259546,S273,S273,S27309A,"Unspecified injury of lung, unspecified, initial encounter",0
+45,Q7259546,S273,S273,S27309D,"Unspecified injury of lung, unspecified, subs encntr",0
+45,Q7259546,S273,S273,S27309S,"Unspecified injury of lung, unspecified, sequela",0
+45,Q7259546,S273,S273,S27311A,"Primary blast injury of lung, unilateral, initial encounter",0
+45,Q7259546,S273,S273,S27311D,"Primary blast injury of lung, unilateral, subs encntr",0
+45,Q7259546,S273,S273,S27311S,"Primary blast injury of lung, unilateral, sequela",0
+45,Q7259546,S273,S273,S27312A,"Primary blast injury of lung, bilateral, initial encounter",0
+45,Q7259546,S273,S273,S27312D,"Primary blast injury of lung, bilateral, subs encntr",0
+45,Q7259546,S273,S273,S27312S,"Primary blast injury of lung, bilateral, sequela",0
+45,Q7259546,S273,S273,S27319A,"Primary blast injury of lung, unspecified, initial encounter",0
+45,Q7259546,S273,S273,S27319D,"Primary blast injury of lung, unspecified, subs encntr",0
+45,Q7259546,S273,S273,S27319S,"Primary blast injury of lung, unspecified, sequela",0
+45,Q7259546,S273,S273,S27321A,"Contusion of lung, unilateral, initial encounter",0
+45,Q7259546,S273,S273,S27321D,"Contusion of lung, unilateral, subsequent encounter",0
+45,Q7259546,S273,S273,S27321S,"Contusion of lung, unilateral, sequela",0
+45,Q7259546,S273,S273,S27322A,"Contusion of lung, bilateral, initial encounter",0
+45,Q7259546,S273,S273,S27322D,"Contusion of lung, bilateral, subsequent encounter",0
+45,Q7259546,S273,S273,S27322S,"Contusion of lung, bilateral, sequela",0
+45,Q7259546,S273,S273,S27329A,"Contusion of lung, unspecified, initial encounter",0
+45,Q7259546,S273,S273,S27329D,"Contusion of lung, unspecified, subsequent encounter",0
+45,Q7259546,S273,S273,S27329S,"Contusion of lung, unspecified, sequela",0
+45,Q7259546,S273,S273,S27331A,"Laceration of lung, unilateral, initial encounter",0
+45,Q7259546,S273,S273,S27331D,"Laceration of lung, unilateral, subsequent encounter",0
+45,Q7259546,S273,S273,S27331S,"Laceration of lung, unilateral, sequela",0
+45,Q7259546,S273,S273,S27332A,"Laceration of lung, bilateral, initial encounter",0
+45,Q7259546,S273,S273,S27332D,"Laceration of lung, bilateral, subsequent encounter",0
+45,Q7259546,S273,S273,S27332S,"Laceration of lung, bilateral, sequela",0
+45,Q7259546,S273,S273,S27339A,"Laceration of lung, unspecified, initial encounter",0
+45,Q7259546,S273,S273,S27339D,"Laceration of lung, unspecified, subsequent encounter",0
+45,Q7259546,S273,S273,S27339S,"Laceration of lung, unspecified, sequela",0
+45,Q7259546,S273,S273,S27391A,"Other injuries of lung, unilateral, initial encounter",0
+45,Q7259546,S273,S273,S27391D,"Other injuries of lung, unilateral, subsequent encounter",0
+45,Q7259546,S273,S273,S27391S,"Other injuries of lung, unilateral, sequela",0
+45,Q7259546,S273,S273,S27392A,"Other injuries of lung, bilateral, initial encounter",0
+45,Q7259546,S273,S273,S27392D,"Other injuries of lung, bilateral, subsequent encounter",0
+45,Q7259546,S273,S273,S27392S,"Other injuries of lung, bilateral, sequela",1
+45,Q7259546,S273,S273,S27399A,"Other injuries of lung, unspecified, initial encounter",0
+45,Q7259546,S273,S273,S27399D,"Other injuries of lung, unspecified, subsequent encounter",0
+45,Q7259546,S273,S273,S27399S,"Other injuries of lung, unspecified, sequela",0
+46,Q67841409,G44,G44,G44001,"Cluster headache syndrome, unspecified, intractable",0
+46,Q67841409,G44,G44,G44009,"Cluster headache syndrome, unspecified, not intractable",0
+46,Q67841409,G44,G44,G44011,"Episodic cluster headache, intractable",0
+46,Q67841409,G44,G44,G44019,"Episodic cluster headache, not intractable",0
+46,Q67841409,G44,G44,G44021,"Chronic cluster headache, intractable",0
+46,Q67841409,G44,G44,G44029,"Chronic cluster headache, not intractable",0
+46,Q67841409,G44,G44,G44031,"Episodic paroxysmal hemicrania, intractable",0
+46,Q67841409,G44,G44,G44039,"Episodic paroxysmal hemicrania, not intractable",0
+46,Q67841409,G44,G44,G44041,"Chronic paroxysmal hemicrania, intractable",0
+46,Q67841409,G44,G44,G44049,"Chronic paroxysmal hemicrania, not intractable",0
+46,Q67841409,G44,G44,G44051,"Shrt lst unil nerlgif hdache w cnjnct inject/tear, ntrct",0
+46,Q67841409,G44,G44,G44059,"Shrt lst unil nerlgif hdache w cnjnct inject/tear, not ntrct",0
+46,Q67841409,G44,G44,G44091,"Other trigeminal autonomic cephalgias (TAC), intractable",0
+46,Q67841409,G44,G44,G44099,"Other trigeminal autonomic cephalgias (TAC), not intractable",0
+46,Q67841409,G44,G44,G441,"Vascular headache, not elsewhere classified",0
+46,Q67841409,G44,G44,G44201,"Tension-type headache, unspecified, intractable",0
+46,Q67841409,G44,G44,G44209,"Tension-type headache, unspecified, not intractable",0
+46,Q67841409,G44,G44,G44211,"Episodic tension-type headache, intractable",0
+46,Q67841409,G44,G44,G44219,"Episodic tension-type headache, not intractable",0
+46,Q67841409,G44,G44,G44221,"Chronic tension-type headache, intractable",0
+46,Q67841409,G44,G44,G44229,"Chronic tension-type headache, not intractable",0
+46,Q67841409,G44,G44,G44301,"Post-traumatic headache, unspecified, intractable",0
+46,Q67841409,G44,G44,G44309,"Post-traumatic headache, unspecified, not intractable",0
+46,Q67841409,G44,G44,G44311,"Acute post-traumatic headache, intractable",0
+46,Q67841409,G44,G44,G44319,"Acute post-traumatic headache, not intractable",0
+46,Q67841409,G44,G44,G44321,"Chronic post-traumatic headache, intractable",0
+46,Q67841409,G44,G44,G44329,"Chronic post-traumatic headache, not intractable",0
+46,Q67841409,G44,G44,G4440,"Drug-induced headache, NEC, not intractable",0
+46,Q67841409,G44,G44,G4441,"Drug-induced headache, not elsewhere classified, intractable",0
+46,Q67841409,G44,G44,G4451,Hemicrania continua,0
+46,Q67841409,G44,G44,G4452,New daily persistent headache (NDPH),0
+46,Q67841409,G44,G44,G4453,Primary thunderclap headache,0
+46,Q67841409,G44,G44,G4459,Other complicated headache syndrome,1
+46,Q67841409,G44,G44,G4481,Hypnic headache,0
+46,Q67841409,G44,G44,G4482,Headache associated with sexual activity,0
+46,Q67841409,G44,G44,G4483,Primary cough headache,0
+46,Q67841409,G44,G44,G4484,Primary exertional headache,0
+46,Q67841409,G44,G44,G4485,Primary stabbing headache,0
+46,Q67841409,G44,G44,G4489,Other headache syndrome,0
+47,Q3134276,K41,K41,K4100,"Bi femoral hernia, w obst, w/o gangrene, not spcf as recur",0
+47,Q3134276,K41,K41,K4101,"Bilateral femoral hernia, w obst, w/o gangrene, recurrent",0
+47,Q3134276,K41,K41,K4110,"Bi femoral hernia, w gangrene, not specified as recurrent",0
+47,Q3134276,K41,K41,K4111,"Bilateral femoral hernia, with gangrene, recurrent",0
+47,Q3134276,K41,K41,K4120,"Bi femoral hernia, w/o obst or gangrene, not spcf as recur",0
+47,Q3134276,K41,K41,K4121,"Bilateral femoral hernia, w/o obst or gangrene, recurrent",1
+47,Q3134276,K41,K41,K4130,"Unil femoral hernia, w obst, w/o gangrene, not spcf as recur",0
+47,Q3134276,K41,K41,K4131,"Unilateral femoral hernia, w obst, w/o gangrene, recurrent",0
+47,Q3134276,K41,K41,K4140,"Unil femoral hernia, w gangrene, not specified as recurrent",0
+47,Q3134276,K41,K41,K4141,"Unilateral femoral hernia, with gangrene, recurrent",0
+47,Q3134276,K41,K41,K4190,"Unil femoral hernia, w/o obst or gangrene, not spcf as recur",0
+47,Q3134276,K41,K41,K4191,"Unilateral femoral hernia, w/o obst or gangrene, recurrent",0
+48,Q127664,R560,R560,R5600,Simple febrile convulsions,1
+48,Q127664,R560,R560,R5601,Complex febrile convulsions,0
+50,Q917069,M628,T795,T795XXA,"Traumatic anuria, initial encounter",0
+50,Q917069,M628,T795,T795XXD,"Traumatic anuria, subsequent encounter",0
+50,Q917069,M628,T795,T795XXS,"Traumatic anuria, sequela",0
+50,Q917069,M628,T796,T796XXA,"Traumatic ischemia of muscle, initial encounter",0
+50,Q917069,M628,T796,T796XXD,"Traumatic ischemia of muscle, subsequent encounter",0
+50,Q917069,M628,T796,T796XXS,"Traumatic ischemia of muscle, sequela",0
+50,Q917069,M628,M628,M6281,Muscle weakness (generalized),0
+50,Q917069,M628,M628,M6282,Rhabdomyolysis,1
+50,Q917069,M628,M628,M62830,Muscle spasm of back,0
+50,Q917069,M628,M628,M62831,Muscle spasm of calf,0
+50,Q917069,M628,M628,M62838,Other muscle spasm,0
+50,Q917069,M628,M628,M6284,Sarcopenia,0
+50,Q917069,M628,M628,M6289,Other specified disorders of muscle,0
+51,Q21109048,N300,N300,N3000,Acute cystitis without hematuria,0
+51,Q21109048,N300,N300,N3001,Acute cystitis with hematuria,1
+52,Q3288116,B830,B830,B830,Visceral larva migrans,1
+53,Q166907,G440,G440,G44001,"Cluster headache syndrome, unspecified, intractable",0
+53,Q166907,G440,G440,G44009,"Cluster headache syndrome, unspecified, not intractable",0
+53,Q166907,G440,G440,G44011,"Episodic cluster headache, intractable",0
+53,Q166907,G440,G440,G44019,"Episodic cluster headache, not intractable",1
+53,Q166907,G440,G440,G44021,"Chronic cluster headache, intractable",0
+53,Q166907,G440,G440,G44029,"Chronic cluster headache, not intractable",0
+53,Q166907,G440,G440,G44031,"Episodic paroxysmal hemicrania, intractable",0
+53,Q166907,G440,G440,G44039,"Episodic paroxysmal hemicrania, not intractable",0
+53,Q166907,G440,G440,G44041,"Chronic paroxysmal hemicrania, intractable",0
+53,Q166907,G440,G440,G44049,"Chronic paroxysmal hemicrania, not intractable",0
+53,Q166907,G440,G440,G44051,"Shrt lst unil nerlgif hdache w cnjnct inject/tear, ntrct",0
+53,Q166907,G440,G440,G44059,"Shrt lst unil nerlgif hdache w cnjnct inject/tear, not ntrct",0
+53,Q166907,G440,G440,G44091,"Other trigeminal autonomic cephalgias (TAC), intractable",0
+53,Q166907,G440,G440,G44099,"Other trigeminal autonomic cephalgias (TAC), not intractable",0
+54,Q621053,F408,F401,F4010,"Social phobia, unspecified",1
+54,Q621053,F408,F401,F4011,"Social phobia, generalized",0
+54,Q621053,F408,F408,F408,Other phobic anxiety disorders,0
+55,Q163469,K668,K668,K668,Other specified disorders of peritoneum,0
+56,Q5360758,Q838,Q838,Q838,Other congenital malformations of breast,0
+57,Q124407,E10,E10,E1010,Type 1 diabetes mellitus with ketoacidosis without coma,0
+57,Q124407,E10,E10,E1011,Type 1 diabetes mellitus with ketoacidosis with coma,0
+57,Q124407,E10,E10,E1021,Type 1 diabetes mellitus with diabetic nephropathy,0
+57,Q124407,E10,E10,E1022,Type 1 diabetes mellitus w diabetic chronic kidney disease,0
+57,Q124407,E10,E10,E1029,Type 1 diabetes mellitus w oth diabetic kidney complication,0
+57,Q124407,E10,E10,E10311,Type 1 diabetes w unsp diabetic retinopathy w macular edema,0
+57,Q124407,E10,E10,E10319,Type 1 diabetes w unsp diabetic rtnop w/o macular edema,0
+57,Q124407,E10,E10,E103211,"Type 1 diab with mild nonp rtnop with macular edema, r eye",0
+57,Q124407,E10,E10,E103212,"Type 1 diab with mild nonp rtnop with macular edema, l eye",0
+57,Q124407,E10,E10,E103213,"Type 1 diabetes with mild nonp rtnop with macular edema, bi",0
+57,Q124407,E10,E10,E103219,"Type 1 diab with mild nonp rtnop with macular edema, unsp",0
+57,Q124407,E10,E10,E103291,"Type 1 diab with mild nonp rtnop without mclr edema, r eye",0
+57,Q124407,E10,E10,E103292,"Type 1 diab with mild nonp rtnop without mclr edema, l eye",0
+57,Q124407,E10,E10,E103293,"Type 1 diab with mild nonp rtnop without macular edema, bi",0
+57,Q124407,E10,E10,E103299,"Type 1 diab with mild nonp rtnop without macular edema, unsp",0
+57,Q124407,E10,E10,E103311,"Type 1 diab with mod nonp rtnop with macular edema, r eye",0
+57,Q124407,E10,E10,E103312,"Type 1 diab with mod nonp rtnop with macular edema, l eye",0
+57,Q124407,E10,E10,E103313,"Type 1 diab with moderate nonp rtnop with macular edema, bi",0
+57,Q124407,E10,E10,E103319,"Type 1 diab with mod nonp rtnop with macular edema, unsp",0
+57,Q124407,E10,E10,E103391,"Type 1 diab with mod nonp rtnop without macular edema, r eye",0
+57,Q124407,E10,E10,E103392,"Type 1 diab with mod nonp rtnop without macular edema, l eye",0
+57,Q124407,E10,E10,E103393,"Type 1 diab with mod nonp rtnop without macular edema, bi",0
+57,Q124407,E10,E10,E103399,"Type 1 diab with mod nonp rtnop without macular edema, unsp",0
+57,Q124407,E10,E10,E103411,"Type 1 diab with severe nonp rtnop with macular edema, r eye",0
+57,Q124407,E10,E10,E103412,"Type 1 diab with severe nonp rtnop with macular edema, l eye",0
+57,Q124407,E10,E10,E103413,"Type 1 diab with severe nonp rtnop with macular edema, bi",0
+57,Q124407,E10,E10,E103419,"Type 1 diab with severe nonp rtnop with macular edema, unsp",0
+57,Q124407,E10,E10,E103491,"Type 1 diab with severe nonp rtnop without mclr edema, r eye",0
+57,Q124407,E10,E10,E103492,"Type 1 diab with severe nonp rtnop without mclr edema, l eye",0
+57,Q124407,E10,E10,E103493,"Type 1 diab with severe nonp rtnop without macular edema, bi",0
+57,Q124407,E10,E10,E103499,"Type 1 diab with severe nonp rtnop without mclr edema, unsp",0
+57,Q124407,E10,E10,E103511,"Type 1 diab with prolif diab rtnop with macular edema, r eye",0
+57,Q124407,E10,E10,E103512,"Type 1 diab with prolif diab rtnop with macular edema, l eye",0
+57,Q124407,E10,E10,E103513,"Type 1 diab with prolif diab rtnop with macular edema, bi",0
+57,Q124407,E10,E10,E103519,"Type 1 diab with prolif diab rtnop with macular edema, unsp",0
+57,Q124407,E10,E10,E103521,"Type 1 diab w prolif diab rtnop w trctn dtch macula, r eye",0
+57,Q124407,E10,E10,E103522,"Type 1 diab w prolif diab rtnop w trctn dtch macula, l eye",0
+57,Q124407,E10,E10,E103523,"Type 1 diab w prolif diab rtnop with trctn dtch macula, bi",0
+57,Q124407,E10,E10,E103529,"Type 1 diab w prolif diab rtnop with trctn dtch macula, unsp",0
+57,Q124407,E10,E10,E103531,"Type 1 diab w prolif diab rtnop w trctn dtch n-mcla, r eye",0
+57,Q124407,E10,E10,E103532,"Type 1 diab w prolif diab rtnop w trctn dtch n-mcla, l eye",0
+57,Q124407,E10,E10,E103533,"Type 1 diab w prolif diab rtnop with trctn dtch n-mcla, bi",1
+57,Q124407,E10,E10,E103539,"Type 1 diab w prolif diab rtnop with trctn dtch n-mcla, unsp",0
+57,Q124407,E10,E10,E103541,"Type 1 diab with prolif diab rtnop with comb detach, r eye",0
+57,Q124407,E10,E10,E103542,"Type 1 diab with prolif diab rtnop with comb detach, l eye",0
+57,Q124407,E10,E10,E103543,"Type 1 diab with prolif diabetic rtnop with comb detach, bi",0
+57,Q124407,E10,E10,E103549,"Type 1 diab with prolif diab rtnop with comb detach, unsp",0
+57,Q124407,E10,E10,E103551,"Type 1 diabetes with stable prolif diabetic rtnop, right eye",0
+57,Q124407,E10,E10,E103552,"Type 1 diabetes with stable prolif diabetic rtnop, left eye",0
+57,Q124407,E10,E10,E103553,"Type 1 diabetes with stable prolif diabetic rtnop, bilateral",0
+57,Q124407,E10,E10,E103559,"Type 1 diabetes with stable prolif diabetic rtnop, unsp",0
+57,Q124407,E10,E10,E103591,"Type 1 diab with prolif diab rtnop without mclr edema, r eye",0
+57,Q124407,E10,E10,E103592,"Type 1 diab with prolif diab rtnop without mclr edema, l eye",0
+57,Q124407,E10,E10,E103593,"Type 1 diab with prolif diab rtnop without macular edema, bi",0
+57,Q124407,E10,E10,E103599,"Type 1 diab with prolif diab rtnop without mclr edema, unsp",0
+57,Q124407,E10,E10,E1036,Type 1 diabetes mellitus with diabetic cataract,0
+57,Q124407,E10,E10,E1037X1,"Type 1 diab with diab mclr edema, resolved fol trtmt, r eye",0
+57,Q124407,E10,E10,E1037X2,"Type 1 diab with diab mclr edema, resolved fol trtmt, l eye",0
+57,Q124407,E10,E10,E1037X3,"Type 1 diab with diab macular edema, resolved fol trtmt, bi",0
+57,Q124407,E10,E10,E1037X9,"Type 1 diab with diab mclr edema, resolved fol trtmt, unsp",0
+57,Q124407,E10,E10,E1039,Type 1 diabetes w oth diabetic ophthalmic complication,0
+57,Q124407,E10,E10,E1040,"Type 1 diabetes mellitus with diabetic neuropathy, unsp",0
+57,Q124407,E10,E10,E1041,Type 1 diabetes mellitus with diabetic mononeuropathy,0
+57,Q124407,E10,E10,E1042,Type 1 diabetes mellitus with diabetic polyneuropathy,0
+57,Q124407,E10,E10,E1043,Type 1 diabetes w diabetic autonomic (poly)neuropathy,0
+57,Q124407,E10,E10,E1044,Type 1 diabetes mellitus with diabetic amyotrophy,0
+57,Q124407,E10,E10,E1049,Type 1 diabetes w oth diabetic neurological complication,0
+57,Q124407,E10,E10,E1051,Type 1 diabetes w diabetic peripheral angiopath w/o gangrene,0
+57,Q124407,E10,E10,E1052,Type 1 diabetes w diabetic peripheral angiopathy w gangrene,0
+57,Q124407,E10,E10,E1059,Type 1 diabetes mellitus with oth circulatory complications,0
+57,Q124407,E10,E10,E10610,Type 1 diabetes mellitus w diabetic neuropathic arthropathy,0
+57,Q124407,E10,E10,E10618,Type 1 diabetes mellitus with other diabetic arthropathy,0
+57,Q124407,E10,E10,E10620,Type 1 diabetes mellitus with diabetic dermatitis,0
+57,Q124407,E10,E10,E10621,Type 1 diabetes mellitus with foot ulcer,0
+57,Q124407,E10,E10,E10622,Type 1 diabetes mellitus with other skin ulcer,0
+57,Q124407,E10,E10,E10628,Type 1 diabetes mellitus with other skin complications,0
+57,Q124407,E10,E10,E10630,Type 1 diabetes mellitus with periodontal disease,0
+57,Q124407,E10,E10,E10638,Type 1 diabetes mellitus with other oral complications,0
+57,Q124407,E10,E10,E10641,Type 1 diabetes mellitus with hypoglycemia with coma,0
+57,Q124407,E10,E10,E10649,Type 1 diabetes mellitus with hypoglycemia without coma,0
+57,Q124407,E10,E10,E1065,Type 1 diabetes mellitus with hyperglycemia,0
+57,Q124407,E10,E10,E1069,Type 1 diabetes mellitus with other specified complication,0
+57,Q124407,E10,E10,E108,Type 1 diabetes mellitus with unspecified complications,0
+57,Q124407,E10,E10,E109,Type 1 diabetes mellitus without complications,0
+58,Q20825941,M250,M250,M2500,"Hemarthrosis, unspecified joint",0
+58,Q20825941,M250,M250,M25011,"Hemarthrosis, right shoulder",0
+58,Q20825941,M250,M250,M25012,"Hemarthrosis, left shoulder",0
+58,Q20825941,M250,M250,M25019,"Hemarthrosis, unspecified shoulder",0
+58,Q20825941,M250,M250,M25021,"Hemarthrosis, right elbow",0
+58,Q20825941,M250,M250,M25022,"Hemarthrosis, left elbow",0
+58,Q20825941,M250,M250,M25029,"Hemarthrosis, unspecified elbow",0
+58,Q20825941,M250,M250,M25031,"Hemarthrosis, right wrist",0
+58,Q20825941,M250,M250,M25032,"Hemarthrosis, left wrist",0
+58,Q20825941,M250,M250,M25039,"Hemarthrosis, unspecified wrist",0
+58,Q20825941,M250,M250,M25041,"Hemarthrosis, right hand",0
+58,Q20825941,M250,M250,M25042,"Hemarthrosis, left hand",0
+58,Q20825941,M250,M250,M25049,"Hemarthrosis, unspecified hand",0
+58,Q20825941,M250,M250,M25051,"Hemarthrosis, right hip",0
+58,Q20825941,M250,M250,M25052,"Hemarthrosis, left hip",0
+58,Q20825941,M250,M250,M25059,"Hemarthrosis, unspecified hip",0
+58,Q20825941,M250,M250,M25061,"Hemarthrosis, right knee",1
+58,Q20825941,M250,M250,M25062,"Hemarthrosis, left knee",0
+58,Q20825941,M250,M250,M25069,"Hemarthrosis, unspecified knee",0
+58,Q20825941,M250,M250,M25071,"Hemarthrosis, right ankle",0
+58,Q20825941,M250,M250,M25072,"Hemarthrosis, left ankle",0
+58,Q20825941,M250,M250,M25073,"Hemarthrosis, unspecified ankle",0
+58,Q20825941,M250,M250,M25074,"Hemarthrosis, right foot",0
+58,Q20825941,M250,M250,M25075,"Hemarthrosis, left foot",0
+58,Q20825941,M250,M250,M25076,"Hemarthrosis, unspecified foot",0
+58,Q20825941,M250,M250,M2508,"Hemarthrosis, other specified site",0
+59,Q2546232,Q673,Q673,Q673,Plagiocephaly,1
+60,Q390217,O923,O925,O925,Suppressed lactation,0
+60,Q390217,O923,O923,O923,Agalactia,1
+61,Q2141001,T691,T691,T691XXA,"Chilblains, initial encounter",0
+61,Q2141001,T691,T691,T691XXD,"Chilblains, subsequent encounter",0
+61,Q2141001,T691,T691,T691XXS,"Chilblains, sequela",0
+62,Q826918,M856,M854,M8540,"Solitary bone cyst, unspecified site",0
+62,Q826918,M856,M854,M85411,"Solitary bone cyst, right shoulder",0
+62,Q826918,M856,M854,M85412,"Solitary bone cyst, left shoulder",0
+62,Q826918,M856,M854,M85419,"Solitary bone cyst, unspecified shoulder",0
+62,Q826918,M856,M854,M85421,"Solitary bone cyst, right humerus",0
+62,Q826918,M856,M854,M85422,"Solitary bone cyst, left humerus",0
+62,Q826918,M856,M854,M85429,"Solitary bone cyst, unspecified humerus",0
+62,Q826918,M856,M854,M85431,"Solitary bone cyst, right ulna and radius",0
+62,Q826918,M856,M854,M85432,"Solitary bone cyst, left ulna and radius",0
+62,Q826918,M856,M854,M85439,"Solitary bone cyst, unspecified ulna and radius",0
+62,Q826918,M856,M854,M85441,"Solitary bone cyst, right hand",0
+62,Q826918,M856,M854,M85442,"Solitary bone cyst, left hand",0
+62,Q826918,M856,M854,M85449,"Solitary bone cyst, unspecified hand",0
+62,Q826918,M856,M854,M85451,"Solitary bone cyst, right pelvis",0
+62,Q826918,M856,M854,M85452,"Solitary bone cyst, left pelvis",0
+62,Q826918,M856,M854,M85459,"Solitary bone cyst, unspecified pelvis",0
+62,Q826918,M856,M854,M85461,"Solitary bone cyst, right tibia and fibula",0
+62,Q826918,M856,M854,M85462,"Solitary bone cyst, left tibia and fibula",0
+62,Q826918,M856,M854,M85469,"Solitary bone cyst, unspecified tibia and fibula",0
+62,Q826918,M856,M854,M85471,"Solitary bone cyst, right ankle and foot",0
+62,Q826918,M856,M854,M85472,"Solitary bone cyst, left ankle and foot",0
+62,Q826918,M856,M854,M85479,"Solitary bone cyst, unspecified ankle and foot",0
+62,Q826918,M856,M854,M8548,"Solitary bone cyst, other site",0
+62,Q826918,M856,M856,M8560,"Other cyst of bone, unspecified site",0
+62,Q826918,M856,M856,M85611,"Other cyst of bone, right shoulder",1
+62,Q826918,M856,M856,M85612,"Other cyst of bone, left shoulder",0
+62,Q826918,M856,M856,M85619,"Other cyst of bone, unspecified shoulder",0
+62,Q826918,M856,M856,M85621,"Other cyst of bone, right upper arm",0
+62,Q826918,M856,M856,M85622,"Other cyst of bone, left upper arm",0
+62,Q826918,M856,M856,M85629,"Other cyst of bone, unspecified upper arm",0
+62,Q826918,M856,M856,M85631,"Other cyst of bone, right forearm",0
+62,Q826918,M856,M856,M85632,"Other cyst of bone, left forearm",0
+62,Q826918,M856,M856,M85639,"Other cyst of bone, unspecified forearm",0
+62,Q826918,M856,M856,M85641,"Other cyst of bone, right hand",0
+62,Q826918,M856,M856,M85642,"Other cyst of bone, left hand",0
+62,Q826918,M856,M856,M85649,"Other cyst of bone, unspecified hand",0
+62,Q826918,M856,M856,M85651,"Other cyst of bone, right thigh",0
+62,Q826918,M856,M856,M85652,"Other cyst of bone, left thigh",0
+62,Q826918,M856,M856,M85659,"Other cyst of bone, unspecified thigh",0
+62,Q826918,M856,M856,M85661,"Other cyst of bone, right lower leg",0
+62,Q826918,M856,M856,M85662,"Other cyst of bone, left lower leg",0
+62,Q826918,M856,M856,M85669,"Other cyst of bone, unspecified lower leg",0
+62,Q826918,M856,M856,M85671,"Other cyst of bone, right ankle and foot",0
+62,Q826918,M856,M856,M85672,"Other cyst of bone, left ankle and foot",0
+62,Q826918,M856,M856,M85679,"Other cyst of bone, unspecified ankle and foot",0
+62,Q826918,M856,M856,M8568,"Other cyst of bone, other site",0
+62,Q826918,M856,M856,M8569,"Other cyst of bone, multiple sites",0
+63,Q3288122,F849,F848,F848,Other pervasive developmental disorders,0
+63,Q3288122,F849,F849,F849,"Pervasive developmental disorder, unspecified",0
+64,Q4501726,J350,J350,J3501,Chronic tonsillitis,0
+64,Q4501726,J350,J350,J3502,Chronic adenoiditis,1
+64,Q4501726,J350,J350,J3503,Chronic tonsillitis and adenoiditis,0
+65,Q1777118,M17,M17,M170,Bilateral primary osteoarthritis of knee,0
+65,Q1777118,M17,M17,M1710,"Unilateral primary osteoarthritis, unspecified knee",0
+65,Q1777118,M17,M17,M1711,"Unilateral primary osteoarthritis, right knee",0
+65,Q1777118,M17,M17,M1712,"Unilateral primary osteoarthritis, left knee",1
+65,Q1777118,M17,M17,M172,Bilateral post-traumatic osteoarthritis of knee,0
+65,Q1777118,M17,M17,M1730,"Unilateral post-traumatic osteoarthritis, unspecified knee",0
+65,Q1777118,M17,M17,M1731,"Unilateral post-traumatic osteoarthritis, right knee",0
+65,Q1777118,M17,M17,M1732,"Unilateral post-traumatic osteoarthritis, left knee",0
+65,Q1777118,M17,M17,M174,Other bilateral secondary osteoarthritis of knee,0
+65,Q1777118,M17,M17,M175,Other unilateral secondary osteoarthritis of knee,0
+65,Q1777118,M17,M17,M179,"Osteoarthritis of knee, unspecified",0
+66,Q1367304,T790,O880,O88011,"Air embolism in pregnancy, first trimester",0
+66,Q1367304,T790,O880,O88012,"Air embolism in pregnancy, second trimester",0
+66,Q1367304,T790,O880,O88013,"Air embolism in pregnancy, third trimester",0
+66,Q1367304,T790,O880,O88019,"Air embolism in pregnancy, unspecified trimester",0
+66,Q1367304,T790,O880,O8802,Air embolism in childbirth,0
+66,Q1367304,T790,O880,O8803,Air embolism in the puerperium,1
+66,Q1367304,T790,T790,T790XXA,"Air embolism (traumatic), initial encounter",0
+66,Q1367304,T790,T790,T790XXD,"Air embolism (traumatic), subsequent encounter",0
+66,Q1367304,T790,T790,T790XXS,"Air embolism (traumatic), sequela",0
+67,Q4338646,M939,M939,M9390,"Osteochondropathy, unspecified of unspecified site",0
+67,Q4338646,M939,M939,M93911,"Osteochondropathy, unspecified, right shoulder",0
+67,Q4338646,M939,M939,M93912,"Osteochondropathy, unspecified, left shoulder",0
+67,Q4338646,M939,M939,M93919,"Osteochondropathy, unspecified, unspecified shoulder",0
+67,Q4338646,M939,M939,M93921,"Osteochondropathy, unspecified, right upper arm",0
+67,Q4338646,M939,M939,M93922,"Osteochondropathy, unspecified, left upper arm",0
+67,Q4338646,M939,M939,M93929,"Osteochondropathy, unspecified, unspecified upper arm",0
+67,Q4338646,M939,M939,M93931,"Osteochondropathy, unspecified, right forearm",0
+67,Q4338646,M939,M939,M93932,"Osteochondropathy, unspecified, left forearm",0
+67,Q4338646,M939,M939,M93939,"Osteochondropathy, unspecified, unspecified forearm",0
+67,Q4338646,M939,M939,M93941,"Osteochondropathy, unspecified, right hand",0
+67,Q4338646,M939,M939,M93942,"Osteochondropathy, unspecified, left hand",0
+67,Q4338646,M939,M939,M93949,"Osteochondropathy, unspecified, unspecified hand",0
+67,Q4338646,M939,M939,M93951,"Osteochondropathy, unspecified, right thigh",0
+67,Q4338646,M939,M939,M93952,"Osteochondropathy, unspecified, left thigh",0
+67,Q4338646,M939,M939,M93959,"Osteochondropathy, unspecified, unspecified thigh",0
+67,Q4338646,M939,M939,M93961,"Osteochondropathy, unspecified, right lower leg",0
+67,Q4338646,M939,M939,M93962,"Osteochondropathy, unspecified, left lower leg",0
+67,Q4338646,M939,M939,M93969,"Osteochondropathy, unspecified, unspecified lower leg",0
+67,Q4338646,M939,M939,M93971,"Osteochondropathy, unspecified, right ankle and foot",0
+67,Q4338646,M939,M939,M93972,"Osteochondropathy, unspecified, left ankle and foot",0
+67,Q4338646,M939,M939,M93979,"Osteochondropathy, unspecified, unspecified ankle and foot",0
+67,Q4338646,M939,M939,M9398,"Osteochondropathy, unspecified other",1
+67,Q4338646,M939,M939,M9399,"Osteochondropathy, unspecified multiple sites",0
+68,Q7256456,F079,F079,F079,Unsp personality & behavrl disord due to known physiol cond,0
+69,Q420915,I738,I738,I7381,Erythromelalgia,1
+69,Q420915,I738,I738,I7389,Other specified peripheral vascular diseases,0
+70,Q1068323,M2660,M2660,M26601,"Right temporomandibular joint disorder, unspecified",1
+70,Q1068323,M2660,M2660,M26602,"Left temporomandibular joint disorder, unspecified",0
+70,Q1068323,M2660,M2660,M26603,"Bilateral temporomandibular joint disorder, unspecified",0
+70,Q1068323,M2660,M2660,M26609,"Unspecified TMJ joint disorder, unspecified side",0
+71,Q565276,M544,M543,M5430,"Sciatica, unspecified side",0
+71,Q565276,M544,M543,M5431,"Sciatica, right side",0
+71,Q565276,M544,M543,M5432,"Sciatica, left side",0
+71,Q565276,M544,M544,M5440,"Lumbago with sciatica, unspecified side",0
+71,Q565276,M544,M544,M5441,"Lumbago with sciatica, right side",0
+71,Q565276,M544,M544,M5442,"Lumbago with sciatica, left side",0
+72,Q2323502,F021,A810,A8100,"Creutzfeldt-Jakob disease, unspecified",0
+72,Q2323502,F021,A810,A8101,Variant Creutzfeldt-Jakob disease,0
+72,Q2323502,F021,A810,A8109,Other Creutzfeldt-Jakob disease,0
+73,Q7170418,H214,H214,H2140,"Pupillary membranes, unspecified eye",0
+73,Q7170418,H214,H214,H2141,"Pupillary membranes, right eye",0
+73,Q7170418,H214,H214,H2142,"Pupillary membranes, left eye",1
+73,Q7170418,H214,H214,H2143,"Pupillary membranes, bilateral",0
+74,Q2946952,M478,M19,M19011,"Primary osteoarthritis, right shoulder",0
+74,Q2946952,M478,M19,M19012,"Primary osteoarthritis, left shoulder",0
+74,Q2946952,M478,M19,M19019,"Primary osteoarthritis, unspecified shoulder",0
+74,Q2946952,M478,M19,M19021,"Primary osteoarthritis, right elbow",0
+74,Q2946952,M478,M19,M19022,"Primary osteoarthritis, left elbow",0
+74,Q2946952,M478,M19,M19029,"Primary osteoarthritis, unspecified elbow",0
+74,Q2946952,M478,M19,M19031,"Primary osteoarthritis, right wrist",0
+74,Q2946952,M478,M19,M19032,"Primary osteoarthritis, left wrist",0
+74,Q2946952,M478,M19,M19039,"Primary osteoarthritis, unspecified wrist",0
+74,Q2946952,M478,M19,M19041,"Primary osteoarthritis, right hand",0
+74,Q2946952,M478,M19,M19042,"Primary osteoarthritis, left hand",0
+74,Q2946952,M478,M19,M19049,"Primary osteoarthritis, unspecified hand",0
+74,Q2946952,M478,M19,M19071,"Primary osteoarthritis, right ankle and foot",0
+74,Q2946952,M478,M19,M19072,"Primary osteoarthritis, left ankle and foot",0
+74,Q2946952,M478,M19,M19079,"Primary osteoarthritis, unspecified ankle and foot",0
+74,Q2946952,M478,M19,M19111,"Post-traumatic osteoarthritis, right shoulder",0
+74,Q2946952,M478,M19,M19112,"Post-traumatic osteoarthritis, left shoulder",0
+74,Q2946952,M478,M19,M19119,"Post-traumatic osteoarthritis, unspecified shoulder",0
+74,Q2946952,M478,M19,M19121,"Post-traumatic osteoarthritis, right elbow",0
+74,Q2946952,M478,M19,M19122,"Post-traumatic osteoarthritis, left elbow",0
+74,Q2946952,M478,M19,M19129,"Post-traumatic osteoarthritis, unspecified elbow",0
+74,Q2946952,M478,M19,M19131,"Post-traumatic osteoarthritis, right wrist",0
+74,Q2946952,M478,M19,M19132,"Post-traumatic osteoarthritis, left wrist",0
+74,Q2946952,M478,M19,M19139,"Post-traumatic osteoarthritis, unspecified wrist",0
+74,Q2946952,M478,M19,M19141,"Post-traumatic osteoarthritis, right hand",0
+74,Q2946952,M478,M19,M19142,"Post-traumatic osteoarthritis, left hand",0
+74,Q2946952,M478,M19,M19149,"Post-traumatic osteoarthritis, unspecified hand",0
+74,Q2946952,M478,M19,M19171,"Post-traumatic osteoarthritis, right ankle and foot",0
+74,Q2946952,M478,M19,M19172,"Post-traumatic osteoarthritis, left ankle and foot",0
+74,Q2946952,M478,M19,M19179,"Post-traumatic osteoarthritis, unspecified ankle and foot",0
+74,Q2946952,M478,M19,M19211,"Secondary osteoarthritis, right shoulder",0
+74,Q2946952,M478,M19,M19212,"Secondary osteoarthritis, left shoulder",0
+74,Q2946952,M478,M19,M19219,"Secondary osteoarthritis, unspecified shoulder",0
+74,Q2946952,M478,M19,M19221,"Secondary osteoarthritis, right elbow",0
+74,Q2946952,M478,M19,M19222,"Secondary osteoarthritis, left elbow",0
+74,Q2946952,M478,M19,M19229,"Secondary osteoarthritis, unspecified elbow",0
+74,Q2946952,M478,M19,M19231,"Secondary osteoarthritis, right wrist",0
+74,Q2946952,M478,M19,M19232,"Secondary osteoarthritis, left wrist",0
+74,Q2946952,M478,M19,M19239,"Secondary osteoarthritis, unspecified wrist",0
+74,Q2946952,M478,M19,M19241,"Secondary osteoarthritis, right hand",0
+74,Q2946952,M478,M19,M19242,"Secondary osteoarthritis, left hand",0
+74,Q2946952,M478,M19,M19249,"Secondary osteoarthritis, unspecified hand",0
+74,Q2946952,M478,M19,M19271,"Secondary osteoarthritis, right ankle and foot",0
+74,Q2946952,M478,M19,M19272,"Secondary osteoarthritis, left ankle and foot",0
+74,Q2946952,M478,M19,M19279,"Secondary osteoarthritis, unspecified ankle and foot",0
+74,Q2946952,M478,M19,M1990,"Unspecified osteoarthritis, unspecified site",0
+74,Q2946952,M478,M19,M1991,"Primary osteoarthritis, unspecified site",0
+74,Q2946952,M478,M19,M1992,"Post-traumatic osteoarthritis, unspecified site",0
+74,Q2946952,M478,M19,M1993,"Secondary osteoarthritis, unspecified site",0
+74,Q2946952,M478,M478,M47811,"Spondyls w/o myelpath or radiculopathy, occipt-atlan-ax rgn",0
+74,Q2946952,M478,M478,M47812,"Spondylosis w/o myelopathy or radiculopathy, cervical region",0
+74,Q2946952,M478,M478,M47813,"Spondyls w/o myelopathy or radiculopathy, cervicothor region",0
+74,Q2946952,M478,M478,M47814,"Spondylosis w/o myelopathy or radiculopathy, thoracic region",0
+74,Q2946952,M478,M478,M47815,"Spondyls w/o myelopathy or radiculopathy, thoracolum region",0
+74,Q2946952,M478,M478,M47816,"Spondylosis w/o myelopathy or radiculopathy, lumbar region",0
+74,Q2946952,M478,M478,M47817,"Spondyls w/o myelopathy or radiculopathy, lumbosacr region",0
+74,Q2946952,M478,M478,M47818,"Spondyls w/o myelpath or radiculopathy, sacr/sacrocygl rgn",0
+74,Q2946952,M478,M478,M47819,"Spondylosis without myelopathy or radiculopathy, site unsp",0
+74,Q2946952,M478,M478,M47891,"Other spondylosis, occipito-atlanto-axial region",0
+74,Q2946952,M478,M478,M47892,"Other spondylosis, cervical region",0
+74,Q2946952,M478,M478,M47893,"Other spondylosis, cervicothoracic region",0
+74,Q2946952,M478,M478,M47894,"Other spondylosis, thoracic region",0
+74,Q2946952,M478,M478,M47895,"Other spondylosis, thoracolumbar region",0
+74,Q2946952,M478,M478,M47896,"Other spondylosis, lumbar region",0
+74,Q2946952,M478,M478,M47897,"Other spondylosis, lumbosacral region",0
+74,Q2946952,M478,M478,M47898,"Other spondylosis, sacral and sacrococcygeal region",0
+74,Q2946952,M478,M478,M47899,"Other spondylosis, site unspecified",0
+75,Q1996053,K861,K860,K860,Alcohol-induced chronic pancreatitis,0
+75,Q1996053,K861,K861,K861,Other chronic pancreatitis,0
+76,Q2966706,L751,L751,L751,Chromhidrosis,1
+77,Q5191403,M11,M10,M1000,"Idiopathic gout, unspecified site",0
+77,Q5191403,M11,M10,M10011,"Idiopathic gout, right shoulder",0
+77,Q5191403,M11,M10,M10012,"Idiopathic gout, left shoulder",0
+77,Q5191403,M11,M10,M10019,"Idiopathic gout, unspecified shoulder",0
+77,Q5191403,M11,M10,M10021,"Idiopathic gout, right elbow",0
+77,Q5191403,M11,M10,M10022,"Idiopathic gout, left elbow",0
+77,Q5191403,M11,M10,M10029,"Idiopathic gout, unspecified elbow",0
+77,Q5191403,M11,M10,M10031,"Idiopathic gout, right wrist",0
+77,Q5191403,M11,M10,M10032,"Idiopathic gout, left wrist",0
+77,Q5191403,M11,M10,M10039,"Idiopathic gout, unspecified wrist",0
+77,Q5191403,M11,M10,M10041,"Idiopathic gout, right hand",0
+77,Q5191403,M11,M10,M10042,"Idiopathic gout, left hand",0
+77,Q5191403,M11,M10,M10049,"Idiopathic gout, unspecified hand",0
+77,Q5191403,M11,M10,M10051,"Idiopathic gout, right hip",0
+77,Q5191403,M11,M10,M10052,"Idiopathic gout, left hip",0
+77,Q5191403,M11,M10,M10059,"Idiopathic gout, unspecified hip",0
+77,Q5191403,M11,M10,M10061,"Idiopathic gout, right knee",0
+77,Q5191403,M11,M10,M10062,"Idiopathic gout, left knee",0
+77,Q5191403,M11,M10,M10069,"Idiopathic gout, unspecified knee",0
+77,Q5191403,M11,M10,M10071,"Idiopathic gout, right ankle and foot",0
+77,Q5191403,M11,M10,M10072,"Idiopathic gout, left ankle and foot",0
+77,Q5191403,M11,M10,M10079,"Idiopathic gout, unspecified ankle and foot",0
+77,Q5191403,M11,M10,M1008,"Idiopathic gout, vertebrae",0
+77,Q5191403,M11,M10,M1009,"Idiopathic gout, multiple sites",0
+77,Q5191403,M11,M10,M1010,"Lead-induced gout, unspecified site",0
+77,Q5191403,M11,M10,M10111,"Lead-induced gout, right shoulder",0
+77,Q5191403,M11,M10,M10112,"Lead-induced gout, left shoulder",0
+77,Q5191403,M11,M10,M10119,"Lead-induced gout, unspecified shoulder",0
+77,Q5191403,M11,M10,M10121,"Lead-induced gout, right elbow",0
+77,Q5191403,M11,M10,M10122,"Lead-induced gout, left elbow",0
+77,Q5191403,M11,M10,M10129,"Lead-induced gout, unspecified elbow",0
+77,Q5191403,M11,M10,M10131,"Lead-induced gout, right wrist",0
+77,Q5191403,M11,M10,M10132,"Lead-induced gout, left wrist",0
+77,Q5191403,M11,M10,M10139,"Lead-induced gout, unspecified wrist",0
+77,Q5191403,M11,M10,M10141,"Lead-induced gout, right hand",0
+77,Q5191403,M11,M10,M10142,"Lead-induced gout, left hand",0
+77,Q5191403,M11,M10,M10149,"Lead-induced gout, unspecified hand",0
+77,Q5191403,M11,M10,M10151,"Lead-induced gout, right hip",0
+77,Q5191403,M11,M10,M10152,"Lead-induced gout, left hip",0
+77,Q5191403,M11,M10,M10159,"Lead-induced gout, unspecified hip",0
+77,Q5191403,M11,M10,M10161,"Lead-induced gout, right knee",0
+77,Q5191403,M11,M10,M10162,"Lead-induced gout, left knee",0
+77,Q5191403,M11,M10,M10169,"Lead-induced gout, unspecified knee",0
+77,Q5191403,M11,M10,M10171,"Lead-induced gout, right ankle and foot",0
+77,Q5191403,M11,M10,M10172,"Lead-induced gout, left ankle and foot",0
+77,Q5191403,M11,M10,M10179,"Lead-induced gout, unspecified ankle and foot",0
+77,Q5191403,M11,M10,M1018,"Lead-induced gout, vertebrae",0
+77,Q5191403,M11,M10,M1019,"Lead-induced gout, multiple sites",0
+77,Q5191403,M11,M10,M1020,"Drug-induced gout, unspecified site",0
+77,Q5191403,M11,M10,M10211,"Drug-induced gout, right shoulder",0
+77,Q5191403,M11,M10,M10212,"Drug-induced gout, left shoulder",0
+77,Q5191403,M11,M10,M10219,"Drug-induced gout, unspecified shoulder",0
+77,Q5191403,M11,M10,M10221,"Drug-induced gout, right elbow",0
+77,Q5191403,M11,M10,M10222,"Drug-induced gout, left elbow",0
+77,Q5191403,M11,M10,M10229,"Drug-induced gout, unspecified elbow",0
+77,Q5191403,M11,M10,M10231,"Drug-induced gout, right wrist",0
+77,Q5191403,M11,M10,M10232,"Drug-induced gout, left wrist",0
+77,Q5191403,M11,M10,M10239,"Drug-induced gout, unspecified wrist",0
+77,Q5191403,M11,M10,M10241,"Drug-induced gout, right hand",0
+77,Q5191403,M11,M10,M10242,"Drug-induced gout, left hand",0
+77,Q5191403,M11,M10,M10249,"Drug-induced gout, unspecified hand",0
+77,Q5191403,M11,M10,M10251,"Drug-induced gout, right hip",0
+77,Q5191403,M11,M10,M10252,"Drug-induced gout, left hip",0
+77,Q5191403,M11,M10,M10259,"Drug-induced gout, unspecified hip",0
+77,Q5191403,M11,M10,M10261,"Drug-induced gout, right knee",0
+77,Q5191403,M11,M10,M10262,"Drug-induced gout, left knee",0
+77,Q5191403,M11,M10,M10269,"Drug-induced gout, unspecified knee",0
+77,Q5191403,M11,M10,M10271,"Drug-induced gout, right ankle and foot",0
+77,Q5191403,M11,M10,M10272,"Drug-induced gout, left ankle and foot",0
+77,Q5191403,M11,M10,M10279,"Drug-induced gout, unspecified ankle and foot",0
+77,Q5191403,M11,M10,M1028,"Drug-induced gout, vertebrae",0
+77,Q5191403,M11,M10,M1029,"Drug-induced gout, multiple sites",0
+77,Q5191403,M11,M10,M1030,"Gout due to renal impairment, unspecified site",0
+77,Q5191403,M11,M10,M10311,"Gout due to renal impairment, right shoulder",0
+77,Q5191403,M11,M10,M10312,"Gout due to renal impairment, left shoulder",0
+77,Q5191403,M11,M10,M10319,"Gout due to renal impairment, unspecified shoulder",0
+77,Q5191403,M11,M10,M10321,"Gout due to renal impairment, right elbow",0
+77,Q5191403,M11,M10,M10322,"Gout due to renal impairment, left elbow",0
+77,Q5191403,M11,M10,M10329,"Gout due to renal impairment, unspecified elbow",0
+77,Q5191403,M11,M10,M10331,"Gout due to renal impairment, right wrist",0
+77,Q5191403,M11,M10,M10332,"Gout due to renal impairment, left wrist",0
+77,Q5191403,M11,M10,M10339,"Gout due to renal impairment, unspecified wrist",0
+77,Q5191403,M11,M10,M10341,"Gout due to renal impairment, right hand",0
+77,Q5191403,M11,M10,M10342,"Gout due to renal impairment, left hand",0
+77,Q5191403,M11,M10,M10349,"Gout due to renal impairment, unspecified hand",0
+77,Q5191403,M11,M10,M10351,"Gout due to renal impairment, right hip",0
+77,Q5191403,M11,M10,M10352,"Gout due to renal impairment, left hip",0
+77,Q5191403,M11,M10,M10359,"Gout due to renal impairment, unspecified hip",0
+77,Q5191403,M11,M10,M10361,"Gout due to renal impairment, right knee",0
+77,Q5191403,M11,M10,M10362,"Gout due to renal impairment, left knee",0
+77,Q5191403,M11,M10,M10369,"Gout due to renal impairment, unspecified knee",0
+77,Q5191403,M11,M10,M10371,"Gout due to renal impairment, right ankle and foot",0
+77,Q5191403,M11,M10,M10372,"Gout due to renal impairment, left ankle and foot",0
+77,Q5191403,M11,M10,M10379,"Gout due to renal impairment, unspecified ankle and foot",0
+77,Q5191403,M11,M10,M1038,"Gout due to renal impairment, vertebrae",0
+77,Q5191403,M11,M10,M1039,"Gout due to renal impairment, multiple sites",0
+77,Q5191403,M11,M10,M1040,"Other secondary gout, unspecified site",0
+77,Q5191403,M11,M10,M10411,"Other secondary gout, right shoulder",0
+77,Q5191403,M11,M10,M10412,"Other secondary gout, left shoulder",0
+77,Q5191403,M11,M10,M10419,"Other secondary gout, unspecified shoulder",0
+77,Q5191403,M11,M10,M10421,"Other secondary gout, right elbow",0
+77,Q5191403,M11,M10,M10422,"Other secondary gout, left elbow",0
+77,Q5191403,M11,M10,M10429,"Other secondary gout, unspecified elbow",0
+77,Q5191403,M11,M10,M10431,"Other secondary gout, right wrist",0
+77,Q5191403,M11,M10,M10432,"Other secondary gout, left wrist",0
+77,Q5191403,M11,M10,M10439,"Other secondary gout, unspecified wrist",0
+77,Q5191403,M11,M10,M10441,"Other secondary gout, right hand",0
+77,Q5191403,M11,M10,M10442,"Other secondary gout, left hand",0
+77,Q5191403,M11,M10,M10449,"Other secondary gout, unspecified hand",0
+77,Q5191403,M11,M10,M10451,"Other secondary gout, right hip",0
+77,Q5191403,M11,M10,M10452,"Other secondary gout, left hip",0
+77,Q5191403,M11,M10,M10459,"Other secondary gout, unspecified hip",0
+77,Q5191403,M11,M10,M10461,"Other secondary gout, right knee",0
+77,Q5191403,M11,M10,M10462,"Other secondary gout, left knee",0
+77,Q5191403,M11,M10,M10469,"Other secondary gout, unspecified knee",0
+77,Q5191403,M11,M10,M10471,"Other secondary gout, right ankle and foot",0
+77,Q5191403,M11,M10,M10472,"Other secondary gout, left ankle and foot",0
+77,Q5191403,M11,M10,M10479,"Other secondary gout, unspecified ankle and foot",0
+77,Q5191403,M11,M10,M1048,"Other secondary gout, vertebrae",0
+77,Q5191403,M11,M10,M1049,"Other secondary gout, multiple sites",0
+77,Q5191403,M11,M10,M109,"Gout, unspecified",0
+77,Q5191403,M11,M11,M1100,"Hydroxyapatite deposition disease, unspecified site",0
+77,Q5191403,M11,M11,M11011,"Hydroxyapatite deposition disease, right shoulder",0
+77,Q5191403,M11,M11,M11012,"Hydroxyapatite deposition disease, left shoulder",0
+77,Q5191403,M11,M11,M11019,"Hydroxyapatite deposition disease, unspecified shoulder",0
+77,Q5191403,M11,M11,M11021,"Hydroxyapatite deposition disease, right elbow",0
+77,Q5191403,M11,M11,M11022,"Hydroxyapatite deposition disease, left elbow",0
+77,Q5191403,M11,M11,M11029,"Hydroxyapatite deposition disease, unspecified elbow",0
+77,Q5191403,M11,M11,M11031,"Hydroxyapatite deposition disease, right wrist",0
+77,Q5191403,M11,M11,M11032,"Hydroxyapatite deposition disease, left wrist",0
+77,Q5191403,M11,M11,M11039,"Hydroxyapatite deposition disease, unspecified wrist",0
+77,Q5191403,M11,M11,M11041,"Hydroxyapatite deposition disease, right hand",0
+77,Q5191403,M11,M11,M11042,"Hydroxyapatite deposition disease, left hand",0
+77,Q5191403,M11,M11,M11049,"Hydroxyapatite deposition disease, unspecified hand",0
+77,Q5191403,M11,M11,M11051,"Hydroxyapatite deposition disease, right hip",0
+77,Q5191403,M11,M11,M11052,"Hydroxyapatite deposition disease, left hip",0
+77,Q5191403,M11,M11,M11059,"Hydroxyapatite deposition disease, unspecified hip",0
+77,Q5191403,M11,M11,M11061,"Hydroxyapatite deposition disease, right knee",0
+77,Q5191403,M11,M11,M11062,"Hydroxyapatite deposition disease, left knee",0
+77,Q5191403,M11,M11,M11069,"Hydroxyapatite deposition disease, unspecified knee",0
+77,Q5191403,M11,M11,M11071,"Hydroxyapatite deposition disease, right ankle and foot",0
+77,Q5191403,M11,M11,M11072,"Hydroxyapatite deposition disease, left ankle and foot",0
+77,Q5191403,M11,M11,M11079,"Hydroxyapatite deposition disease, unsp ankle and foot",0
+77,Q5191403,M11,M11,M1108,"Hydroxyapatite deposition disease, vertebrae",0
+77,Q5191403,M11,M11,M1109,"Hydroxyapatite deposition disease, multiple sites",0
+77,Q5191403,M11,M11,M1110,"Familial chondrocalcinosis, unspecified site",0
+77,Q5191403,M11,M11,M11111,"Familial chondrocalcinosis, right shoulder",0
+77,Q5191403,M11,M11,M11112,"Familial chondrocalcinosis, left shoulder",0
+77,Q5191403,M11,M11,M11119,"Familial chondrocalcinosis, unspecified shoulder",0
+77,Q5191403,M11,M11,M11121,"Familial chondrocalcinosis, right elbow",0
+77,Q5191403,M11,M11,M11122,"Familial chondrocalcinosis, left elbow",0
+77,Q5191403,M11,M11,M11129,"Familial chondrocalcinosis, unspecified elbow",0
+77,Q5191403,M11,M11,M11131,"Familial chondrocalcinosis, right wrist",0
+77,Q5191403,M11,M11,M11132,"Familial chondrocalcinosis, left wrist",0
+77,Q5191403,M11,M11,M11139,"Familial chondrocalcinosis, unspecified wrist",0
+77,Q5191403,M11,M11,M11141,"Familial chondrocalcinosis, right hand",0
+77,Q5191403,M11,M11,M11142,"Familial chondrocalcinosis, left hand",0
+77,Q5191403,M11,M11,M11149,"Familial chondrocalcinosis, unspecified hand",0
+77,Q5191403,M11,M11,M11151,"Familial chondrocalcinosis, right hip",0
+77,Q5191403,M11,M11,M11152,"Familial chondrocalcinosis, left hip",0
+77,Q5191403,M11,M11,M11159,"Familial chondrocalcinosis, unspecified hip",0
+77,Q5191403,M11,M11,M11161,"Familial chondrocalcinosis, right knee",0
+77,Q5191403,M11,M11,M11162,"Familial chondrocalcinosis, left knee",0
+77,Q5191403,M11,M11,M11169,"Familial chondrocalcinosis, unspecified knee",0
+77,Q5191403,M11,M11,M11171,"Familial chondrocalcinosis, right ankle and foot",0
+77,Q5191403,M11,M11,M11172,"Familial chondrocalcinosis, left ankle and foot",0
+77,Q5191403,M11,M11,M11179,"Familial chondrocalcinosis, unspecified ankle and foot",0
+77,Q5191403,M11,M11,M1118,"Familial chondrocalcinosis, vertebrae",0
+77,Q5191403,M11,M11,M1119,"Familial chondrocalcinosis, multiple sites",0
+77,Q5191403,M11,M11,M1120,"Other chondrocalcinosis, unspecified site",0
+77,Q5191403,M11,M11,M11211,"Other chondrocalcinosis, right shoulder",0
+77,Q5191403,M11,M11,M11212,"Other chondrocalcinosis, left shoulder",0
+77,Q5191403,M11,M11,M11219,"Other chondrocalcinosis, unspecified shoulder",0
+77,Q5191403,M11,M11,M11221,"Other chondrocalcinosis, right elbow",0
+77,Q5191403,M11,M11,M11222,"Other chondrocalcinosis, left elbow",0
+77,Q5191403,M11,M11,M11229,"Other chondrocalcinosis, unspecified elbow",0
+77,Q5191403,M11,M11,M11231,"Other chondrocalcinosis, right wrist",0
+77,Q5191403,M11,M11,M11232,"Other chondrocalcinosis, left wrist",0
+77,Q5191403,M11,M11,M11239,"Other chondrocalcinosis, unspecified wrist",0
+77,Q5191403,M11,M11,M11241,"Other chondrocalcinosis, right hand",0
+77,Q5191403,M11,M11,M11242,"Other chondrocalcinosis, left hand",0
+77,Q5191403,M11,M11,M11249,"Other chondrocalcinosis, unspecified hand",0
+77,Q5191403,M11,M11,M11251,"Other chondrocalcinosis, right hip",0
+77,Q5191403,M11,M11,M11252,"Other chondrocalcinosis, left hip",0
+77,Q5191403,M11,M11,M11259,"Other chondrocalcinosis, unspecified hip",0
+77,Q5191403,M11,M11,M11261,"Other chondrocalcinosis, right knee",0
+77,Q5191403,M11,M11,M11262,"Other chondrocalcinosis, left knee",0
+77,Q5191403,M11,M11,M11269,"Other chondrocalcinosis, unspecified knee",0
+77,Q5191403,M11,M11,M11271,"Other chondrocalcinosis, right ankle and foot",0
+77,Q5191403,M11,M11,M11272,"Other chondrocalcinosis, left ankle and foot",0
+77,Q5191403,M11,M11,M11279,"Other chondrocalcinosis, unspecified ankle and foot",0
+77,Q5191403,M11,M11,M1128,"Other chondrocalcinosis, vertebrae",0
+77,Q5191403,M11,M11,M1129,"Other chondrocalcinosis, multiple sites",0
+77,Q5191403,M11,M11,M1180,"Other specified crystal arthropathies, unspecified site",0
+77,Q5191403,M11,M11,M11811,"Other specified crystal arthropathies, right shoulder",0
+77,Q5191403,M11,M11,M11812,"Other specified crystal arthropathies, left shoulder",0
+77,Q5191403,M11,M11,M11819,"Other specified crystal arthropathies, unspecified shoulder",0
+77,Q5191403,M11,M11,M11821,"Other specified crystal arthropathies, right elbow",0
+77,Q5191403,M11,M11,M11822,"Other specified crystal arthropathies, left elbow",0
+77,Q5191403,M11,M11,M11829,"Other specified crystal arthropathies, unspecified elbow",0
+77,Q5191403,M11,M11,M11831,"Other specified crystal arthropathies, right wrist",0
+77,Q5191403,M11,M11,M11832,"Other specified crystal arthropathies, left wrist",0
+77,Q5191403,M11,M11,M11839,"Other specified crystal arthropathies, unspecified wrist",0
+77,Q5191403,M11,M11,M11841,"Other specified crystal arthropathies, right hand",0
+77,Q5191403,M11,M11,M11842,"Other specified crystal arthropathies, left hand",0
+77,Q5191403,M11,M11,M11849,"Other specified crystal arthropathies, unspecified hand",0
+77,Q5191403,M11,M11,M11851,"Other specified crystal arthropathies, right hip",0
+77,Q5191403,M11,M11,M11852,"Other specified crystal arthropathies, left hip",0
+77,Q5191403,M11,M11,M11859,"Other specified crystal arthropathies, unspecified hip",0
+77,Q5191403,M11,M11,M11861,"Other specified crystal arthropathies, right knee",0
+77,Q5191403,M11,M11,M11862,"Other specified crystal arthropathies, left knee",0
+77,Q5191403,M11,M11,M11869,"Other specified crystal arthropathies, unspecified knee",0
+77,Q5191403,M11,M11,M11871,"Other specified crystal arthropathies, right ankle and foot",0
+77,Q5191403,M11,M11,M11872,"Other specified crystal arthropathies, left ankle and foot",0
+77,Q5191403,M11,M11,M11879,"Oth crystal arthropathies, unspecified ankle and foot",0
+77,Q5191403,M11,M11,M1188,"Other specified crystal arthropathies, vertebrae",0
+77,Q5191403,M11,M11,M1189,"Other specified crystal arthropathies, multiple sites",0
+77,Q5191403,M11,M11,M119,"Crystal arthropathy, unspecified",0
+78,Q1368943,P101,I61,I610,"Nontraumatic intcrbl hemorrhage in hemisphere, subcortical",0
+78,Q1368943,P101,I61,I611,"Nontraumatic intcrbl hemorrhage in hemisphere, cortical",0
+78,Q1368943,P101,I61,I612,"Nontraumatic intracerebral hemorrhage in hemisphere, unsp",1
+78,Q1368943,P101,I61,I613,Nontraumatic intracerebral hemorrhage in brain stem,0
+78,Q1368943,P101,I61,I614,Nontraumatic intracerebral hemorrhage in cerebellum,0
+78,Q1368943,P101,I61,I615,"Nontraumatic intracerebral hemorrhage, intraventricular",0
+78,Q1368943,P101,I61,I616,"Nontraumatic intracerebral hemorrhage, multiple localized",0
+78,Q1368943,P101,I61,I618,Other nontraumatic intracerebral hemorrhage,0
+78,Q1368943,P101,I61,I619,"Nontraumatic intracerebral hemorrhage, unspecified",0
+78,Q1368943,P101,P101,P101,Cerebral hemorrhage due to birth injury,0
+79,Q460591,T703,T703,T703XXA,"Caisson disease [decompression sickness], initial encounter",1
+79,Q460591,T703,T703,T703XXD,"Caisson disease, subsequent encounter",0
+79,Q460591,T703,T703,T703XXS,"Caisson disease [decompression sickness], sequela",0
+80,Q377493,F940,F940,F940,Selective mutism,1
+81,Q3518022,S460,M751,M75100,"Unsp rotatr-cuff tear/ruptr of unsp shoulder, not trauma",0
+81,Q3518022,S460,M751,M75101,"Unsp rotatr-cuff tear/ruptr of right shoulder, not trauma",0
+81,Q3518022,S460,M751,M75102,"Unsp rotatr-cuff tear/ruptr of left shoulder, not trauma",0
+81,Q3518022,S460,M751,M75110,"Incmpl rotatr-cuff tear/ruptr of unsp shoulder, not trauma",0
+81,Q3518022,S460,M751,M75111,"Incomplete rotatr-cuff tear/ruptr of r shoulder, not trauma",0
+81,Q3518022,S460,M751,M75112,"Incomplete rotatr-cuff tear/ruptr of l shoulder, not trauma",0
+81,Q3518022,S460,M751,M75120,"Complete rotatr-cuff tear/ruptr of unsp shoulder, not trauma",0
+81,Q3518022,S460,M751,M75121,"Complete rotatr-cuff tear/ruptr of r shoulder, not trauma",0
+81,Q3518022,S460,M751,M75122,"Complete rotatr-cuff tear/ruptr of left shoulder, not trauma",0
+81,Q3518022,S460,S460,S46001A,"Unsp inj musc/tend the rotator cuff of r shoulder, init",0
+81,Q3518022,S460,S460,S46001D,"Unsp inj musc/tend the rotator cuff of r shoulder, subs",0
+81,Q3518022,S460,S460,S46001S,"Unsp inj musc/tend the rotator cuff of r shoulder, sequela",0
+81,Q3518022,S460,S460,S46002A,"Unsp inj musc/tend the rotator cuff of l shoulder, init",0
+81,Q3518022,S460,S460,S46002D,"Unsp inj musc/tend the rotator cuff of l shoulder, subs",0
+81,Q3518022,S460,S460,S46002S,"Unsp inj musc/tend the rotator cuff of l shoulder, sequela",0
+81,Q3518022,S460,S460,S46009A,"Unsp inj musc/tend the rotator cuff of unsp shoulder, init",0
+81,Q3518022,S460,S460,S46009D,"Unsp inj musc/tend the rotator cuff of unsp shoulder, subs",1
+81,Q3518022,S460,S460,S46009S,"Unsp inj musc/tend the rotator cuff of unsp shldr, sequela",0
+81,Q3518022,S460,S460,S46011A,"Strain of musc/tend the rotator cuff of right shoulder, init",0
+81,Q3518022,S460,S460,S46011D,"Strain of musc/tend the rotator cuff of right shoulder, subs",0
+81,Q3518022,S460,S460,S46011S,"Strain of musc/tend the rotator cuff of r shoulder, sequela",0
+81,Q3518022,S460,S460,S46012A,"Strain of musc/tend the rotator cuff of left shoulder, init",0
+81,Q3518022,S460,S460,S46012D,"Strain of musc/tend the rotator cuff of left shoulder, subs",0
+81,Q3518022,S460,S460,S46012S,"Strain of musc/tend the rotator cuff of l shoulder, sequela",0
+81,Q3518022,S460,S460,S46019A,"Strain of musc/tend the rotator cuff of unsp shoulder, init",0
+81,Q3518022,S460,S460,S46019D,"Strain of musc/tend the rotator cuff of unsp shoulder, subs",0
+81,Q3518022,S460,S460,S46019S,"Strain musc/tend the rotator cuff of unsp shoulder, sequela",0
+81,Q3518022,S460,S460,S46021A,"Laceration of musc/tend the rotator cuff of r shoulder, init",0
+81,Q3518022,S460,S460,S46021D,"Laceration of musc/tend the rotator cuff of r shoulder, subs",0
+81,Q3518022,S460,S460,S46021S,"Lacerat musc/tend the rotator cuff of r shoulder, sequela",0
+81,Q3518022,S460,S460,S46022A,"Lacerat musc/tend the rotator cuff of left shoulder, init",0
+81,Q3518022,S460,S460,S46022D,"Lacerat musc/tend the rotator cuff of left shoulder, subs",0
+81,Q3518022,S460,S460,S46022S,"Lacerat musc/tend the rotator cuff of left shoulder, sequela",0
+81,Q3518022,S460,S460,S46029A,"Lacerat musc/tend the rotator cuff of unsp shoulder, init",0
+81,Q3518022,S460,S460,S46029D,"Lacerat musc/tend the rotator cuff of unsp shoulder, subs",0
+81,Q3518022,S460,S460,S46029S,"Lacerat musc/tend the rotator cuff of unsp shoulder, sequela",0
+81,Q3518022,S460,S460,S46091A,"Inj musc/tend the rotator cuff of right shoulder, init",0
+81,Q3518022,S460,S460,S46091D,"Inj musc/tend the rotator cuff of right shoulder, subs",0
+81,Q3518022,S460,S460,S46091S,"Inj musc/tend the rotator cuff of right shoulder, sequela",0
+81,Q3518022,S460,S460,S46092A,"Inj musc/tend the rotator cuff of left shoulder, init",0
+81,Q3518022,S460,S460,S46092D,"Inj musc/tend the rotator cuff of left shoulder, subs",0
+81,Q3518022,S460,S460,S46092S,"Inj musc/tend the rotator cuff of left shoulder, sequela",0
+81,Q3518022,S460,S460,S46099A,"Inj musc/tend the rotator cuff of unsp shoulder, init",0
+81,Q3518022,S460,S460,S46099D,"Inj musc/tend the rotator cuff of unsp shoulder, subs",0
+81,Q3518022,S460,S460,S46099S,"Inj musc/tend the rotator cuff of unsp shoulder, sequela",0
+82,Q2933021,F150,F15,F1510,"Other stimulant abuse, uncomplicated",0
+82,Q2933021,F150,F15,F1511,"Other stimulant abuse, in remission",0
+82,Q2933021,F150,F15,F15120,"Other stimulant abuse with intoxication, uncomplicated",0
+82,Q2933021,F150,F15,F15121,Other stimulant abuse with intoxication delirium,0
+82,Q2933021,F150,F15,F15122,Oth stimulant abuse w intoxication w perceptual disturbance,0
+82,Q2933021,F150,F15,F15129,"Other stimulant abuse with intoxication, unspecified",0
+82,Q2933021,F150,F15,F1514,Other stimulant abuse with stimulant-induced mood disorder,0
+82,Q2933021,F150,F15,F15150,Oth stimulant abuse w stim-induce psych disorder w delusions,0
+82,Q2933021,F150,F15,F15151,Oth stimulant abuse w stim-induce psych disorder w hallucin,0
+82,Q2933021,F150,F15,F15159,"Oth stimulant abuse w stim-induce psychotic disorder, unsp",0
+82,Q2933021,F150,F15,F15180,Oth stimulant abuse with stimulant-induced anxiety disorder,0
+82,Q2933021,F150,F15,F15181,Oth stimulant abuse w stimulant-induced sexual dysfunction,0
+82,Q2933021,F150,F15,F15182,Other stimulant abuse with stimulant-induced sleep disorder,0
+82,Q2933021,F150,F15,F15188,Other stimulant abuse with other stimulant-induced disorder,0
+82,Q2933021,F150,F15,F1519,Other stimulant abuse with unsp stimulant-induced disorder,0
+82,Q2933021,F150,F15,F1520,"Other stimulant dependence, uncomplicated",0
+82,Q2933021,F150,F15,F1521,"Other stimulant dependence, in remission",0
+82,Q2933021,F150,F15,F15220,"Other stimulant dependence with intoxication, uncomplicated",0
+82,Q2933021,F150,F15,F15221,Other stimulant dependence with intoxication delirium,0
+82,Q2933021,F150,F15,F15222,Oth stimulant dependence w intox w perceptual disturbance,0
+82,Q2933021,F150,F15,F15229,"Other stimulant dependence with intoxication, unspecified",0
+82,Q2933021,F150,F15,F1523,Other stimulant dependence with withdrawal,0
+82,Q2933021,F150,F15,F1524,Oth stimulant dependence w stimulant-induced mood disorder,0
+82,Q2933021,F150,F15,F15250,Oth stim depend w stim-induce psych disorder w delusions,0
+82,Q2933021,F150,F15,F15251,Oth stimulant depend w stim-induce psych disorder w hallucin,0
+82,Q2933021,F150,F15,F15259,"Oth stimulant depend w stim-induce psychotic disorder, unsp",0
+82,Q2933021,F150,F15,F15280,Oth stimulant dependence w stim-induce anxiety disorder,0
+82,Q2933021,F150,F15,F15281,Oth stimulant dependence w stim-induce sexual dysfunction,0
+82,Q2933021,F150,F15,F15282,Oth stimulant dependence w stimulant-induced sleep disorder,0
+82,Q2933021,F150,F15,F15288,Oth stimulant dependence with oth stimulant-induced disorder,0
+82,Q2933021,F150,F15,F1529,Oth stimulant dependence w unsp stimulant-induced disorder,0
+82,Q2933021,F150,F15,F1590,"Other stimulant use, unspecified, uncomplicated",0
+82,Q2933021,F150,F15,F15920,"Other stimulant use, unsp with intoxication, uncomplicated",0
+82,Q2933021,F150,F15,F15921,"Other stimulant use, unspecified with intoxication delirium",0
+82,Q2933021,F150,F15,F15922,"Oth stimulant use, unsp w intox w perceptual disturbance",0
+82,Q2933021,F150,F15,F15929,"Other stimulant use, unsp with intoxication, unspecified",0
+82,Q2933021,F150,F15,F1593,"Other stimulant use, unspecified with withdrawal",0
+82,Q2933021,F150,F15,F1594,"Oth stimulant use, unsp with stimulant-induced mood disorder",0
+82,Q2933021,F150,F15,F15950,"Oth stim use, unsp w stim-induce psych disorder w delusions",0
+82,Q2933021,F150,F15,F15951,"Oth stim use, unsp w stim-induce psych disorder w hallucin",0
+82,Q2933021,F150,F15,F15959,"Oth stimulant use, unsp w stim-induce psych disorder, unsp",0
+82,Q2933021,F150,F15,F15980,"Oth stimulant use, unsp w stimulant-induced anxiety disorder",0
+82,Q2933021,F150,F15,F15981,"Oth stimulant use, unsp w stim-induce sexual dysfunction",0
+82,Q2933021,F150,F15,F15982,"Oth stimulant use, unsp w stimulant-induced sleep disorder",0
+82,Q2933021,F150,F15,F15988,"Oth stimulant use, unsp with oth stimulant-induced disorder",0
+82,Q2933021,F150,F15,F1599,"Oth stimulant use, unsp with unsp stimulant-induced disorder",0
+83,Q2964437,Q773,Q773,Q773,Chondrodysplasia punctata,0
+84,Q748376,Q85,Q85,Q8500,"Neurofibromatosis, unspecified",0
+84,Q748376,Q85,Q85,Q8501,"Neurofibromatosis, type 1",0
+84,Q748376,Q85,Q85,Q8502,"Neurofibromatosis, type 2",0
+84,Q748376,Q85,Q85,Q8503,Schwannomatosis,0
+84,Q748376,Q85,Q85,Q8509,Other neurofibromatosis,1
+84,Q748376,Q85,Q85,Q851,Tuberous sclerosis,0
+84,Q748376,Q85,Q85,Q858,"Other phakomatoses, not elsewhere classified",0
+84,Q748376,Q85,Q85,Q859,"Phakomatosis, unspecified",0
+85,Q3543799,N645,N645,N6451,Induration of breast,1
+85,Q3543799,N645,N645,N6452,Nipple discharge,0
+85,Q3543799,N645,N645,N6453,Retraction of nipple,0
+85,Q3543799,N645,N645,N6459,Other signs and symptoms in breast,0
+86,Q1550742,Q685,Q741,Q741,Congenital malformation of knee,0
+86,Q1550742,Q685,Q683,Q683,Congenital bowing of femur,0
+86,Q1550742,Q685,Q685,Q685,"Congenital bowing of long bones of leg, unspecified",0
+87,Q2822642,F402,F402,F40210,Arachnophobia,0
+87,Q2822642,F402,F402,F40218,Other animal type phobia,0
+87,Q2822642,F402,F402,F40220,Fear of thunderstorms,0
+87,Q2822642,F402,F402,F40228,Other natural environment type phobia,1
+87,Q2822642,F402,F402,F40230,Fear of blood,0
+87,Q2822642,F402,F402,F40231,Fear of injections and transfusions,0
+87,Q2822642,F402,F402,F40232,Fear of other medical care,0
+87,Q2822642,F402,F402,F40233,Fear of injury,0
+87,Q2822642,F402,F402,F40240,Claustrophobia,0
+87,Q2822642,F402,F402,F40241,Acrophobia,0
+87,Q2822642,F402,F402,F40242,Fear of bridges,0
+87,Q2822642,F402,F402,F40243,Fear of flying,0
+87,Q2822642,F402,F402,F40248,Other situational type phobia,0
+87,Q2822642,F402,F402,F40290,Androphobia,0
+87,Q2822642,F402,F402,F40291,Gynephobia,0
+87,Q2822642,F402,F402,F40298,Other specified phobia,0
+88,Q194101,E450,Q774,Q774,Achondroplasia,0
+88,Q194101,E450,E342,E342,"Ectopic hormone secretion, not elsewhere classified",0
+89,Q797708,G8389,G8389,G8389,Other specified paralytic syndromes,0
+90,Q826918,M856,M854,M8540,"Solitary bone cyst, unspecified site",0
+90,Q826918,M856,M854,M85411,"Solitary bone cyst, right shoulder",0
+90,Q826918,M856,M854,M85412,"Solitary bone cyst, left shoulder",0
+90,Q826918,M856,M854,M85419,"Solitary bone cyst, unspecified shoulder",0
+90,Q826918,M856,M854,M85421,"Solitary bone cyst, right humerus",0
+90,Q826918,M856,M854,M85422,"Solitary bone cyst, left humerus",0
+90,Q826918,M856,M854,M85429,"Solitary bone cyst, unspecified humerus",0
+90,Q826918,M856,M854,M85431,"Solitary bone cyst, right ulna and radius",0
+90,Q826918,M856,M854,M85432,"Solitary bone cyst, left ulna and radius",0
+90,Q826918,M856,M854,M85439,"Solitary bone cyst, unspecified ulna and radius",0
+90,Q826918,M856,M854,M85441,"Solitary bone cyst, right hand",0
+90,Q826918,M856,M854,M85442,"Solitary bone cyst, left hand",0
+90,Q826918,M856,M854,M85449,"Solitary bone cyst, unspecified hand",0
+90,Q826918,M856,M854,M85451,"Solitary bone cyst, right pelvis",1
+90,Q826918,M856,M854,M85452,"Solitary bone cyst, left pelvis",0
+90,Q826918,M856,M854,M85459,"Solitary bone cyst, unspecified pelvis",0
+90,Q826918,M856,M854,M85461,"Solitary bone cyst, right tibia and fibula",0
+90,Q826918,M856,M854,M85462,"Solitary bone cyst, left tibia and fibula",0
+90,Q826918,M856,M854,M85469,"Solitary bone cyst, unspecified tibia and fibula",0
+90,Q826918,M856,M854,M85471,"Solitary bone cyst, right ankle and foot",0
+90,Q826918,M856,M854,M85472,"Solitary bone cyst, left ankle and foot",0
+90,Q826918,M856,M854,M85479,"Solitary bone cyst, unspecified ankle and foot",0
+90,Q826918,M856,M854,M8548,"Solitary bone cyst, other site",0
+90,Q826918,M856,M856,M8560,"Other cyst of bone, unspecified site",0
+90,Q826918,M856,M856,M85611,"Other cyst of bone, right shoulder",0
+90,Q826918,M856,M856,M85612,"Other cyst of bone, left shoulder",0
+90,Q826918,M856,M856,M85619,"Other cyst of bone, unspecified shoulder",0
+90,Q826918,M856,M856,M85621,"Other cyst of bone, right upper arm",0
+90,Q826918,M856,M856,M85622,"Other cyst of bone, left upper arm",0
+90,Q826918,M856,M856,M85629,"Other cyst of bone, unspecified upper arm",0
+90,Q826918,M856,M856,M85631,"Other cyst of bone, right forearm",0
+90,Q826918,M856,M856,M85632,"Other cyst of bone, left forearm",0
+90,Q826918,M856,M856,M85639,"Other cyst of bone, unspecified forearm",0
+90,Q826918,M856,M856,M85641,"Other cyst of bone, right hand",0
+90,Q826918,M856,M856,M85642,"Other cyst of bone, left hand",0
+90,Q826918,M856,M856,M85649,"Other cyst of bone, unspecified hand",0
+90,Q826918,M856,M856,M85651,"Other cyst of bone, right thigh",0
+90,Q826918,M856,M856,M85652,"Other cyst of bone, left thigh",0
+90,Q826918,M856,M856,M85659,"Other cyst of bone, unspecified thigh",0
+90,Q826918,M856,M856,M85661,"Other cyst of bone, right lower leg",0
+90,Q826918,M856,M856,M85662,"Other cyst of bone, left lower leg",0
+90,Q826918,M856,M856,M85669,"Other cyst of bone, unspecified lower leg",0
+90,Q826918,M856,M856,M85671,"Other cyst of bone, right ankle and foot",0
+90,Q826918,M856,M856,M85672,"Other cyst of bone, left ankle and foot",0
+90,Q826918,M856,M856,M85679,"Other cyst of bone, unspecified ankle and foot",0
+90,Q826918,M856,M856,M8568,"Other cyst of bone, other site",0
+90,Q826918,M856,M856,M8569,"Other cyst of bone, multiple sites",0
+91,Q5166383,H511,H511,H5111,Convergence insufficiency,1
+91,Q5166383,H511,H511,H5112,Convergence excess,0
+92,Q1338684,G442,G442,G44201,"Tension-type headache, unspecified, intractable",0
+92,Q1338684,G442,G442,G44209,"Tension-type headache, unspecified, not intractable",0
+92,Q1338684,G442,G442,G44211,"Episodic tension-type headache, intractable",0
+92,Q1338684,G442,G442,G44219,"Episodic tension-type headache, not intractable",0
+92,Q1338684,G442,G442,G44221,"Chronic tension-type headache, intractable",0
+92,Q1338684,G442,G442,G44229,"Chronic tension-type headache, not intractable",0
+93,Q685200,H838,H838,H838X1,Other specified diseases of right inner ear,0
+93,Q685200,H838,H838,H838X2,Other specified diseases of left inner ear,0
+93,Q685200,H838,H838,H838X3,"Other specified diseases of inner ear, bilateral",0
+93,Q685200,H838,H838,H838X9,"Other specified diseases of inner ear, unspecified ear",0
+94,Q3241451,E66,E66,E6601,Morbid (severe) obesity due to excess calories,0
+94,Q3241451,E66,E66,E6609,Other obesity due to excess calories,1
+94,Q3241451,E66,E66,E661,Drug-induced obesity,0
+94,Q3241451,E66,E66,E662,Morbid (severe) obesity with alveolar hypoventilation,0
+94,Q3241451,E66,E66,E663,Overweight,0
+94,Q3241451,E66,E66,E668,Other obesity,0
+94,Q3241451,E66,E66,E669,"Obesity, unspecified",0
+95,Q5201216,B698,B698,B6981,Myositis in cysticercosis,1
+95,Q5201216,B698,B698,B6989,Cysticercosis of other sites,0
+96,Q693442,S066,I60,I6000,Ntrm subarach hemorrhage from unsp carotid siphon and bifurc,0
+96,Q693442,S066,I60,I6001,Ntrm subarach hemor from right carotid siphon and bifurc,0
+96,Q693442,S066,I60,I6002,Ntrm subarach hemorrhage from left carotid siphon and bifurc,0
+96,Q693442,S066,I60,I6010,Ntrm subarach hemorrhage from unsp middle cerebral artery,0
+96,Q693442,S066,I60,I6011,Ntrm subarach hemorrhage from right middle cerebral artery,0
+96,Q693442,S066,I60,I6012,Ntrm subarach hemorrhage from left middle cerebral artery,0
+96,Q693442,S066,I60,I602,Ntrm subarach hemorrhage from anterior communicating artery,0
+96,Q693442,S066,I60,I6030,Ntrm subarach hemor from unsp posterior communicating artery,0
+96,Q693442,S066,I60,I6031,Ntrm subarach hemor from right post communicating artery,0
+96,Q693442,S066,I60,I6032,Ntrm subarach hemor from left posterior communicating artery,0
+96,Q693442,S066,I60,I604,Nontraumatic subarachnoid hemorrhage from basilar artery,0
+96,Q693442,S066,I60,I6050,Nontraumatic subarachnoid hemorrhage from unsp verteb art,0
+96,Q693442,S066,I60,I6051,Nontraumatic subarachnoid hemorrhage from r verteb art,0
+96,Q693442,S066,I60,I6052,Nontraumatic subarachnoid hemorrhage from l verteb art,0
+96,Q693442,S066,I60,I606,Nontraumatic subarachnoid hemorrhage from oth intracran art,0
+96,Q693442,S066,I60,I607,Nontraumatic subarachnoid hemorrhage from unsp intracran art,0
+96,Q693442,S066,I60,I608,Other nontraumatic subarachnoid hemorrhage,0
+96,Q693442,S066,I60,I609,"Nontraumatic subarachnoid hemorrhage, unspecified",0
+96,Q693442,S066,P103,P103,Subarachnoid hemorrhage due to birth injury,0
+96,Q693442,S066,S066,S066X0A,"Traum subrac hem w/o loss of consciousness, init",0
+96,Q693442,S066,S066,S066X0D,"Traum subrac hem w/o loss of consciousness, subs",0
+96,Q693442,S066,S066,S066X0S,"Traum subrac hem w/o loss of consciousness, sequela",0
+96,Q693442,S066,S066,S066X1A,"Traum subrac hem w LOC of 30 minutes or less, init",0
+96,Q693442,S066,S066,S066X1D,"Traum subrac hem w LOC of 30 minutes or less, subs",0
+96,Q693442,S066,S066,S066X1S,"Traum subrac hem w LOC of 30 minutes or less, sequela",0
+96,Q693442,S066,S066,S066X2A,"Traum subrac hem w loss of consciousness of 31-59 min, init",0
+96,Q693442,S066,S066,S066X2D,"Traum subrac hem w loss of consciousness of 31-59 min, subs",0
+96,Q693442,S066,S066,S066X2S,"Traum subrac hem w LOC of 31-59 min, sequela",0
+96,Q693442,S066,S066,S066X3A,"Traum subrac hem w LOC of 1-5 hrs 59 min, init",0
+96,Q693442,S066,S066,S066X3D,"Traum subrac hem w LOC of 1-5 hrs 59 min, subs",0
+96,Q693442,S066,S066,S066X3S,"Traum subrac hem w LOC of 1-5 hrs 59 min, sequela",0
+96,Q693442,S066,S066,S066X4A,"Traum subrac hem w LOC of 6 hours to 24 hours, init",0
+96,Q693442,S066,S066,S066X4D,"Traum subrac hem w LOC of 6 hours to 24 hours, subs",0
+96,Q693442,S066,S066,S066X4S,"Traum subrac hem w LOC of 6 hours to 24 hours, sequela",0
+96,Q693442,S066,S066,S066X5A,"Traum subrac hem w LOC >24 hr w ret consc lev, init",0
+96,Q693442,S066,S066,S066X5D,"Traum subrac hem w LOC >24 hr w ret consc lev, subs",0
+96,Q693442,S066,S066,S066X5S,"Traum subrac hem w LOC >24 hr w ret consc lev, sequela",0
+96,Q693442,S066,S066,S066X6A,"Traum subrac hem w LOC >24 hr w/o ret consc w surv, init",0
+96,Q693442,S066,S066,S066X6D,"Traum subrac hem w LOC >24 hr w/o ret consc w surv, subs",0
+96,Q693442,S066,S066,S066X6S,"Traum subrac hem w LOC >24 hr w/o ret consc w surv, sequela",0
+96,Q693442,S066,S066,S066X7A,"Traum subrac hem w LOC w death d/t brain inj bf consc, init",0
+96,Q693442,S066,S066,S066X8A,"Traum subrac hem w LOC w death d/t oth cause bf consc, init",0
+96,Q693442,S066,S066,S066X9A,"Traum subrac hem w LOC of unsp duration, init",0
+96,Q693442,S066,S066,S066X9D,"Traum subrac hem w LOC of unsp duration, subs",0
+96,Q693442,S066,S066,S066X9S,"Traum subrac hem w LOC of unsp duration, sequela",0
+97,Q1753467,M80,M80,M8000XA,"Age-rel osteopor w current path fracture, unsp site, init",0
+97,Q1753467,M80,M80,M8000XD,"Age-rel osteopor w crnt path fx, unsp site, 7thD",0
+97,Q1753467,M80,M80,M8000XG,"Age-rel osteopor w crnt path fx, unsp site, 7thG",0
+97,Q1753467,M80,M80,M8000XK,"Age-rel osteopor w crnt path fx, unsp site, 7thK",0
+97,Q1753467,M80,M80,M8000XP,"Age-rel osteopor w crnt path fx, unsp site, 7thP",0
+97,Q1753467,M80,M80,M8000XS,"Age-rel osteopor w current path fracture, unsp site, sequela",0
+97,Q1753467,M80,M80,M80011A,"Age-rel osteopor w current path fracture, r shoulder, init",0
+97,Q1753467,M80,M80,M80011D,"Age-rel osteopor w crnt path fx, r shldr, 7thD",0
+97,Q1753467,M80,M80,M80011G,"Age-rel osteopor w crnt path fx, r shldr, 7thG",0
+97,Q1753467,M80,M80,M80011K,"Age-rel osteopor w crnt path fx, r shldr, 7thK",0
+97,Q1753467,M80,M80,M80011P,"Age-rel osteopor w crnt path fx, r shldr, 7thP",0
+97,Q1753467,M80,M80,M80011S,"Age-rel osteopor w current path fx, r shoulder, sequela",0
+97,Q1753467,M80,M80,M80012A,"Age-rel osteopor w current path fracture, l shoulder, init",0
+97,Q1753467,M80,M80,M80012D,"Age-rel osteopor w crnt path fx, l shldr, 7thD",0
+97,Q1753467,M80,M80,M80012G,"Age-rel osteopor w crnt path fx, l shldr, 7thG",0
+97,Q1753467,M80,M80,M80012K,"Age-rel osteopor w crnt path fx, l shldr, 7thK",0
+97,Q1753467,M80,M80,M80012P,"Age-rel osteopor w crnt path fx, l shldr, 7thP",0
+97,Q1753467,M80,M80,M80012S,"Age-rel osteopor w current path fx, l shoulder, sequela",0
+97,Q1753467,M80,M80,M80019A,"Age-rel osteopor w current path fx, unsp shoulder, init",0
+97,Q1753467,M80,M80,M80019D,"Age-rel osteopor w crnt path fx, unsp shldr, 7thD",0
+97,Q1753467,M80,M80,M80019G,"Age-rel osteopor w crnt path fx, unsp shldr, 7thG",0
+97,Q1753467,M80,M80,M80019K,"Age-rel osteopor w crnt path fx, unsp shldr, 7thK",0
+97,Q1753467,M80,M80,M80019P,"Age-rel osteopor w crnt path fx, unsp shldr, 7thP",0
+97,Q1753467,M80,M80,M80019S,"Age-rel osteopor w current path fx, unsp shoulder, sequela",0
+97,Q1753467,M80,M80,M80021A,"Age-rel osteopor w current path fracture, r humerus, init",0
+97,Q1753467,M80,M80,M80021D,"Age-rel osteopor w crnt path fx, r humer, 7thD",0
+97,Q1753467,M80,M80,M80021G,"Age-rel osteopor w crnt path fx, r humer, 7thG",0
+97,Q1753467,M80,M80,M80021K,"Age-rel osteopor w crnt path fx, r humer, 7thK",0
+97,Q1753467,M80,M80,M80021P,"Age-rel osteopor w crnt path fx, r humer, 7thP",0
+97,Q1753467,M80,M80,M80021S,"Age-rel osteopor w current path fracture, r humerus, sequela",0
+97,Q1753467,M80,M80,M80022A,"Age-rel osteopor w current path fracture, l humerus, init",0
+97,Q1753467,M80,M80,M80022D,"Age-rel osteopor w crnt path fx, l humer, 7thD",0
+97,Q1753467,M80,M80,M80022G,"Age-rel osteopor w crnt path fx, l humer, 7thG",0
+97,Q1753467,M80,M80,M80022K,"Age-rel osteopor w crnt path fx, l humer, 7thK",0
+97,Q1753467,M80,M80,M80022P,"Age-rel osteopor w crnt path fx, l humer, 7thP",0
+97,Q1753467,M80,M80,M80022S,"Age-rel osteopor w current path fracture, l humerus, sequela",0
+97,Q1753467,M80,M80,M80029A,"Age-rel osteopor w current path fracture, unsp humerus, init",0
+97,Q1753467,M80,M80,M80029D,"Age-rel osteopor w crnt path fx, unsp humer, 7thD",0
+97,Q1753467,M80,M80,M80029G,"Age-rel osteopor w crnt path fx, unsp humer, 7thG",0
+97,Q1753467,M80,M80,M80029K,"Age-rel osteopor w crnt path fx, unsp humer, 7thK",0
+97,Q1753467,M80,M80,M80029P,"Age-rel osteopor w crnt path fx, unsp humer, 7thP",0
+97,Q1753467,M80,M80,M80029S,"Age-rel osteopor w current path fx, unsp humerus, sequela",0
+97,Q1753467,M80,M80,M80031A,"Age-rel osteopor w current path fracture, r forearm, init",0
+97,Q1753467,M80,M80,M80031D,"Age-rel osteopor w crnt path fx, r forearm, 7thD",0
+97,Q1753467,M80,M80,M80031G,"Age-rel osteopor w crnt path fx, r forearm, 7thG",0
+97,Q1753467,M80,M80,M80031K,"Age-rel osteopor w crnt path fx, r forearm, 7thK",0
+97,Q1753467,M80,M80,M80031P,"Age-rel osteopor w crnt path fx, r forearm, 7thP",0
+97,Q1753467,M80,M80,M80031S,"Age-rel osteopor w current path fracture, r forearm, sequela",0
+97,Q1753467,M80,M80,M80032A,"Age-rel osteopor w current path fracture, l forearm, init",0
+97,Q1753467,M80,M80,M80032D,"Age-rel osteopor w crnt path fx, l forearm, 7thD",0
+97,Q1753467,M80,M80,M80032G,"Age-rel osteopor w crnt path fx, l forearm, 7thG",0
+97,Q1753467,M80,M80,M80032K,"Age-rel osteopor w crnt path fx, l forearm, 7thK",0
+97,Q1753467,M80,M80,M80032P,"Age-rel osteopor w crnt path fx, l forearm, 7thP",0
+97,Q1753467,M80,M80,M80032S,"Age-rel osteopor w current path fracture, l forearm, sequela",0
+97,Q1753467,M80,M80,M80039A,"Age-rel osteopor w current path fracture, unsp forearm, init",0
+97,Q1753467,M80,M80,M80039D,"Age-rel osteopor w crnt path fx, unsp forearm, 7thD",0
+97,Q1753467,M80,M80,M80039G,"Age-rel osteopor w crnt path fx, unsp forearm, 7thG",0
+97,Q1753467,M80,M80,M80039K,"Age-rel osteopor w crnt path fx, unsp forearm, 7thK",0
+97,Q1753467,M80,M80,M80039P,"Age-rel osteopor w crnt path fx, unsp forearm, 7thP",0
+97,Q1753467,M80,M80,M80039S,"Age-rel osteopor w current path fx, unsp forearm, sequela",0
+97,Q1753467,M80,M80,M80041A,"Age-rel osteopor w current path fracture, right hand, init",0
+97,Q1753467,M80,M80,M80041D,"Age-rel osteopor w crnt path fx, r hand, 7thD",0
+97,Q1753467,M80,M80,M80041G,"Age-rel osteopor w crnt path fx, r hand, 7thG",0
+97,Q1753467,M80,M80,M80041K,"Age-rel osteopor w crnt path fx, r hand, 7thK",0
+97,Q1753467,M80,M80,M80041P,"Age-rel osteopor w crnt path fx, r hand, 7thP",0
+97,Q1753467,M80,M80,M80041S,"Age-rel osteopor w current path fracture, r hand, sequela",0
+97,Q1753467,M80,M80,M80042A,"Age-rel osteopor w current path fracture, left hand, init",0
+97,Q1753467,M80,M80,M80042D,"Age-rel osteopor w crnt path fx, l hand, 7thD",0
+97,Q1753467,M80,M80,M80042G,"Age-rel osteopor w crnt path fx, l hand, 7thG",0
+97,Q1753467,M80,M80,M80042K,"Age-rel osteopor w crnt path fx, l hand, 7thK",0
+97,Q1753467,M80,M80,M80042P,"Age-rel osteopor w crnt path fx, l hand, 7thP",0
+97,Q1753467,M80,M80,M80042S,"Age-rel osteopor w current path fracture, left hand, sequela",0
+97,Q1753467,M80,M80,M80049A,"Age-rel osteopor w current path fracture, unsp hand, init",0
+97,Q1753467,M80,M80,M80049D,"Age-rel osteopor w crnt path fx, unsp hand, 7thD",0
+97,Q1753467,M80,M80,M80049G,"Age-rel osteopor w crnt path fx, unsp hand, 7thG",0
+97,Q1753467,M80,M80,M80049K,"Age-rel osteopor w crnt path fx, unsp hand, 7thK",0
+97,Q1753467,M80,M80,M80049P,"Age-rel osteopor w crnt path fx, unsp hand, 7thP",0
+97,Q1753467,M80,M80,M80049S,"Age-rel osteopor w current path fracture, unsp hand, sequela",0
+97,Q1753467,M80,M80,M80051A,"Age-rel osteopor w current path fracture, right femur, init",0
+97,Q1753467,M80,M80,M80051D,"Age-rel osteopor w crnt path fx, r femr, 7thD",0
+97,Q1753467,M80,M80,M80051G,"Age-rel osteopor w crnt path fx, r femr, 7thG",0
+97,Q1753467,M80,M80,M80051K,"Age-rel osteopor w crnt path fx, r femr, 7thK",0
+97,Q1753467,M80,M80,M80051P,"Age-rel osteopor w crnt path fx, r femr, 7thP",0
+97,Q1753467,M80,M80,M80051S,"Age-rel osteopor w current path fracture, r femur, sequela",0
+97,Q1753467,M80,M80,M80052A,"Age-rel osteopor w current path fracture, left femur, init",0
+97,Q1753467,M80,M80,M80052D,"Age-rel osteopor w crnt path fx, l femr, 7thD",0
+97,Q1753467,M80,M80,M80052G,"Age-rel osteopor w crnt path fx, l femr, 7thG",0
+97,Q1753467,M80,M80,M80052K,"Age-rel osteopor w crnt path fx, l femr, 7thK",0
+97,Q1753467,M80,M80,M80052P,"Age-rel osteopor w crnt path fx, l femr, 7thP",0
+97,Q1753467,M80,M80,M80052S,"Age-rel osteopor w current path fracture, l femur, sequela",0
+97,Q1753467,M80,M80,M80059A,"Age-rel osteopor w current path fracture, unsp femur, init",0
+97,Q1753467,M80,M80,M80059D,"Age-rel osteopor w crnt path fx, unsp femr, 7thD",0
+97,Q1753467,M80,M80,M80059G,"Age-rel osteopor w crnt path fx, unsp femr, 7thG",0
+97,Q1753467,M80,M80,M80059K,"Age-rel osteopor w crnt path fx, unsp femr, 7thK",0
+97,Q1753467,M80,M80,M80059P,"Age-rel osteopor w crnt path fx, unsp femr, 7thP",0
+97,Q1753467,M80,M80,M80059S,"Age-rel osteopor w current path fx, unsp femur, sequela",0
+97,Q1753467,M80,M80,M80061A,"Age-rel osteopor w current path fracture, r low leg, init",0
+97,Q1753467,M80,M80,M80061D,"Age-rel osteopor w crnt path fx, r low leg, 7thD",0
+97,Q1753467,M80,M80,M80061G,"Age-rel osteopor w crnt path fx, r low leg, 7thG",0
+97,Q1753467,M80,M80,M80061K,"Age-rel osteopor w crnt path fx, r low leg, 7thK",0
+97,Q1753467,M80,M80,M80061P,"Age-rel osteopor w crnt path fx, r low leg, 7thP",0
+97,Q1753467,M80,M80,M80061S,"Age-rel osteopor w current path fracture, r low leg, sequela",0
+97,Q1753467,M80,M80,M80062A,"Age-rel osteopor w current path fracture, l low leg, init",0
+97,Q1753467,M80,M80,M80062D,"Age-rel osteopor w crnt path fx, l low leg, 7thD",0
+97,Q1753467,M80,M80,M80062G,"Age-rel osteopor w crnt path fx, l low leg, 7thG",0
+97,Q1753467,M80,M80,M80062K,"Age-rel osteopor w crnt path fx, l low leg, 7thK",0
+97,Q1753467,M80,M80,M80062P,"Age-rel osteopor w crnt path fx, l low leg, 7thP",0
+97,Q1753467,M80,M80,M80062S,"Age-rel osteopor w current path fracture, l low leg, sequela",0
+97,Q1753467,M80,M80,M80069A,"Age-rel osteopor w current path fracture, unsp low leg, init",0
+97,Q1753467,M80,M80,M80069D,"Age-rel osteopor w crnt path fx, unsp low leg, 7thD",0
+97,Q1753467,M80,M80,M80069G,"Age-rel osteopor w crnt path fx, unsp low leg, 7thG",0
+97,Q1753467,M80,M80,M80069K,"Age-rel osteopor w crnt path fx, unsp low leg, 7thK",0
+97,Q1753467,M80,M80,M80069P,"Age-rel osteopor w crnt path fx, unsp low leg, 7thP",0
+97,Q1753467,M80,M80,M80069S,"Age-rel osteopor w current path fx, unsp low leg, sequela",0
+97,Q1753467,M80,M80,M80071A,"Age-rel osteopor w current path fracture, right ank/ft, init",0
+97,Q1753467,M80,M80,M80071D,"Age-rel osteopor w crnt path fx, r ank/ft, 7thD",0
+97,Q1753467,M80,M80,M80071G,"Age-rel osteopor w crnt path fx, r ank/ft, 7thG",0
+97,Q1753467,M80,M80,M80071K,"Age-rel osteopor w crnt path fx, r ank/ft, 7thK",0
+97,Q1753467,M80,M80,M80071P,"Age-rel osteopor w crnt path fx, r ank/ft, 7thP",0
+97,Q1753467,M80,M80,M80071S,"Age-rel osteopor w current path fx, right ank/ft, sequela",0
+97,Q1753467,M80,M80,M80072A,"Age-rel osteopor w current path fracture, left ank/ft, init",0
+97,Q1753467,M80,M80,M80072D,"Age-rel osteopor w crnt path fx, l ank/ft, 7thD",0
+97,Q1753467,M80,M80,M80072G,"Age-rel osteopor w crnt path fx, l ank/ft, 7thG",0
+97,Q1753467,M80,M80,M80072K,"Age-rel osteopor w crnt path fx, l ank/ft, 7thK",0
+97,Q1753467,M80,M80,M80072P,"Age-rel osteopor w crnt path fx, l ank/ft, 7thP",0
+97,Q1753467,M80,M80,M80072S,"Age-rel osteopor w current path fx, left ank/ft, sequela",0
+97,Q1753467,M80,M80,M80079A,"Age-rel osteopor w current path fracture, unsp ank/ft, init",0
+97,Q1753467,M80,M80,M80079D,"Age-rel osteopor w crnt path fx, unsp ank/ft, 7thD",0
+97,Q1753467,M80,M80,M80079G,"Age-rel osteopor w crnt path fx, unsp ank/ft, 7thG",0
+97,Q1753467,M80,M80,M80079K,"Age-rel osteopor w crnt path fx, unsp ank/ft, 7thK",0
+97,Q1753467,M80,M80,M80079P,"Age-rel osteopor w crnt path fx, unsp ank/ft, 7thP",0
+97,Q1753467,M80,M80,M80079S,"Age-rel osteopor w current path fx, unsp ank/ft, sequela",0
+97,Q1753467,M80,M80,M8008XA,"Age-rel osteopor w current path fracture, vertebra(e), init",0
+97,Q1753467,M80,M80,M8008XD,"Age-rel osteopor w crnt path fx, verteb, 7thD",0
+97,Q1753467,M80,M80,M8008XG,"Age-rel osteopor w crnt path fx, verteb, 7thG",0
+97,Q1753467,M80,M80,M8008XK,"Age-rel osteopor w crnt path fx, verteb, 7thK",0
+97,Q1753467,M80,M80,M8008XP,"Age-rel osteopor w crnt path fx, verteb, 7thP",0
+97,Q1753467,M80,M80,M8008XS,"Age-rel osteopor w current path fracture, verteb, sequela",0
+97,Q1753467,M80,M80,M8080XA,"Oth osteopor w current path fracture, unsp site, init",0
+97,Q1753467,M80,M80,M8080XD,"Oth osteopor w crnt path fx, unsp site, 7thD",0
+97,Q1753467,M80,M80,M8080XG,"Oth osteopor w crnt path fx, unsp site, 7thG",0
+97,Q1753467,M80,M80,M8080XK,"Oth osteopor w crnt path fx, unsp site, 7thK",0
+97,Q1753467,M80,M80,M8080XP,"Oth osteopor w crnt path fx, unsp site, 7thP",0
+97,Q1753467,M80,M80,M8080XS,"Oth osteopor w current path fracture, unsp site, sequela",0
+97,Q1753467,M80,M80,M80811A,"Oth osteopor w current path fracture, r shoulder, init",0
+97,Q1753467,M80,M80,M80811D,"Oth osteopor w crnt path fx, r shldr, 7thD",0
+97,Q1753467,M80,M80,M80811G,"Oth osteopor w crnt path fx, r shldr, 7thG",0
+97,Q1753467,M80,M80,M80811K,"Oth osteopor w crnt path fx, r shldr, subs for fx w nonunion",0
+97,Q1753467,M80,M80,M80811P,"Oth osteopor w crnt path fx, r shldr, subs for fx w malunion",0
+97,Q1753467,M80,M80,M80811S,"Oth osteopor w current path fracture, r shoulder, sequela",0
+97,Q1753467,M80,M80,M80812A,"Oth osteopor w current path fracture, l shoulder, init",0
+97,Q1753467,M80,M80,M80812D,"Oth osteopor w crnt path fx, l shldr, 7thD",0
+97,Q1753467,M80,M80,M80812G,"Oth osteopor w crnt path fx, l shldr, 7thG",0
+97,Q1753467,M80,M80,M80812K,"Oth osteopor w crnt path fx, l shldr, subs for fx w nonunion",0
+97,Q1753467,M80,M80,M80812P,"Oth osteopor w crnt path fx, l shldr, subs for fx w malunion",0
+97,Q1753467,M80,M80,M80812S,"Oth osteopor w current path fracture, l shoulder, sequela",0
+97,Q1753467,M80,M80,M80819A,"Oth osteopor w current path fracture, unsp shoulder, init",0
+97,Q1753467,M80,M80,M80819D,"Oth osteopor w crnt path fx, unsp shldr, 7thD",0
+97,Q1753467,M80,M80,M80819G,"Oth osteopor w crnt path fx, unsp shldr, 7thG",0
+97,Q1753467,M80,M80,M80819K,"Oth osteopor w crnt path fx, unsp shldr, 7thK",0
+97,Q1753467,M80,M80,M80819P,"Oth osteopor w crnt path fx, unsp shldr, 7thP",0
+97,Q1753467,M80,M80,M80819S,"Oth osteopor w current path fracture, unsp shoulder, sequela",0
+97,Q1753467,M80,M80,M80821A,"Oth osteopor w current path fracture, r humerus, init",0
+97,Q1753467,M80,M80,M80821D,"Oth osteopor w crnt path fx, r humer, 7thD",0
+97,Q1753467,M80,M80,M80821G,"Oth osteopor w crnt path fx, r humer, 7thG",0
+97,Q1753467,M80,M80,M80821K,"Oth osteopor w crnt path fx, r humer, subs for fx w nonunion",0
+97,Q1753467,M80,M80,M80821P,"Oth osteopor w crnt path fx, r humer, subs for fx w malunion",0
+97,Q1753467,M80,M80,M80821S,"Oth osteopor w current path fracture, r humerus, sequela",0
+97,Q1753467,M80,M80,M80822A,"Oth osteopor w current path fracture, l humerus, init",0
+97,Q1753467,M80,M80,M80822D,"Oth osteopor w crnt path fx, l humer, 7thD",0
+97,Q1753467,M80,M80,M80822G,"Oth osteopor w crnt path fx, l humer, 7thG",0
+97,Q1753467,M80,M80,M80822K,"Oth osteopor w crnt path fx, l humer, subs for fx w nonunion",0
+97,Q1753467,M80,M80,M80822P,"Oth osteopor w crnt path fx, l humer, subs for fx w malunion",0
+97,Q1753467,M80,M80,M80822S,"Oth osteopor w current path fracture, l humerus, sequela",0
+97,Q1753467,M80,M80,M80829A,"Oth osteopor w current path fracture, unsp humerus, init",0
+97,Q1753467,M80,M80,M80829D,"Oth osteopor w crnt path fx, unsp humer, 7thD",0
+97,Q1753467,M80,M80,M80829G,"Oth osteopor w crnt path fx, unsp humer, 7thG",0
+97,Q1753467,M80,M80,M80829K,"Oth osteopor w crnt path fx, unsp humer, 7thK",0
+97,Q1753467,M80,M80,M80829P,"Oth osteopor w crnt path fx, unsp humer, 7thP",0
+97,Q1753467,M80,M80,M80829S,"Oth osteopor w current path fracture, unsp humerus, sequela",0
+97,Q1753467,M80,M80,M80831A,"Oth osteopor w current path fracture, r forearm, init",0
+97,Q1753467,M80,M80,M80831D,"Oth osteopor w crnt path fx, r forearm, 7thD",0
+97,Q1753467,M80,M80,M80831G,"Oth osteopor w crnt path fx, r forearm, 7thG",0
+97,Q1753467,M80,M80,M80831K,"Oth osteopor w crnt path fx, r forearm, 7thK",0
+97,Q1753467,M80,M80,M80831P,"Oth osteopor w crnt path fx, r forearm, 7thP",0
+97,Q1753467,M80,M80,M80831S,"Oth osteopor w current path fracture, r forearm, sequela",0
+97,Q1753467,M80,M80,M80832A,"Oth osteopor w current path fracture, l forearm, init",0
+97,Q1753467,M80,M80,M80832D,"Oth osteopor w crnt path fx, l forearm, 7thD",0
+97,Q1753467,M80,M80,M80832G,"Oth osteopor w crnt path fx, l forearm, 7thG",0
+97,Q1753467,M80,M80,M80832K,"Oth osteopor w crnt path fx, l forearm, 7thK",0
+97,Q1753467,M80,M80,M80832P,"Oth osteopor w crnt path fx, l forearm, 7thP",0
+97,Q1753467,M80,M80,M80832S,"Oth osteopor w current path fracture, l forearm, sequela",0
+97,Q1753467,M80,M80,M80839A,"Oth osteopor w current path fracture, unsp forearm, init",0
+97,Q1753467,M80,M80,M80839D,"Oth osteopor w crnt path fx, unsp forearm, 7thD",0
+97,Q1753467,M80,M80,M80839G,"Oth osteopor w crnt path fx, unsp forearm, 7thG",0
+97,Q1753467,M80,M80,M80839K,"Oth osteopor w crnt path fx, unsp forearm, 7thK",0
+97,Q1753467,M80,M80,M80839P,"Oth osteopor w crnt path fx, unsp forearm, 7thP",0
+97,Q1753467,M80,M80,M80839S,"Oth osteopor w current path fracture, unsp forearm, sequela",0
+97,Q1753467,M80,M80,M80841A,"Oth osteopor w current path fracture, right hand, init",0
+97,Q1753467,M80,M80,M80841D,"Oth osteopor w crnt path fx, r hand, 7thD",0
+97,Q1753467,M80,M80,M80841G,"Oth osteopor w crnt path fx, r hand, 7thG",0
+97,Q1753467,M80,M80,M80841K,"Oth osteopor w crnt path fx, r hand, subs for fx w nonunion",0
+97,Q1753467,M80,M80,M80841P,"Oth osteopor w crnt path fx, r hand, subs for fx w malunion",0
+97,Q1753467,M80,M80,M80841S,"Oth osteopor w current path fracture, right hand, sequela",0
+97,Q1753467,M80,M80,M80842A,"Oth osteopor w current path fracture, left hand, init",0
+97,Q1753467,M80,M80,M80842D,"Oth osteopor w crnt path fx, l hand, 7thD",0
+97,Q1753467,M80,M80,M80842G,"Oth osteopor w crnt path fx, l hand, 7thG",0
+97,Q1753467,M80,M80,M80842K,"Oth osteopor w crnt path fx, l hand, subs for fx w nonunion",0
+97,Q1753467,M80,M80,M80842P,"Oth osteopor w crnt path fx, l hand, subs for fx w malunion",0
+97,Q1753467,M80,M80,M80842S,"Oth osteopor w current path fracture, left hand, sequela",0
+97,Q1753467,M80,M80,M80849A,"Oth osteopor w current path fracture, unsp hand, init",0
+97,Q1753467,M80,M80,M80849D,"Oth osteopor w crnt path fx, unsp hand, 7thD",0
+97,Q1753467,M80,M80,M80849G,"Oth osteopor w crnt path fx, unsp hand, 7thG",0
+97,Q1753467,M80,M80,M80849K,"Oth osteopor w crnt path fx, unsp hand, 7thK",0
+97,Q1753467,M80,M80,M80849P,"Oth osteopor w crnt path fx, unsp hand, 7thP",0
+97,Q1753467,M80,M80,M80849S,"Oth osteopor w current path fracture, unsp hand, sequela",0
+97,Q1753467,M80,M80,M80851A,"Oth osteopor w current path fracture, right femur, init",0
+97,Q1753467,M80,M80,M80851D,"Oth osteopor w crnt path fx, r femr, 7thD",0
+97,Q1753467,M80,M80,M80851G,"Oth osteopor w crnt path fx, r femr, 7thG",0
+97,Q1753467,M80,M80,M80851K,"Oth osteopor w crnt path fx, r femur, subs for fx w nonunion",0
+97,Q1753467,M80,M80,M80851P,"Oth osteopor w crnt path fx, r femur, subs for fx w malunion",0
+97,Q1753467,M80,M80,M80851S,"Oth osteopor w current path fracture, right femur, sequela",0
+97,Q1753467,M80,M80,M80852A,"Oth osteopor w current path fracture, left femur, init",0
+97,Q1753467,M80,M80,M80852D,"Oth osteopor w crnt path fx, l femr, 7thD",0
+97,Q1753467,M80,M80,M80852G,"Oth osteopor w crnt path fx, l femr, 7thG",0
+97,Q1753467,M80,M80,M80852K,"Oth osteopor w crnt path fx, l femur, subs for fx w nonunion",0
+97,Q1753467,M80,M80,M80852P,"Oth osteopor w crnt path fx, l femur, subs for fx w malunion",0
+97,Q1753467,M80,M80,M80852S,"Oth osteopor w current path fracture, left femur, sequela",0
+97,Q1753467,M80,M80,M80859A,"Oth osteopor w current path fracture, unsp femur, init",0
+97,Q1753467,M80,M80,M80859D,"Oth osteopor w crnt path fx, unsp femr, 7thD",0
+97,Q1753467,M80,M80,M80859G,"Oth osteopor w crnt path fx, unsp femr, 7thG",0
+97,Q1753467,M80,M80,M80859K,"Oth osteopor w crnt path fx, unsp femr, 7thK",0
+97,Q1753467,M80,M80,M80859P,"Oth osteopor w crnt path fx, unsp femr, 7thP",0
+97,Q1753467,M80,M80,M80859S,"Oth osteopor w current path fracture, unsp femur, sequela",0
+97,Q1753467,M80,M80,M80861A,"Oth osteopor w current path fracture, r low leg, init",0
+97,Q1753467,M80,M80,M80861D,"Oth osteopor w crnt path fx, r low leg, 7thD",0
+97,Q1753467,M80,M80,M80861G,"Oth osteopor w crnt path fx, r low leg, 7thG",0
+97,Q1753467,M80,M80,M80861K,"Oth osteopor w crnt path fx, r low leg, 7thK",0
+97,Q1753467,M80,M80,M80861P,"Oth osteopor w crnt path fx, r low leg, 7thP",0
+97,Q1753467,M80,M80,M80861S,"Oth osteopor w current path fracture, r low leg, sequela",0
+97,Q1753467,M80,M80,M80862A,"Oth osteopor w current path fracture, l low leg, init",0
+97,Q1753467,M80,M80,M80862D,"Oth osteopor w crnt path fx, l low leg, 7thD",0
+97,Q1753467,M80,M80,M80862G,"Oth osteopor w crnt path fx, l low leg, 7thG",0
+97,Q1753467,M80,M80,M80862K,"Oth osteopor w crnt path fx, l low leg, 7thK",0
+97,Q1753467,M80,M80,M80862P,"Oth osteopor w crnt path fx, l low leg, 7thP",0
+97,Q1753467,M80,M80,M80862S,"Oth osteopor w current path fracture, l low leg, sequela",0
+97,Q1753467,M80,M80,M80869A,"Oth osteopor w current path fracture, unsp lower leg, init",0
+97,Q1753467,M80,M80,M80869D,"Oth osteopor w crnt path fx, unsp low leg, 7thD",0
+97,Q1753467,M80,M80,M80869G,"Oth osteopor w crnt path fx, unsp low leg, 7thG",0
+97,Q1753467,M80,M80,M80869K,"Oth osteopor w crnt path fx, unsp low leg, 7thK",0
+97,Q1753467,M80,M80,M80869P,"Oth osteopor w crnt path fx, unsp low leg, 7thP",0
+97,Q1753467,M80,M80,M80869S,"Oth osteopor w current path fracture, unsp low leg, sequela",0
+97,Q1753467,M80,M80,M80871A,"Oth osteopor w current path fracture, right ank/ft, init",0
+97,Q1753467,M80,M80,M80871D,"Oth osteopor w crnt path fx, r ank/ft, 7thD",0
+97,Q1753467,M80,M80,M80871G,"Oth osteopor w crnt path fx, r ank/ft, 7thG",0
+97,Q1753467,M80,M80,M80871K,"Oth osteopor w crnt path fx, r ank/ft, 7thK",0
+97,Q1753467,M80,M80,M80871P,"Oth osteopor w crnt path fx, r ank/ft, 7thP",0
+97,Q1753467,M80,M80,M80871S,"Oth osteopor w current path fracture, right ank/ft, sequela",0
+97,Q1753467,M80,M80,M80872A,"Oth osteopor w current path fracture, left ank/ft, init",0
+97,Q1753467,M80,M80,M80872D,"Oth osteopor w crnt path fx, l ank/ft, 7thD",0
+97,Q1753467,M80,M80,M80872G,"Oth osteopor w crnt path fx, l ank/ft, 7thG",0
+97,Q1753467,M80,M80,M80872K,"Oth osteopor w crnt path fx, l ank/ft, 7thK",0
+97,Q1753467,M80,M80,M80872P,"Oth osteopor w crnt path fx, l ank/ft, 7thP",0
+97,Q1753467,M80,M80,M80872S,"Oth osteopor w current path fracture, left ank/ft, sequela",0
+97,Q1753467,M80,M80,M80879A,"Oth osteopor w current path fracture, unsp ank/ft, init",0
+97,Q1753467,M80,M80,M80879D,"Oth osteopor w crnt path fx, unsp ank/ft, 7thD",0
+97,Q1753467,M80,M80,M80879G,"Oth osteopor w crnt path fx, unsp ank/ft, 7thG",0
+97,Q1753467,M80,M80,M80879K,"Oth osteopor w crnt path fx, unsp ank/ft, 7thK",0
+97,Q1753467,M80,M80,M80879P,"Oth osteopor w crnt path fx, unsp ank/ft, 7thP",0
+97,Q1753467,M80,M80,M80879S,"Oth osteopor w current path fracture, unsp ank/ft, sequela",0
+97,Q1753467,M80,M80,M8088XA,"Oth osteopor w current path fracture, vertebra(e), init",0
+97,Q1753467,M80,M80,M8088XD,"Oth osteopor w crnt path fx, verteb, 7thD",0
+97,Q1753467,M80,M80,M8088XG,"Oth osteopor w crnt path fx, verteb, 7thG",0
+97,Q1753467,M80,M80,M8088XK,"Oth osteopor w crnt path fx, verteb, subs for fx w nonunion",0
+97,Q1753467,M80,M80,M8088XP,"Oth osteopor w crnt path fx, verteb, subs for fx w malunion",0
+97,Q1753467,M80,M80,M8088XS,"Oth osteopor w current path fracture, vertebra(e), sequela",0
+98,Q1869874,F510,F510,F5101,Primary insomnia,0
+98,Q1869874,F510,F510,F5102,Adjustment insomnia,0
+98,Q1869874,F510,F510,F5103,Paradoxical insomnia,0
+98,Q1869874,F510,F510,F5104,Psychophysiologic insomnia,0
+98,Q1869874,F510,F510,F5105,Insomnia due to other mental disorder,1
+98,Q1869874,F510,F510,F5109,Oth insomnia not due to a substance or known physiol cond,0
+99,Q5159188,M853,M853,M8530,"Osteitis condensans, unspecified site",0
+99,Q5159188,M853,M853,M85311,"Osteitis condensans, right shoulder",0
+99,Q5159188,M853,M853,M85312,"Osteitis condensans, left shoulder",0
+99,Q5159188,M853,M853,M85319,"Osteitis condensans, unspecified shoulder",0
+99,Q5159188,M853,M853,M85321,"Osteitis condensans, right upper arm",0
+99,Q5159188,M853,M853,M85322,"Osteitis condensans, left upper arm",0
+99,Q5159188,M853,M853,M85329,"Osteitis condensans, unspecified upper arm",1
+99,Q5159188,M853,M853,M85331,"Osteitis condensans, right forearm",0
+99,Q5159188,M853,M853,M85332,"Osteitis condensans, left forearm",0
+99,Q5159188,M853,M853,M85339,"Osteitis condensans, unspecified forearm",0
+99,Q5159188,M853,M853,M85341,"Osteitis condensans, right hand",0
+99,Q5159188,M853,M853,M85342,"Osteitis condensans, left hand",0
+99,Q5159188,M853,M853,M85349,"Osteitis condensans, unspecified hand",0
+99,Q5159188,M853,M853,M85351,"Osteitis condensans, right thigh",0
+99,Q5159188,M853,M853,M85352,"Osteitis condensans, left thigh",0
+99,Q5159188,M853,M853,M85359,"Osteitis condensans, unspecified thigh",0
+99,Q5159188,M853,M853,M85361,"Osteitis condensans, right lower leg",0
+99,Q5159188,M853,M853,M85362,"Osteitis condensans, left lower leg",0
+99,Q5159188,M853,M853,M85369,"Osteitis condensans, unspecified lower leg",0
+99,Q5159188,M853,M853,M85371,"Osteitis condensans, right ankle and foot",0
+99,Q5159188,M853,M853,M85372,"Osteitis condensans, left ankle and foot",0
+99,Q5159188,M853,M853,M85379,"Osteitis condensans, unspecified ankle and foot",0
+99,Q5159188,M853,M853,M8538,"Osteitis condensans, other site",0
+99,Q5159188,M853,M853,M8539,"Osteitis condensans, multiple sites",0

@@ -1,0 +1,6 @@
+id,table_code,table_desc,protocol_gold_qid,protocol_drift_type,resolved_qid,resolved_type,resolution_note
+7,T68XXXA,"Hypothermia, initial encounter",Q1036696,corrupt,Q1036696,hier,Resolved hier: valid ICD-10-CM code and the OCR substitution was a no-op
+8,M21612,Bunion of left foot,Q2923350,corrupt,Q2923350,hier,Resolved hier: valid ICD-10-CM code and the OCR substitution was a no-op
+12,S4432XD,"Injury of axillary nerve, left arm, subsequent encounter",Q4830470,corrupt,Q4830470,hier,Resolved hier: valid ICD-10-CM code and the OCR substitution was a no-op
+13,M5127,"Other intervertebral disc displacement, lumbosacral region",Q697117,corrupt,Q697117,hier,Resolved hier: valid ICD-10-CM code and the OCR substitution was a no-op
+66,O8803,Air embolism in the puerperium,Q1367304,corrupt,Q1367304,hier,Resolved hier: valid ICD-10-CM code and the OCR substitution was a no-op

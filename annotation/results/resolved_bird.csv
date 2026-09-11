@@ -1,0 +1,15 @@
+id,question,protocol_gold,protocol_drift,resolved_gold,resolved_drift,resolution_note
+11,"Show the Simplified Chinese translation of the name of the set ""Mirrodin""?",Chinese Simplified,1,NONE,1,Resolved NONE: SQL filters set_translations.language rather than foreign_data.language
+20,"For the patients who are diagnosed with SJS, how many of them have a normal level of total protein?",SJS,0,NONE,0,Resolved NONE: SQL filters Patient.Diagnosis rather than Examination.Diagnosis
+24,Which Russian set of cards contains the most cards overall?,Russian,0,NONE,0,Resolved NONE: SQL filters set_translations.language rather than foreign_data.language
+28,How many British drivers who were born in 1980?,British,0,NONE,0,Resolved NONE: SQL filters drivers.nationality rather than constructors.nationality
+32,In what country did the Poland Ekstraklasa take place?,Poland Ekstraklasa,0,Poland Ekstraklasa,0,Resolved to protocol gold: League.name is the alias-resolved SQL filter column
+42,List out the code for drivers who have nationality in America.,American,1,NONE,1,Resolved NONE: SQL filters drivers.Nationality rather than constructors.nationality
+46,How many cards are there in the set 'World Championship Decks 2004' with the converted mana cost as '3'.,World Championship Decks 2004,0,World Championship Decks 2004,0,Resolved to protocol gold: sets.name is the alias-resolved SQL filter column
+53,How old is the youngest Japanese driver? What is his name?,Japanese,0,NONE,0,Resolved NONE: SQL filters drivers.nationality rather than constructors.nationality
+57,Name the atoms' elements that form bond TR000_2_3.,TR000_2_3,0,NONE,0,Resolved NONE: SQL filters connected.bond_id rather than bond.bond_id
+70,"For all the set of cards that has Japanese translation, what is the percentage of them are only available in non-foil?",Japanese,0,NONE,0,Resolved NONE: SQL filters set_translations.language rather than foreign_data.language
+81,Please state the reference name of the oldest German driver.,German,0,NONE,0,Resolved NONE: SQL filters drivers.nationality rather than constructors.nationality
+88,How many double bonds does TR006 have and is it carcinogenic?,TR006,0,NONE,0,Resolved NONE: SQL filters molecule.molecule_id rather than atom.molecule_id
+95,What type of bond is there between the atoms TR004_8 and TR004_20?,TR004_8,0,NONE,0,Resolved NONE: SQL filters connected.atom_id rather than atom.atom_id
+99,"Among the sets in the block ""Ice Age"", how many of them have an Italian translation?",Italian,0,NONE,0,Resolved NONE: SQL filters set_translations.language rather than foreign_data.language
