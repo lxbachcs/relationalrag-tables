@@ -56,7 +56,7 @@ pass had been entered without this context and relied on outside knowledge of th
 schemas and ICD-10-CM codes; it was discarded and all four worksheets were reset to
 blank on 2026-09-10 so that the recorded audit is the one performed from the package
 alone. That new pass is now complete: both annotators completed all 200 assigned rows,
-and the 17 protocol challenges were jointly adjudicated.
+and the 19 rows requiring review (14 BIRD and 5 ICD) were jointly adjudicated.
 
 ## Offline Wikidata reference
 
@@ -85,7 +85,24 @@ package may be added to the paper only after:
 4. reported numbers are copied from the final `agreement.json` without alteration.
 
 All four conditions are satisfied in the current package. `agreement.json` records
-`complete` for both datasets, 12/12 BIRD and 5/5 ICD adjudication rows resolved, BIRD
+`complete` for both datasets, 14/14 BIRD and 5/5 ICD adjudication rows resolved, BIRD
 adjudicated gold/drift error rates of 0.12/0.00, and ICD adjudicated gold/drift-type
 error rates of 0.00/0.05. Its workflow status prevents a blank or incomplete audit from
 being interpreted as a zero-error result.
+
+## Post-adjudication impact analysis
+
+The two defects propagate differently. The BIRD defect changes which column supplies the
+candidate domain, so the component evaluation was rerun after resolving the SQL alias and
+table before checking whether the literal exists. The corrected extraction has 1,103
+instances (114 drifted) and changes 89 table assignments relative to the original driver.
+Across seeds 0--4, verifier recall@1 is 0.9385 +/- 0.0104 overall and
+0.9050 +/- 0.0508 on drift, while exact matching is 0.8083 +/- 0.0118 overall and
+0.0000 on drift. The exact command and machine-readable output are
+`recompute_bird_protocol_impact.py` and `protocol_correction_impact.json`.
+
+The ICD defect changes only the construction subtype from `corrupt` to `hier`: each
+record code, description, and gold QID remains unchanged, and the matching features and
+planner do not consume the subtype. Aggregate ICD matching and end-to-end QA results are
+therefore unchanged; pre-adjudication subtype-stratified rows are excluded from the
+revised claims.

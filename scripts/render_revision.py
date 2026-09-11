@@ -15,6 +15,7 @@ from pathlib import Path
 ART = Path(sys.argv[1] if len(sys.argv) > 1 else
            "/Users/xuanbachle/Desktop/05_Notes/2026/0-Under-submission/ICDE-2026-relational-rag-tables/artifacts_server/artifacts")
 OUT = Path(__file__).resolve().parent / "generated"
+AUDIT = Path(__file__).resolve().parents[1] / "annotation" / "protocol_correction_impact.json"
 OUT.mkdir(exist_ok=True)
 
 
@@ -51,7 +52,7 @@ for name, key in (("Exact-match", "exact_match"), ("Learned", "learned"), ("Deep
 w("tab_disc_rows.tex", "\n".join(rows) + "\n")
 
 rows = []
-for name, key in (("Exact match", "exact_match"), ("Learned", "learned"), ("\\textbf{Ensemble}", "ensemble")):
+for name, key in (("Exact", "exact_match"), ("Learned", "learned"), ("\\textbf{Ensemble}", "ensemble")):
     e, es = sc(f"ece/{key}/ece"); m, ms = sc(f"ece/{key}/mce"); a, as_ = sc(f"risk_coverage_pairs/{key}/aurc")
     rows.append(f"Synthetic & {name} & {pm(e, es)} & {pm(m, ms)} & {pm(a, as_)} \\\\")
 w("tab_cal_rows.tex", "\n".join(rows) + "\n")
@@ -82,6 +83,11 @@ rt = agg["risk_targets"]
 rows = [f"{a} & \\msd{{{rt[a]['test_coverage']['mean']:.3f}}}{{{rt[a]['test_coverage']['sd']:.3f}}} & \\msd{{{rt[a]['test_risk']['mean']:.3f}}}{{{rt[a]['test_risk']['sd']:.3f}}} & {rt[a]['risk_held_frac']*20:.0f}/20 \\\\"
         for a in ("0.02", "0.05", "0.1")]
 w("tab_risktargets_rows.tex", "\n".join(rows) + "\n")
+# merged left|right block for the full-width calibration/selection table
+cal_rows = (OUT / "tab_cal_rows.tex").read_text().rstrip("\n").split("\n")
+cal_rows.append("BIRD & \\textbf{Ensemble} & \\textbf{0.001} & 0.053 & --- \\\\")
+risk_rows = [r for r in rows] + ["& & & \\\\"] * (len(cal_rows) - len(rows))
+w("tab_cal_sel_rows.tex", "\n".join(f"{c[:-2].rstrip()} & {r}" for c, r in zip(cal_rows, risk_rows)) + "\n")
 w("macros_e2.tex", "\n".join([
     f"\\newcommand{{\\tauSel}}{{\\msd{{{tv[0]:.2f}}}{{{tv[1]:.2f}}}}}",
     f"\\newcommand{{\\fOneSel}}{{\\msd{{{f1s[0]:.3f}}}{{{f1s[1]:.3f}}}}}",
@@ -115,13 +121,13 @@ fig = r"""\begin{figure}[htbp]
 \centering
 \begin{tikzpicture}
 \begin{axis}[
-  width=0.74\columnwidth, height=3.7cm,
+  width=0.70\columnwidth, height=3.7cm,
   xlabel={Coverage answered}, ylabel={Accuracy on answered (\%)},
   xmin=0.05, xmax=1.0, ymin=55, ymax=101, x dir=reverse,
   xmajorgrids, ymajorgrids, grid style={dashed,gray!25},
   axis line style={grayA}, tick style={grayA},
   tick label style={font=\scriptsize}, label style={font=\scriptsize},
-  legend style={font=\tiny, draw=none, fill=none, at={(0.97,0.04)}, anchor=south east, cells={anchor=west}},
+  legend style={font=\scriptsize, draw=none, fill=none, at={(1.02,0.5)}, anchor=west, cells={anchor=west}, row sep=-1pt},
 ]
 \addplot[fill=blueA!15, draw=none, forget plot] coordinates {BAND_ENS} -- cycle;
 \addplot[fill=greenA!15, draw=none, forget plot] coordinates {BAND_SYS} -- cycle;
@@ -143,11 +149,12 @@ w("fig_riskcoverage.tex", fig)
 
 # ------------------------------------------------------------------ E3: theory check
 th = J("theory_check.json")["aggregate"]
-b = J("theory_check.json")["bird"]
+correction = json.loads(AUDIT.read_text())
+b = correction["seed_0_theory_inputs"]
 t1, t2 = th["theorem1"], th["theorem2"]
 w("tab_theory_rows.tex", "\n".join([
     f"Synthetic ($20$ seeds) & {pm(t1['pi_plus']['mean'], t1['pi_plus']['sd'])} & {pm(t1['alpha_fpr']['mean'], t1['alpha_fpr']['sd'])} & {pm(t1['beta_fnr']['mean'], t1['beta_fnr']['sd'])} & {pm(t1['lambda_star']['mean'], t1['lambda_star']['sd'], 2)} & {th['theorem1_qa_sign_agreement']['lambda_1']*20:.0f}/20 \\\\",
-    f"BIRD value linking & {b['pi_plus']:.3f} & {b['alpha_fpr']:.4f} & {b['beta_fnr']:.3f} & {b['lambda_star']:.3f} & --- \\\\",
+    f"BIRD value linking & {b['match_prevalence']:.3f} & {b['false_positive_rate']:.4f} & {b['false_negative_rate']:.3f} & {b['critical_penalty']:.4f} & --- \\\\",
 ]) + "\n")
 w("macros_e3.tex", "\n".join([
     f"\\newcommand{{\\thDelta}}{{{pmm(t2['delta']['mean'], t2['delta']['sd'])}}}",
@@ -163,24 +170,25 @@ w("macros_e3.tex", "\n".join([
 
 # ------------------------------------------------------------------ E1: BIRD linkers
 e1 = J("e1/analysis.json")
-order = [("Baseline (no pruning, no values)", "baseline"), ("none (pruning + values)", "pv_none"), ("exact", "pv_exact"),
-         ("fuzzy", "pv_fuzzy"), ("embedding", "pv_embed"), ("learned verifier, $\\tau{=}0.5$", "pv_verifier"),
-         ("learned verifier, $\\tau{=}0.8$", "pv_verifier_t80"),
-         ("oracle gold literals", "pv_oracle"), ("oracle, drifted literals only", "pv_oracle_driftonly")]
+order = [("no pruning, no values", "baseline"), ("none (pruning + values)", "pv_none"), ("exact", "pv_exact"),
+         ("fuzzy", "pv_fuzzy"), ("embedding", "pv_embed"), ("verifier, $\\tau{=}0.5$", "pv_verifier"),
+         ("verifier, $\\tau{=}0.8$", "pv_verifier_t80"),
+         ("oracle gold literals", "pv_oracle"), ("oracle, drifted only", "pv_oracle_driftonly")]
 def dd(row, ref, key):
     v = row["vs"].get(ref, {}).get(key)
     if not v:
         return "---"
-    return f"{100*v['delta']:+.1f} [{100*v['ci95'][0]:+.1f},{100*v['ci95'][1]:+.1f}]"
+    return f"{100*v['delta']:+.1f} [{100*v['ci95'][0]:.1f},{100*v['ci95'][1]:.1f}]"
 rows = []
 for name, tag in order:
     r = e1[tag]
-    prec = "---" if r["hints"]["questions_with_hints"] == 0 else f"{r['hints']['hint_precision']:.2f}"
+    nh = r["hints"]["questions_with_hints"]
+    hinted = "0" if nh == 0 else f"{nh} ({r['hints']['hint_precision']:.2f})"
     bold = tag == "pv_oracle"
     da, ddr = dd(r, "pv_none", "all"), dd(r, "pv_none", "drift")
     if bold:
         da, ddr = f"\\textbf{{{da}}}", f"\\textbf{{{ddr}}}"
-    rows.append(f"{name} & {r['ex']:.3f} & {r['ex_drift']:.3f} & {r['hints']['questions_with_hints']} & {prec} & {da} & {ddr} \\\\")
+    rows.append(f"{name} & {r['ex']:.3f} & {r['ex_drift']:.3f} & {hinted} & {da} & {ddr} \\\\")
 w("tab_e1_rows.tex", "\n".join(rows) + "\n")
 sel = e1["pv_verifier"]["selective_over_hinted"]["curve"]
 w("macros_e1.tex", "\n".join([
@@ -245,9 +253,9 @@ w("macros_e5.tex", "\n".join([
 e6 = J("e6/results.json")
 rows = []
 for rho in ("0.00", "0.05", "0.10", "0.20"):
-    bb = e6["bird"]["by_rho"][f"rho_{rho}"]
+    bb = correction["label_noise_seed_0"][f"rho_{rho}"]
     ii = e6["icd"]["aggregate"][f"rho_{rho}"]
-    rows.append(f"{rho} & {bb['recall@1_all']:.3f} / {bb['recall@1_drift']:.3f} & {100*bb['gate_at_0.5']['fp_rate']:.2f}\\% / {100*bb['gate_at_0.5']['fn_rate']:.1f}\\% & "
+    rows.append(f"{rho} & {bb['recall_all']:.3f} / {bb['recall_drift']:.3f} & {100*bb['false_positive_rate']:.2f}\\% / {100*bb['false_negative_rate']:.1f}\\% & "
                 f"{pm(ii['recall@1']['mean'], ii['recall@1']['sd'])} & {100*ii['fp_rate']['mean']:.2f}\\% / {100*ii['fn_rate']['mean']:.1f}\\% \\\\")
 w("tab_e6_rows.tex", "\n".join(rows) + "\n")
 print("done")

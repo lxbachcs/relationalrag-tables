@@ -1,0 +1,49 @@
+{
+  "protocol": "Alias-resolve each SQL condition before confirming the literal in the filtered table column.",
+  "original_instance_count": 1105,
+  "corrected_instance_count": 1103,
+  "corrected_drift_instance_count": 114,
+  "table_assignments_changed": 89,
+  "seeds": [0, 1, 2, 3, 4],
+  "recall_at_1": {
+    "exact_all": {"mean": 0.8083, "sd": 0.0118, "values": [0.8062, 0.8217, 0.7984, 0.8191, 0.7959]},
+    "exact_drift": {"mean": 0.0, "sd": 0.0, "values": [0.0, 0.0, 0.0, 0.0, 0.0]},
+    "fuzzy_all": {"mean": 0.6657, "sd": 0.0148, "values": [0.6693, 0.6667, 0.6641, 0.6848, 0.6434]},
+    "fuzzy_drift": {"mean": 0.1673, "sd": 0.0382, "values": [0.1579, 0.2121, 0.1579, 0.1951, 0.1136]},
+    "embed_all": {"mean": 0.8599, "sd": 0.0107, "values": [0.8527, 0.8475, 0.8682, 0.8734, 0.8579]},
+    "embed_drift": {"mean": 0.8056, "sd": 0.0310, "values": [0.7632, 0.8485, 0.8158, 0.8049, 0.7955]},
+    "verifier_all": {"mean": 0.9385, "sd": 0.0104, "values": [0.9276, 0.9276, 0.9432, 0.9432, 0.9509]},
+    "verifier_drift": {"mean": 0.9050, "sd": 0.0508, "values": [0.9474, 0.8485, 0.9211, 0.8537, 0.9545]},
+    "auroc_verifier": {"mean": 0.9958, "sd": 0.0017, "values": [0.9966, 0.9937, 0.9982, 0.9954, 0.9953]},
+    "auroc_embed_cos": {"mean": 0.8343, "sd": 0.0169, "values": [0.8081, 0.8379, 0.8442, 0.8521, 0.8290]},
+    "auroc_fuzzy": {"mean": 0.9080, "sd": 0.0071, "values": [0.8994, 0.9140, 0.9024, 0.9156, 0.9087]},
+    "auroc_exact": {"mean": 0.9465, "sd": 0.0062, "values": [0.9500, 0.9539, 0.9439, 0.9471, 0.9377]}
+  },
+  "seed_0": {
+    "instances": 1103,
+    "test_instances": 387,
+    "test_drift_instances": 38,
+    "verifier_recall_all": 0.9276,
+    "verifier_recall_drift": 0.9474,
+    "verifier_auroc": 0.9966,
+    "verifier_ece": 0.0010,
+    "false_positive_rate": 0.0046,
+    "false_negative_rate": 0.0543
+  },
+  "seed_0_theory_inputs": {
+    "match_prevalence": 0.0230,
+    "false_positive_rate": 0.0046,
+    "false_negative_rate": 0.0543,
+    "critical_penalty": 0.0013
+  },
+  "label_noise_seed_0": {
+    "rho_0.00": {"recall_all": 0.9276, "recall_drift": 0.9474, "false_positive_rate": 0.0046, "false_negative_rate": 0.0543},
+    "rho_0.05": {"recall_all": 0.9199, "recall_drift": 0.8947, "false_positive_rate": 0.0047, "false_negative_rate": 0.0465},
+    "rho_0.10": {"recall_all": 0.9096, "recall_drift": 0.8684, "false_positive_rate": 0.0042, "false_negative_rate": 0.0568},
+    "rho_0.20": {"recall_all": 0.9096, "recall_drift": 0.8947, "false_positive_rate": 0.0026, "false_negative_rate": 0.2558}
+  },
+  "interpretation": {
+    "bird": "Correcting table attribution changes candidate domains, so the BIRD component and label-noise results were rerun.",
+    "icd": "The five adjudicated ICD cases change only drift-subtype metadata from corrupt to hier; record codes, gold nodes, pair features, aggregate matching, and end-to-end QA outcomes are unchanged. Uncorrected subtype-stratified rows must not be cited."
+  }
+}

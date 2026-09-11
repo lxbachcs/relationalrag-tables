@@ -8,18 +8,19 @@ ICD-10-CM code validity and a frozen Wikidata reference for every QID in the ICD
 validation and agreement code, provenance, tests, and integrity hashes.
 
 The benchmark labels are produced by deterministic rules rather than by human claim
-decomposition. Two annotators have independently audited how those rules were applied
-to 100 BIRD and 100 ICD items, and all 17 flagged rows have been adjudicated. The final
-statistics in `agreement.json` are therefore reportable: BIRD gold/drift error rates
-are 0.12/0.00 with Cohen's kappa 1.00 for both judgments; ICD gold/drift-type error
-rates are 0.00/0.05, with kappa undefined for the all-accepted gold judgment and 1.00
-for drift type.
+decomposition. Two annotators independently audited how those rules were applied to
+100 BIRD and 100 ICD items, and all 19 rows sent to adjudication (14 BIRD and 5 ICD)
+have been resolved. The final statistics in `agreement.json` are therefore reportable:
+BIRD gold/drift error rates are 0.12/0.00, with Cohen's kappa 0.811 for binary protocol-
+gold correctness and 1.00 for drift; ICD gold/drift-type error rates are 0.00/0.05,
+with kappa undefined for the all-accepted gold judgment and 1.00 for drift type.
 
 ## Completed audit
 
-The audit described below has been completed once. Its final statistics and the resolved
-adjudication decisions are in `results/`; the individual annotator worksheets are not
-distributed, and the worksheets in this folder are blank so the audit can be repeated.
+The audit described below has been completed once. Its final statistics and the
+resolved adjudication decisions are in `results/`. The individual annotator worksheets
+are not distributed; the worksheets in this folder are blank so that the audit can be
+repeated independently. Do not change the frozen fields.
 
 ## Requirements
 
@@ -29,6 +30,11 @@ distributed, and the worksheets in this folder are blank so the audit can be rep
 
 All scripts resolve paths relative to this folder, so commands work from any current
 working directory.
+
+These requirements cover the offline annotation and agreement workflow. The optional
+post-adjudication BIRD rerun is a maintainer experiment: it additionally needs the
+released artifact's real-data environment (`numpy`, `scikit-learn`, and
+`sentence-transformers`) and the official BIRD dev databases.
 
 ## Package contents
 
@@ -41,6 +47,8 @@ working directory.
 | `bird_column_values.csv` | Per BIRD row: distinct-value count of the protocol column, the raw cell values equal to the protocol literal, and a bounded sample of other values | No |
 | `icd_icd10cm_reference.csv` | Per ICD row: every valid ICD-10-CM code under the protocol node's code, with descriptions | No |
 | `build_offline_context.py` | Maintainer command that regenerates the three files above and the context columns from the artifact checkout; not needed for annotation | No |
+| `recompute_bird_protocol_impact.py` | Maintainer command that applies alias-resolved table attribution to the released BIRD driver and reruns seeds 0--4 | No |
+| `protocol_correction_impact.json` | Corrected BIRD component/label-noise results and the ICD impact boundary used by the revised paper | Generated |
 | `bird_annotator_A.csv`, `icd_annotator_A.csv` | Annotator A worksheets | Yes, annotation columns only |
 | `bird_annotator_B.csv`, `icd_annotator_B.csv` | Annotator B worksheets | Yes, annotation columns only |
 | `compute_agreement.py` | Validates inputs, computes error/agreement statistics, and manages adjudication lists | No |
@@ -64,7 +72,7 @@ python3 -m unittest -v test_compute_agreement.py
 A valid untouched package reports 100 rows for each sample and annotator worksheet,
 99/99 ICD QIDs covered by the offline reference, schemas for all 11 BIRD databases,
 column-value and ICD-10-CM reference rows aligned with the samples, no external Python
-dependencies, and matching source hashes.
+dependencies in the offline workflow, and matching source hashes.
 
 ## Annotation protocol
 
@@ -208,6 +216,22 @@ python3 build_offline_context.py --artifact-root /path/to/relationalrag-tables
 ```
 
 Regenerate `SOURCE_MANIFEST.sha256` afterwards.
+
+## Post-adjudication impact analysis
+
+Adjudication is followed by a dataset-specific impact check rather than treated as a
+generic label-noise problem. For BIRD, alias-resolving each SQL filter before looking up
+its column changes 89 table assignments in the full extraction and produces 1,103 valid
+instances. `recompute_bird_protocol_impact.py` reruns the released value-linking driver
+for seeds 0--4; `protocol_correction_impact.json` records verifier recall@1 of
+0.9385 +/- 0.0104 overall and 0.9050 +/- 0.0508 on drift, against exact matching at
+0.8083 +/- 0.0118 overall and 0.0000 on drift.
+
+For ICD, the five adjudicated rows retain exactly the same record code and gold Wikidata
+node; only the construction metadata changes from `corrupt` to `hier`. The aggregate
+matching and end-to-end QA computations do not consume that subtype, so their outcomes
+are unchanged. Subtype-stratified rows produced before adjudication are not cited in the
+revised manuscript.
 
 ## Optional snapshot refresh
 
