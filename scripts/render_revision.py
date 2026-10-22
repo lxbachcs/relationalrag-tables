@@ -45,10 +45,16 @@ S = agg["scalars"]
 def sc(key):
     return S[key]["mean"], S[key]["sd"]
 
+metrics = ("accuracy", "precision", "recall", "f1", "auroc", "brier")
+disc = [(name, [sc(f"matrix/verifier_discrimination/{key}/{m}") for m in metrics])
+        for name, key in (("Exact match", "exact_match"), ("Learned", "learned"), ("Ensemble", "ensemble"))]
+best = [min(range(3), key=lambda i: disc[i][1][j][0]) if m == "brier" else max(range(3), key=lambda i: disc[i][1][j][0])
+        for j, m in enumerate(metrics)]  # bold the best value per column (Brier: lower is better)
 rows = []
-for name, key in (("Exact-match", "exact_match"), ("Learned", "learned"), ("Deep ensemble", "ensemble")):
-    vals = [pm(*sc(f"matrix/verifier_discrimination/{key}/{m}")) for m in ("accuracy", "precision", "recall", "f1", "auroc", "brier")]
-    rows.append(f"{name} & " + " & ".join(vals) + " \\\\")
+for i, (name, vals) in enumerate(disc):
+    cells = [pm(*v) for v in vals]
+    cells = [f"\\textbf{{{c}}}" if best[j] == i else c for j, c in enumerate(cells)]
+    rows.append(f"{name} & " + " & ".join(cells) + " \\\\")
 w("tab_disc_rows.tex", "\n".join(rows) + "\n")
 
 rows = []
@@ -129,8 +135,8 @@ fig = r"""\begin{figure}[htbp]
   ymajorgrids, grid style={dashed,gray!25},
   tick style={grayA}, major tick length=1.5pt,
   tick label style={font=\footnotesize}, label style={font=\footnotesize},
-  legend style={font=\footnotesize, draw=none, fill=white, fill opacity=0.9, text opacity=1,
-    at={(0.98,0.03)}, anchor=south east, cells={anchor=west}, row sep=-1.5pt, inner sep=2pt},
+  legend style={font=\footnotesize, draw=none, fill=none,
+    at={(0.5,1.02)}, anchor=south, legend columns=2, column sep=6pt, cells={anchor=west}, row sep=-1.5pt, inner sep=1pt},
   clip=false,
 ]
 \addplot[fill=blueA!15, draw=none, forget plot] coordinates {BAND_ENS} -- cycle;
@@ -144,7 +150,7 @@ fig = r"""\begin{figure}[htbp]
 FULLCOV_BRACKET
 \end{axis}
 \end{tikzpicture}
-\caption{Risk--coverage curves (1\% coverage steps), mean over $20$ seeds with 95\% CI bands, for held-out join pairs and for answered QA questions (system level). The legend gives each curve's AURC (lower is better); the bracket marks the full-coverage gap between the ensemble and exact matching on pairs.}
+\caption{Accuracy versus coverage for held-out pairs and QA answers over $20$ seeds. Shaded bands show $95\%$ CIs where available.}
 \label{fig:riskcoverage}
 \end{figure}
 """
