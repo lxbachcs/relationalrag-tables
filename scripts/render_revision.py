@@ -121,28 +121,39 @@ fig = r"""\begin{figure}[htbp]
 \centering
 \begin{tikzpicture}
 \begin{axis}[
-  width=0.70\columnwidth, height=3.7cm,
-  xlabel={Coverage answered}, ylabel={Accuracy on answered (\%)},
-  xmin=0.05, xmax=1.0, ymin=55, ymax=101, x dir=reverse,
-  xmajorgrids, ymajorgrids, grid style={dashed,gray!25},
-  axis line style={grayA}, tick style={grayA},
-  tick label style={font=\scriptsize}, label style={font=\scriptsize},
-  legend style={font=\scriptsize, draw=none, fill=none, at={(1.02,0.5)}, anchor=west, cells={anchor=west}, row sep=-1pt},
+  width=0.86\columnwidth, height=5.2cm,
+  axis lines=left, axis line style={grayA, line width=0.5pt},
+  xlabel={Coverage answered (abstaining more $\rightarrow$)}, ylabel={Accuracy on answered (\%)},
+  xmin=0.05, xmax=1.0, ymin=60, ymax=101, x dir=reverse,
+  xtick={1,0.8,0.6,0.4,0.2}, xticklabels={100\%,80\%,60\%,40\%,20\%}, ytick={60,70,80,90,100},
+  ymajorgrids, grid style={dashed,gray!25},
+  tick style={grayA}, major tick length=1.5pt,
+  tick label style={font=\footnotesize}, label style={font=\footnotesize},
+  legend style={font=\footnotesize, draw=none, fill=white, fill opacity=0.9, text opacity=1,
+    at={(0.98,0.03)}, anchor=south east, cells={anchor=west}, row sep=-1.5pt, inner sep=2pt},
+  clip=false,
 ]
 \addplot[fill=blueA!15, draw=none, forget plot] coordinates {BAND_ENS} -- cycle;
 \addplot[fill=greenA!15, draw=none, forget plot] coordinates {BAND_SYS} -- cycle;
 \addplot[fill=grayA!20, draw=none, forget plot] coordinates {BAND_EXACT} -- cycle;
-\addplot[blueA, line width=0.9pt, no marks] coordinates {ENS};
-\addplot[orangeA, line width=0.9pt, no marks, dashed] coordinates {LEARNED};
-\addplot[grayA, line width=0.9pt, no marks] coordinates {EXACT};
-\addplot[greenA, line width=0.9pt, no marks] coordinates {SYS};
-\legend{Ensemble (pairs), Single verifier (pairs), Exact match (pairs), Ensemble (system)}
+\addplot[blueA, line width=1.2pt, no marks] coordinates {ENS};
+\addplot[orangeA, line width=1.2pt, no marks, dashed] coordinates {LEARNED};
+\addplot[grayA, line width=1.2pt, no marks] coordinates {EXACT};
+\addplot[greenA, line width=1.2pt, no marks] coordinates {SYS};
+\legend{{Ensemble, pairs (AURC \aurcEns)}, {Single verifier, pairs (AURC \aurcLearned)}, {Exact match, pairs (AURC \aurcExact)}, {Ensemble, system (AURC \aurcSys)}}
+FULLCOV_BRACKET
 \end{axis}
 \end{tikzpicture}
-\caption{Full risk--coverage curves (1\% coverage steps), mean over $20$ seeds with 95\% CI bands, for held-out join pairs and for answered QA questions (system level). AURC: exact \aurcExact, single \aurcLearned, ensemble \aurcEns\ (pairs); \aurcSys\ (system).}
+\caption{Risk--coverage curves (1\% coverage steps), mean over $20$ seeds with 95\% CI bands, for held-out join pairs and for answered QA questions (system level). The legend gives each curve's AURC (lower is better); the bracket marks the full-coverage gap between the ensemble and exact matching on pairs.}
 \label{fig:riskcoverage}
 \end{figure}
 """
+def acc_at_full(fam):
+    return next(100 * (1 - p["risk_mean"]) for p in curves[fam] if abs(p["coverage"] - 1.0) < 1e-9)
+ens_full, exact_full = acc_at_full("pairs/ensemble"), acc_at_full("pairs/exact_match")
+bracket = (r"\draw[grayA, line width=0.6pt, {Bar}-{Bar}] (axis cs:0.985,%.2f) -- (axis cs:0.985,%.2f) "
+           r"node[midway, right=1pt, font=\footnotesize, text=black!80] {$+%.1f$ pts};" % (exact_full, ens_full, ens_full - exact_full))
+fig = fig.replace("FULLCOV_BRACKET", bracket)
 fig = (fig.replace("BAND_ENS", band("pairs/ensemble")).replace("BAND_SYS", band("system/ensemble")).replace("BAND_EXACT", band("pairs/exact_match"))
        .replace("ENS", coords("pairs/ensemble")).replace("LEARNED", coords("pairs/learned")).replace("EXACT", coords("pairs/exact_match")).replace("SYS", coords("system/ensemble")))
 w("fig_riskcoverage.tex", fig)
