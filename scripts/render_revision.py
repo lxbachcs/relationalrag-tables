@@ -1,6 +1,6 @@
-"""Render the revision's new tables/figures as LaTeX snippets from the harness JSON outputs.
+"""Render the paper's generated tables and figures as LaTeX snippets from the harness JSON outputs.
 
-Reads the mirrored server outputs (artifacts_server/artifacts) and writes generated/*.tex.
+Reads the result files under artifacts/ (or the directory given as the first argument) and writes generated/*.tex.
 Nothing in the manuscript's new tables is typed by hand: every number is emitted here.
 
 Run: python3 render_revision.py [artifacts_dir]
@@ -12,8 +12,7 @@ import json
 import sys
 from pathlib import Path
 
-ART = Path(sys.argv[1] if len(sys.argv) > 1 else
-           "/Users/xuanbachle/Desktop/05_Notes/2026/0-Under-submission/ICDE-2026-relational-rag-tables/artifacts_server/artifacts")
+ART = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().parents[1] / "artifacts"
 OUT = Path(__file__).resolve().parent / "generated"
 AUDIT = Path(__file__).resolve().parents[1] / "annotation" / "protocol_correction_impact.json"
 OUT.mkdir(exist_ok=True)
