@@ -2,9 +2,8 @@
 
 This artifact reproduces the experimental evidence for *RelationalRAG-Tables*, a
 learned, calibrated, abstention-aware **join verifier** for question answering
-over relational tables and knowledge graphs. It is designed for anonymous
-artifact review: the instructions reveal no author identity and require no LaTeX
-source. The compiled supplement is included as `supplement.pdf`.
+over relational tables and knowledge graphs. It requires no LaTeX source to
+reproduce the results. The compiled supplement is included as `supplement.pdf`.
 
 The artifact produces machine-readable JSON results, with SHA-256 + size
 provenance for every reported number in `artifacts/manifest.json`.
@@ -90,7 +89,6 @@ check_artifact.py        completeness + no-LaTeX-leak hygiene check
 Dockerfile               CPU-only core image
 supplement.pdf           compiled supplementary material
 REPRODUCE.md             result-to-command map, seeds, environments, provenance
-PAPER_ARTIFACT_AUDIT.md  independent reference/proof/artifact audit
 ```
 
 See `REPRODUCE.md` for the per-result command map, seeds, tested package

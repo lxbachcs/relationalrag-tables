@@ -1,4 +1,4 @@
-"""Reviewer (stanford-7) experiments on real data.
+"""Learning-curve and robustness experiments on real data.
 
 * Q4 -- ICD learning curve: recall@1 (all/drift) and ECE as a function of the number
   of labeled training records, to quantify the verifier's data efficiency and guide
@@ -11,7 +11,7 @@
   the pruning-recall axis (full schema / embedding / learned / oracle).
 
 Each entry point writes a JSON under ``artifacts/`` consumed by the consistency gate.
-Run, e.g.: ``python3 -m relational_rag_real.reviewer7 icd_lc``
+Run, e.g.: ``python3 -m relational_rag_real.robustness icd_lc``
 """
 
 from __future__ import annotations

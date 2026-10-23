@@ -1,4 +1,4 @@
-"""Rebuttal E1: verifier-isolated end-to-end BIRD ablation (CUDA server, vLLM backend).
+"""Experiment E1: verifier-isolated end-to-end BIRD ablation (CUDA server, vLLM backend).
 
 Holds the pipeline fixed at "learned schema pruning + column values" and varies ONLY the
 value linker that produces the value hints injected into the prompt:

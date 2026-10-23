@@ -1,4 +1,4 @@
-"""Rebuttal E3: numerical check of Theorems 1-2 against measured verifier error rates.
+"""Experiment E3: numerical check of Theorems 1-2 against measured verifier error rates.
 
 Theorem 1 (abstention utility) is conditional on the verifier's false-positive rate alpha
 and false-negative rate beta and the match prevalence pi+. We measure these on the

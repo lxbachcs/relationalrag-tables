@@ -81,8 +81,8 @@ Real-data (seed shown; output under `artifacts/`):
 | ICD feature ablation / failure analysis | `run_icd_kg.feature_ablation` / `.failure_analysis` | (stdout) | seed 0 |
 | ICD lightweight structural context | `run_icd_kg.structural_context` | `icd_kg/results_struct.json` | seed 0, controlled split |
 | ICD consolidated baselines (canon, Jaro–Winkler, TF-IDF) | `run_icd_kg.baselines` | `icd_kg/results_baselines.json` | seed 0 |
-| ICD threshold sensitivity, leakage, regime detector, retrieval noise | `run_icd_kg.threshold_sensitivity` / `.leakage` / `.regime_detector` / `.retrieval_noise` | `icd_kg/results_reviewer.json` | seed 0 |
-| FAISS ANN scalability (exact vs IVF, 10⁴–10⁶) | `run_icd_kg.ann_scalability` | `icd_kg/results_reviewer.json` | needs faiss-cpu |
+| ICD threshold sensitivity, leakage, regime detector, retrieval noise | `run_icd_kg.threshold_sensitivity` / `.leakage` / `.regime_detector` / `.retrieval_noise` | `icd_kg/results_sensitivity.json` | seed 0 |
+| FAISS ANN scalability (exact vs IVF, 10⁴–10⁶) | `run_icd_kg.ann_scalability` | `icd_kg/results_sensitivity.json` | needs faiss-cpu |
 | Cross-vocabulary join | `run_icd_xvocab` | `icd_kg/results_xvocab.json` | seed 0 |
 | Heterogeneous drift (5-seed) | `run_icd_hetero` seeds 0–4 | `icd_kg/results_hetero_seed{0..4}.json`, `results_hetero_aggregate.json` | 5-seed mean, paired bootstrap |
 | ICD cross-encoder | `run_icd_ce` | `icd_kg/results_ce.json` | seed 0 |

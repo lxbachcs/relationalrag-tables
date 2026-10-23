@@ -1,4 +1,4 @@
-"""Rebuttal E7: end-to-end QA on the REAL ICD-10 + Wikidata table+KG benchmark.
+"""Experiment E7: end-to-end QA on the REAL ICD-10 + Wikidata table+KG benchmark.
 
 The paper's ICD-10 + Wikidata evaluation is component-level (recall@1 of the join). Here the
 same real data is run through the paper's own execution-aware planner, so the complete

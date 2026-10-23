@@ -1,4 +1,4 @@
-"""Rebuttal E6: label-protocol audit and label-noise sensitivity.
+"""Experiment E6: label-protocol audit and label-noise sensitivity.
 
 Reviewer 3(c) asks who determines the labels, how consistent that determination is, and how
 label errors propagate into the gate. Our labels are deterministic protocols, stated here

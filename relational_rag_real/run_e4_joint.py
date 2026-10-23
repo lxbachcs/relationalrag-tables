@@ -1,4 +1,4 @@
-"""Rebuttal E4: one regime-aware matcher for both the identifier regime (BIRD value linking)
+"""Experiment E4: one regime-aware matcher for both the identifier regime (BIRD value linking)
 and the lexical regime (HybridQA evidence selection).
 
 The paper's cascades fail because two separately trained matchers produce scores on

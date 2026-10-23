@@ -243,7 +243,7 @@
     "sha256": "b6e7135aae81d65899ec8a0221701394445bec2b057ee6698e61e9eed543c2a3",
     "bytes": 852
   },
-  "artifacts/icd_kg/results_reviewer.json": {
+  "artifacts/icd_kg/results_sensitivity.json": {
     "sha256": "6b17c017bf3d813297da94b9625f0e33b8ca341e0d6b63e09dbba67e25653e37",
     "bytes": 1550
   },

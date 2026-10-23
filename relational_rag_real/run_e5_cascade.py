@@ -1,4 +1,4 @@
-"""Rebuttal E5: hand-designed rule cascades vs the learned verifier on heterogeneous ICD drift.
+"""Experiment E5: hand-designed rule cascades vs the learned verifier on heterogeneous ICD drift.
 
 Reviewer 2 notes that simple rules tie or beat the verifier in single-regime settings. The
 question for the heterogeneous column (hierarchy + OCR + cross-vocabulary drift mixed) is

@@ -25,3 +25,24 @@ dist/
 
 # Scratch regeneration dir from run_full.sh
 artifacts_regen/
+
+# Internal reports and assistant workspace files
+*[Aa][Uu][Dd][Ii][Tt]*
+*[Rr][Ee][Vv][Ii][Ee][Ww]*
+*[Rr][Ee][Bb][Uu][Tt][Tt][Aa][Ll]*
+*[Cc][Ll][Aa][Uu][Dd][Ee]*
+*[Cc][Oo][Dd][Ee][Xx]*
+*[Cc][Hh][Aa][Tt][Gg][Pp][Tt]*
+*[Cc][Oo][Pp][Ii][Ll][Oo][Tt]*
+.cursor/
+.cursorrules
+.aider*
+.agents/
+.skills/
+.ai/
+.windsurf/
+AGENTS.md
+AGENT.md
+SKILL.md
+write.md
+.mcp.json

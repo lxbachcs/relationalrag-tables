@@ -1,7 +1,7 @@
-"""Reviewer (stanford-7) Q5: split-conformal selective prediction at the *system*
+"""Split-conformal selective prediction at the *system*
 (QA-answer) level, not only on pairwise join classification.
 
-A reviewer asked whether conformalized selective prediction can be applied to the
+We evaluate conformalized selective prediction for the
 planner's *answer-level* abstentions (defer the whole QA answer), and how it compares
 with plain entropy-thresholding for coverage--risk control. We rank each answered
 question by the uncertainty of its committed join (the same signal the planner already
@@ -12,7 +12,7 @@ realized answer error. The entropy-thresholding baseline instead fixes a single
 uncertainty cut (independent of any target) and reports the (coverage, risk) point it
 lands on -- it ranks but does not *control* risk to a target.
 
-Run: ``python3 -m relational_rag_tables.reviewer7_syn --fixtures fixtures/synthetic``
+Run: ``python3 -m relational_rag_tables.selective_prediction --fixtures fixtures/synthetic``
 """
 
 from __future__ import annotations
